@@ -1,5 +1,5 @@
+http://example.com/2022/03/22/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E7%AC%94%E8%AE%B0%EF%BC%88%E4%B8%80%EF%BC%89/
 http://example.com/categories/index.html
 http://example.com/tags/index.html
-http://example.com/2022/03/22/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E7%AC%94%E8%AE%B0%EF%BC%88%E4%B8%80%EF%BC%89/
 http://example.com/2022/03/22/hello-world/
 http://example.com/
