@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://101.43.65.22/2022/03/29/%E6%96%B0%E5%A4%A7%E9%99%86/</loc>
+    
+    <lastmod>2022-03-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://101.43.65.22/2022/03/29/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E8%AF%BE%E8%AE%BE%E6%8A%A5%E5%91%8A/</loc>
+    
+    <lastmod>2022-03-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://101.43.65.22/2022/03/29/%E6%96%B0%E4%B8%96%E7%95%8C/</loc>
     
     <lastmod>2022-03-28</lastmod>
@@ -58,7 +76,7 @@
 
   <url>
     <loc>http://101.43.65.22/</loc>
-    <lastmod>2022-03-28</lastmod>
+    <lastmod>2022-03-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
