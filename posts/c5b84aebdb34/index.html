@@ -1,0 +1,221 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>C++课设报告——工资管理系统 | Gallifrey's Blog</title><meta name="keywords" content="课设报告"><meta name="author" content="Gallifrey"><meta name="copyright" content="Gallifrey"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="1    概述1.1程序的基本功能1.1.1 登陆功能该系统设置了管理员登陆校验，只有输入正确的管理员账号和密码成功登陆才能进行相应的权限操作。 1.1.2 查询功能该系统设置模糊（前模糊和后模糊）查找功能，可以根据职工编号快速找到相应的职工信息 1.1.3 删除功能该系统具有删除职工工资信息功能 1.1.4 新增表单功能该系统具有新增表单功能 1.1.5 修改数据功能该系统可方便更改数据">
+<meta property="og:type" content="article">
+<meta property="og:title" content="C++课设报告——工资管理系统">
+<meta property="og:url" content="http://101.43.65.22/posts/c5b84aebdb34/index.html">
+<meta property="og:site_name" content="Gallifrey&#39;s Blog">
+<meta property="og:description" content="1    概述1.1程序的基本功能1.1.1 登陆功能该系统设置了管理员登陆校验，只有输入正确的管理员账号和密码成功登陆才能进行相应的权限操作。 1.1.2 查询功能该系统设置模糊（前模糊和后模糊）查找功能，可以根据职工编号快速找到相应的职工信息 1.1.3 删除功能该系统具有删除职工工资信息功能 1.1.4 新增表单功能该系统具有新增表单功能 1.1.5 修改数据功能该系统可方便更改数据">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://101.43.65.22/images/shizi.png">
+<meta property="article:published_time" content="2021-12-30T22:38:22.000Z">
+<meta property="article:modified_time" content="2022-03-30T04:42:56.000Z">
+<meta property="article:author" content="Gallifrey">
+<meta property="article:tag" content="课设报告">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://101.43.65.22/images/shizi.png"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://101.43.65.22/posts/c5b84aebdb34/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '天',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery@2/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery@2/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'C++课设报告——工资管理系统',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2022-03-30 12:42:56'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><meta name="generator" content="Hexo 6.1.0"><link rel="alternate" href="/atom.xml" title="Gallifrey's Blog" type="application/atom+xml">
+</head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/images/shizi.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data is-center"><div class="data-item"><a href="/archives/"><div class="headline">文章</div><div class="length-num">4</div></a></div><div class="data-item"><a href="/tags/"><div class="headline">标签</div><div class="length-num">2</div></a></div><div class="data-item"><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 清单</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/toyhouse/"><i class="fa-fw fas fa-house-turret"></i><span> 模型屋</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">Gallifrey's Blog</a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 清单</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/toyhouse/"><i class="fa-fw fas fa-house-turret"></i><span> 模型屋</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">C++课设报告——工资管理系统</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2021-12-30T22:38:22.000Z" title="发表于 2021-12-31 06:38:22">2021-12-31</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2022-03-30T04:42:56.000Z" title="更新于 2022-03-30 12:42:56">2022-03-30</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="C++课设报告——工资管理系统"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h2 id="1-概述"><a href="#1-概述" class="headerlink" title="1    概述"></a>1    概述</h2><h3 id="1-1程序的基本功能"><a href="#1-1程序的基本功能" class="headerlink" title="1.1程序的基本功能"></a>1.1程序的基本功能</h3><h4 id="1-1-1-登陆功能"><a href="#1-1-1-登陆功能" class="headerlink" title="1.1.1 登陆功能"></a>1.1.1 登陆功能</h4><p>该系统设置了管理员登陆校验，只有输入正确的管理员账号和密码成功登陆才能进行相应的权限操作。</p>
+<h4 id="1-1-2-查询功能"><a href="#1-1-2-查询功能" class="headerlink" title="1.1.2 查询功能"></a>1.1.2 查询功能</h4><p>该系统设置模糊（前模糊和后模糊）查找功能，可以根据职工编号快速找到相应的职工信息</p>
+<h4 id="1-1-3-删除功能"><a href="#1-1-3-删除功能" class="headerlink" title="1.1.3 删除功能"></a>1.1.3 删除功能</h4><p>该系统具有删除职工工资信息功能</p>
+<h4 id="1-1-4-新增表单功能"><a href="#1-1-4-新增表单功能" class="headerlink" title="1.1.4 新增表单功能"></a>1.1.4 新增表单功能</h4><p>该系统具有新增表单功能</p>
+<h4 id="1-1-5-修改数据功能"><a href="#1-1-5-修改数据功能" class="headerlink" title="1.1.5 修改数据功能"></a>1.1.5 修改数据功能</h4><p>该系统可方便更改数据    </p>
+<h4 id="1-1-6账目自动统计"><a href="#1-1-6账目自动统计" class="headerlink" title="1.1.6账目自动统计"></a>1.1.6账目自动统计</h4><p>该系统会自动统计职工的每月工资，应发数，个人所得税，实发数，并确保计算所得数据准确且无法被人为修改。</p>
+<h3 id="1-2其他功能"><a href="#1-2其他功能" class="headerlink" title="1.2其他功能"></a>1.2其他功能</h3><h4 id="1-2-1信息安全"><a href="#1-2-1信息安全" class="headerlink" title="1.2.1信息安全"></a>1.2.1信息安全</h4><p>该系统将信息保存在本地的文件类型数据库SQLite中，确保数据安全。</p>
+<h4 id="1-2-2可视化界面"><a href="#1-2-2可视化界面" class="headerlink" title="1.2.2可视化界面"></a>1.2.2可视化界面</h4><p>该系统具有美观，易读，易操作的可视化界面</p>
+<h4 id="1-2-3动画效果"><a href="#1-2-3动画效果" class="headerlink" title="1.2.3动画效果"></a>1.2.3动画效果</h4><p>部分组件增加动画效果，提高观赏性</p>
+<h2 id="2-课题的分析"><a href="#2-课题的分析" class="headerlink" title="2    课题的分析"></a>2    课题的分析</h2><h3 id="2-1-图形化界面开发框架选择"><a href="#2-1-图形化界面开发框架选择" class="headerlink" title="2.1    图形化界面开发框架选择"></a>2.1    图形化界面开发框架选择</h3><p>考虑到是给用户使用的工资管理系统，我认为可视化的界面是必不可少的。因为C++的标准库中并没有包含GUI，我只能从第三方C++图形化界面开发库中选择。最终我选择了Qt，因为Qt是一个比较老的C++图形界面开发框架，各种功能都比较完善，问题解决方法也比较多，有优秀的跨平台性。而且集成开发工具和跨平台的IDE，可视化地图形化界面设计，可以减少很多前端学习成本。</p>
+<h3 id="2-2-数据库选择"><a href="#2-2-数据库选择" class="headerlink" title="2.2    数据库选择"></a>2.2    数据库选择</h3><p>考虑要存储数据，我第一时间想到的就是数据库。我最初想使用mysql数据库的，因为我个人对MySQL数据库比熟悉，而且mysql数据库配合navicat可以极大加快我的开发效率。但是因为Qt对MySQL的驱动支持问题（mysql版本太多），最终还是使用Qt自带的数据库SQLite。SQLite是一款轻型的数据库，它的设计目标是嵌入式的，而且已经在很多嵌入式产品中使用了它，它占用资源非常的低。</p>
+<h3 id="2-3-MVC模式"><a href="#2-3-MVC模式" class="headerlink" title="2.3   MVC模式"></a>2.3   MVC模式</h3><p>这次课程设计，我打算用mvc模式来写。将视图，模型，控制器和业务逻辑等分离出来。但是毕竟是一个C++的课设，而我又从未接触过Qt，所以可能只是尽可能往mvc模式方向设计。但并不能说严格地像springboot一样规范。</p>
+<h2 id="3-详细设计"><a href="#3-详细设计" class="headerlink" title="3    详细设计"></a>3    详细设计</h2><h3 id="3-1-数据库设计"><a href="#3-1-数据库设计" class="headerlink" title="3.1    数据库设计"></a>3.1    数据库设计</h3><p><img src="/posts/c5b84aebdb34/image-20211231073900186-16409075427701.png" alt="image-20211231073900186"></p>
+<p>EmpMoney（职工工资）就是我这次用到的数据库表，SQLite只有4种数据类型，除了表主键id，职工编号empID外，其余用于计算工资的数值类型均选择了与double亲和类型最近的real类型</p>
+<table>
+<thead>
+<tr>
+<th align="left">亲和类型</th>
+<th align="left">描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">TEXT</td>
+<td align="left">数值型数据在被插入之前，需要先被转换为文本格式，之后再插入到目标字段中。</td>
+</tr>
+<tr>
+<td align="left">NUMERIC</td>
+<td align="left">当文本数据被插入到亲缘性为NUMERIC的字段中时，如果转换操作不会导致数据信息丢失以及完全可逆，那么SQLite就会将该文本数据转换为INTEGER或REAL类型的数据，如果转换失败，SQLite仍会以TEXT方式存储该数据。对于NULL或BLOB类型的新数据，SQLite将不做任何转换，直接以NULL或BLOB的方式存储该数据。需要额外说明的是，对于浮点格式的常量文本，如”30000.0”，如果该值可以转换为INTEGER同时又不会丢失数值信息，那么SQLite就会将其转换为INTEGER的存储方式。</td>
+</tr>
+<tr>
+<td align="left">INTEGER</td>
+<td align="left">对于亲缘类型为INTEGER的字段，其规则等同于NUMERIC，唯一差别是在执行CAST表达式时。</td>
+</tr>
+<tr>
+<td align="left">REAL</td>
+<td align="left">其规则基本等同于NUMERIC，唯一的差别是不会将”30000.0”这样的文本数据转换为INTEGER存储方式。</td>
+</tr>
+<tr>
+<td align="left">NONE</td>
+<td align="left">不做任何的转换，直接以该数据所属的数据类型进行存储。</td>
+</tr>
+</tbody></table>
+<h3 id="3-2-实体类模型设计"><a href="#3-2-实体类模型设计" class="headerlink" title="3.2    实体类模型设计"></a>3.2    实体类模型设计</h3><p><img src="/posts/c5b84aebdb34/image-20211231075318560-16409084000922.png" alt="image-20211231075318560"></p>
+<p>数据中所有职工工资映射的实体类</p>
+<h3 id="3-3-数据库连接层设计"><a href="#3-3-数据库连接层设计" class="headerlink" title="3.3    数据库连接层设计"></a>3.3    数据库连接层设计</h3><p><img src="/posts/c5b84aebdb34/image-20211231075430040-16409084717213.png" alt="image-20211231075430040"></p>
+<p>LinkSQLite类的设计，用于连接数据，编写SQLite的sql语句，数据库的增删改查得以实现</p>
+<h3 id="3-4-控制器和视图交互"><a href="#3-4-控制器和视图交互" class="headerlink" title="3.4    控制器和视图交互"></a>3.4    控制器和视图交互</h3><p><img src="/posts/c5b84aebdb34/image-20211231075645138-16409086071364.png" alt="image-20211231075645138"></p>
+<p>视图层和控制器合二为一 了，删去冗余的业务逻辑层，在mainwindow完成了模型和视图的交互，并处理业务逻辑。</p>
+<h2 id="4-课程设计总结"><a href="#4-课程设计总结" class="headerlink" title="4    课程设计总结"></a>4    课程设计总结</h2><h3 id="4-1-完成情况"><a href="#4-1-完成情况" class="headerlink" title="4.1    完成情况"></a>4.1    完成情况</h3><h4 id="4-1-1登陆功能"><a href="#4-1-1登陆功能" class="headerlink" title="4.1.1登陆功能"></a>4.1.1登陆功能</h4><p>1.登陆失败提醒 （管理员初始账号密码均为:admin）</p>
+<p><img src="/posts/c5b84aebdb34/image-20211231075929729-16409087715345.png" alt="image-20211231075929729"></p>
+<p>2.登陆成功显示所有职工工资信息</p>
+<p><img src="/posts/c5b84aebdb34/image-20211231080924094-164090936582010.png" alt="image-20211231080924094"></p>
+<h4 id="4-1-2查询功能"><a href="#4-1-2查询功能" class="headerlink" title="4.1.2查询功能"></a>4.1.2查询功能</h4><p>1.精确查询  （登陆页面提供折叠功能，已经折叠）</p>
+<p><img src="/posts/c5b84aebdb34/image-20211231080419776-16409090618328.png" alt="image-20211231080419776"></p>
+<p>2.模糊查询</p>
+<p><img src="/posts/c5b84aebdb34/image-20211231080628305-16409091900989.png" alt="image-20211231080628305"></p>
+<h4 id="4-1-3删除功能"><a href="#4-1-3删除功能" class="headerlink" title="4.1.3删除功能"></a>4.1.3删除功能</h4><p><img src="/posts/c5b84aebdb34/image-20211231081053441-164090945580411.png" alt="image-20211231081053441"></p>
+<p><img src="/posts/c5b84aebdb34/image-20211231081106889.png" alt="image-20211231081106889"></p>
+<p><img src="/posts/c5b84aebdb34/image-20211231081116856.png" alt="image-20211231081116856"></p>
+<h4 id="4-1-3新增表单功能"><a href="#4-1-3新增表单功能" class="headerlink" title="4.1.3新增表单功能"></a>4.1.3新增表单功能</h4><p>1.点击查找旁边的增加表单按钮 进入新增表单页面</p>
+<p><img src="/posts/c5b84aebdb34/image-20211231081213874-164090953660712.png" alt="image-20211231081213874"></p>
+<p>2.填写并提交</p>
+<p><img src="/posts/c5b84aebdb34/image-20211231081635985-164090979750414.png" alt="image-20211231081635985"></p>
+<p>3.自动计算工资税务，应发数，实发数</p>
+<p><img src="/posts/c5b84aebdb34/image-20211231081701713-164090982304515.png" alt="image-20211231081701713"></p>
+<p>4.14修改</p>
+<p><img src="/posts/c5b84aebdb34/image-20211231081858674-164090994025416.png" alt="image-20211231081858674"></p>
+<p><img src="/posts/c5b84aebdb34/image-20211231081913857-164090995552617.png" alt="image-20211231081913857"></p>
+<p><img src="/posts/c5b84aebdb34/image-20211231081937034.png" alt="image-20211231081937034"></p>
+<h3 id="4-2-遇到的问题及解决"><a href="#4-2-遇到的问题及解决" class="headerlink" title="4.2    遇到的问题及解决"></a>4.2    遇到的问题及解决</h3><p>​    SQLite字符串传参多次失效，改用Qt的字符串类型QString，情况极大改善。</p>
+<p>​    添加数据的输入文本框设计时，数据库连接中断，程序崩坏。后查明是io流阻塞问题，采用单窗口解决了。</p>
+<h2 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h2><p>1.<a target="_blank" rel="noopener" href="https://www.runoob.com/sqlite/sqlite-tutorial.html">SQLite 教程 | 菜鸟教程 (runoob.cohttps://www.runoob.com/sqlite/sqlite-tutorial.htmlm)</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.runoob.com/sqlite/sqlite-tutorial.html">https://www.runoob.com/sqlite/sqlite-tutorial.html</a></p>
+<p>2.<a target="_blank" rel="noopener" href="https://www.qt.io/design">User Interface Design Toolshttps://www.qt.io/design | The Best UI Design Software | Qt Designer | Qt</a></p>
+<p>3.<a target="_blank" rel="noopener" href="https://blog.csdn.net/qq_42243240/article/details/110951793">(21条消息) Qt主线程阻塞导致消息队列中的uart动作处理不及时(处理耗时操作导致界面卡顿)_我金啊的博客-CSDN博客_qt主线程被阻塞</a></p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:undefined">Gallifrey</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="http://101.43.65.22/posts/c5b84aebdb34/">http://101.43.65.22/posts/c5b84aebdb34/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="http://101.43.65.22" target="_blank">Gallifrey's Blog</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E8%AF%BE%E8%AE%BE%E6%8A%A5%E5%91%8A/">课设报告</a></div><div class="post_share"><div class="social-share" data-image="/images/shizi.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js" defer></script></div></div><div class="post-reward"><div class="reward-button"><i class="fas fa-qrcode"></i> 打赏</div><div class="reward-main"><ul class="reward-all"><li class="reward-item"><a href="/images/wechatreward.jpg" target="_blank"><img class="post-qr-code-img" src="/images/wechatreward.jpg" alt="wechat"/></a><div class="post-qr-code-desc">wechat</div></li><li class="reward-item"><a href="/images/alipay.jpg" target="_blank"><img class="post-qr-code-img" src="/images/alipay.jpg" alt="alipay"/></a><div class="post-qr-code-desc">alipay</div></li></ul></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/posts/4fcdac8c8023/"><img class="prev-cover" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">数据结构课设报告</div></div></a></div><div class="next-post pull-right"><a href="/posts/66f755d23c96/"><img class="next-cover" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">Java框架课设报告</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><div><a href="/posts/4fcdac8c8023/" title="数据结构课设报告"><img class="cover" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-01-06</div><div class="title">数据结构课设报告</div></div></a></div><div><a href="/posts/66f755d23c96/" title="Java框架课设报告"><img class="cover" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2021-12-11</div><div class="title">Java框架课设报告</div></div></a></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/images/shizi.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">Gallifrey</div><div class="author-info__description"></div></div><div class="card-info-data is-center"><div class="card-info-data-item"><a href="/archives/"><div class="headline">文章</div><div class="length-num">4</div></a></div><div class="card-info-data-item"><a href="/tags/"><div class="headline">标签</div><div class="length-num">2</div></a></div><div class="card-info-data-item"><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/ufovsmba"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/ufovsmba" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="mailto:956465331@qq.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a><a class="social-icon" href="/images/wechat.jpg" target="_blank" title="Wechat"><i class="fa-brands fa-weixin"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">该站点还在修建中ing...</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-%E6%A6%82%E8%BF%B0"><span class="toc-number">1.</span> <span class="toc-text">1    概述</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-1%E7%A8%8B%E5%BA%8F%E7%9A%84%E5%9F%BA%E6%9C%AC%E5%8A%9F%E8%83%BD"><span class="toc-number">1.1.</span> <span class="toc-text">1.1程序的基本功能</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-1-%E7%99%BB%E9%99%86%E5%8A%9F%E8%83%BD"><span class="toc-number">1.1.1.</span> <span class="toc-text">1.1.1 登陆功能</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-2-%E6%9F%A5%E8%AF%A2%E5%8A%9F%E8%83%BD"><span class="toc-number">1.1.2.</span> <span class="toc-text">1.1.2 查询功能</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-3-%E5%88%A0%E9%99%A4%E5%8A%9F%E8%83%BD"><span class="toc-number">1.1.3.</span> <span class="toc-text">1.1.3 删除功能</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-4-%E6%96%B0%E5%A2%9E%E8%A1%A8%E5%8D%95%E5%8A%9F%E8%83%BD"><span class="toc-number">1.1.4.</span> <span class="toc-text">1.1.4 新增表单功能</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-5-%E4%BF%AE%E6%94%B9%E6%95%B0%E6%8D%AE%E5%8A%9F%E8%83%BD"><span class="toc-number">1.1.5.</span> <span class="toc-text">1.1.5 修改数据功能</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-6%E8%B4%A6%E7%9B%AE%E8%87%AA%E5%8A%A8%E7%BB%9F%E8%AE%A1"><span class="toc-number">1.1.6.</span> <span class="toc-text">1.1.6账目自动统计</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-2%E5%85%B6%E4%BB%96%E5%8A%9F%E8%83%BD"><span class="toc-number">1.2.</span> <span class="toc-text">1.2其他功能</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1-2-1%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8"><span class="toc-number">1.2.1.</span> <span class="toc-text">1.2.1信息安全</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-2-2%E5%8F%AF%E8%A7%86%E5%8C%96%E7%95%8C%E9%9D%A2"><span class="toc-number">1.2.2.</span> <span class="toc-text">1.2.2可视化界面</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-2-3%E5%8A%A8%E7%94%BB%E6%95%88%E6%9E%9C"><span class="toc-number">1.2.3.</span> <span class="toc-text">1.2.3动画效果</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-%E8%AF%BE%E9%A2%98%E7%9A%84%E5%88%86%E6%9E%90"><span class="toc-number">2.</span> <span class="toc-text">2    课题的分析</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#2-1-%E5%9B%BE%E5%BD%A2%E5%8C%96%E7%95%8C%E9%9D%A2%E5%BC%80%E5%8F%91%E6%A1%86%E6%9E%B6%E9%80%89%E6%8B%A9"><span class="toc-number">2.1.</span> <span class="toc-text">2.1    图形化界面开发框架选择</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-2-%E6%95%B0%E6%8D%AE%E5%BA%93%E9%80%89%E6%8B%A9"><span class="toc-number">2.2.</span> <span class="toc-text">2.2    数据库选择</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-3-MVC%E6%A8%A1%E5%BC%8F"><span class="toc-number">2.3.</span> <span class="toc-text">2.3   MVC模式</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-%E8%AF%A6%E7%BB%86%E8%AE%BE%E8%AE%A1"><span class="toc-number">3.</span> <span class="toc-text">3    详细设计</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#3-1-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AE%BE%E8%AE%A1"><span class="toc-number">3.1.</span> <span class="toc-text">3.1    数据库设计</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-2-%E5%AE%9E%E4%BD%93%E7%B1%BB%E6%A8%A1%E5%9E%8B%E8%AE%BE%E8%AE%A1"><span class="toc-number">3.2.</span> <span class="toc-text">3.2    实体类模型设计</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-3-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%BF%9E%E6%8E%A5%E5%B1%82%E8%AE%BE%E8%AE%A1"><span class="toc-number">3.3.</span> <span class="toc-text">3.3    数据库连接层设计</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-4-%E6%8E%A7%E5%88%B6%E5%99%A8%E5%92%8C%E8%A7%86%E5%9B%BE%E4%BA%A4%E4%BA%92"><span class="toc-number">3.4.</span> <span class="toc-text">3.4    控制器和视图交互</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-%E8%AF%BE%E7%A8%8B%E8%AE%BE%E8%AE%A1%E6%80%BB%E7%BB%93"><span class="toc-number">4.</span> <span class="toc-text">4    课程设计总结</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#4-1-%E5%AE%8C%E6%88%90%E6%83%85%E5%86%B5"><span class="toc-number">4.1.</span> <span class="toc-text">4.1    完成情况</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#4-1-1%E7%99%BB%E9%99%86%E5%8A%9F%E8%83%BD"><span class="toc-number">4.1.1.</span> <span class="toc-text">4.1.1登陆功能</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#4-1-2%E6%9F%A5%E8%AF%A2%E5%8A%9F%E8%83%BD"><span class="toc-number">4.1.2.</span> <span class="toc-text">4.1.2查询功能</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#4-1-3%E5%88%A0%E9%99%A4%E5%8A%9F%E8%83%BD"><span class="toc-number">4.1.3.</span> <span class="toc-text">4.1.3删除功能</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#4-1-3%E6%96%B0%E5%A2%9E%E8%A1%A8%E5%8D%95%E5%8A%9F%E8%83%BD"><span class="toc-number">4.1.4.</span> <span class="toc-text">4.1.3新增表单功能</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-2-%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98%E5%8F%8A%E8%A7%A3%E5%86%B3"><span class="toc-number">4.2.</span> <span class="toc-text">4.2    遇到的问题及解决</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE"><span class="toc-number">5.</span> <span class="toc-text">参考文献</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/posts/4194d1de52bf/" title="操作系统学习笔记（一）">操作系统学习笔记（一）</a><time datetime="2022-03-16T04:28:25.000Z" title="发表于 2022-03-16 12:28:25">2022-03-16</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/posts/4fcdac8c8023/" title="数据结构课设报告">数据结构课设报告</a><time datetime="2022-01-06T15:45:56.000Z" title="发表于 2022-01-06 23:45:56">2022-01-06</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/posts/c5b84aebdb34/" title="C++课设报告——工资管理系统">C++课设报告——工资管理系统</a><time datetime="2021-12-30T22:38:22.000Z" title="发表于 2021-12-31 06:38:22">2021-12-31</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/posts/66f755d23c96/" title="Java框架课设报告">Java框架课设报告</a><time datetime="2021-12-11T15:45:56.000Z" title="发表于 2021-12-11 23:45:56">2021-12-11</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2022 By Gallifrey</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
