@@ -27,10 +27,10 @@ setInterval(() => {
     time[4] = nol(second);
   }
   if ((Number(time[2])<22) && (Number(time[2])>7)){
-    currentTimeHtml ="<img class='boardsign' src='https://img.shields.io/images/shizi.png' title='这是个bug，有空再修~'><div id='runtime'>" + time[0] + ' YEAR ' + time[1] + ' DAYS ' + time[2] + ' : ' + time[3] + ' : ' + time[4] + '</div>';
+    currentTimeHtml ="<img class='boardsign' src='https://img.shields.io/github/followers/ufovsmba?style=social' title='今天又是没人follow的一天，该写项目了'><div id='runtime'>" + time[0] + ' YEAR ' + time[1] + ' DAYS ' + time[2] + ' : ' + time[3] + ' : ' + time[4] + '</div>';
   }
   else{
-    currentTimeHtml ="<img class='boardsign' src='https://img.shields.io/images/shizi.png' title='总有一天，我会了解，现在该睡觉了'><div id='runtime'>" + time[0] + ' YEAR ' + time[1] + ' DAYS ' + time[2] + ' : ' + time[3] + ' : ' + time[4] + '</div>';
+    currentTimeHtml ="<img class='boardsign' src='https://img.shields.io/github/followers/ufovsmba?style=social' title='看到这，怎么还能睡得早，快敲代码'><div id='runtime'>" + time[0] + ' YEAR ' + time[1] + ' DAYS ' + time[2] + ' : ' + time[3] + ' : ' + time[4] + '</div>';
   }
   document.getElementById("workboard").innerHTML = currentTimeHtml;
 }, 1000);
