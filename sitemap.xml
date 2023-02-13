@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://gallifrey.asia/link/index.html</loc>
+    <loc>https://gallifrey.asia/movies/index.html</loc>
     
     <lastmod>2023-02-13</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>https://gallifrey.asia/movies/index.html</loc>
+    <loc>https://gallifrey.asia/link/index.html</loc>
     
     <lastmod>2023-02-13</lastmod>
     
@@ -56,16 +56,7 @@
   </url>
   
   <url>
-    <loc>https://gallifrey.asia/categories/index.html</loc>
-    
-    <lastmod>2023-02-13</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gallifrey.asia/charts/index.html</loc>
+    <loc>https://gallifrey.asia/baidu_verify_code-Ly64o9VUkb.html</loc>
     
     <lastmod>2023-02-13</lastmod>
     
@@ -83,7 +74,7 @@
   </url>
   
   <url>
-    <loc>https://gallifrey.asia/c5_Stock/index.html</loc>
+    <loc>https://gallifrey.asia/charts/index.html</loc>
     
     <lastmod>2023-02-13</lastmod>
     
@@ -92,7 +83,7 @@
   </url>
   
   <url>
-    <loc>https://gallifrey.asia/baidu_verify_code-Ly64o9VUkb.html</loc>
+    <loc>https://gallifrey.asia/categories/index.html</loc>
     
     <lastmod>2023-02-13</lastmod>
     
@@ -122,15 +113,6 @@
     <loc>https://gallifrey.asia/posts/a6a0d9f31098/</loc>
     
     <lastmod>2023-02-13</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gallifrey.asia/posts/1169d88aa91d/</loc>
-    
-    <lastmod>2022-11-13</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -768,20 +750,6 @@
   </url>
   
   <url>
-    <loc>https://gallifrey.asia/categories/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%BC%80%E5%8F%91/</loc>
-    <lastmod>2023-02-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://gallifrey.asia/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/</loc>
-    <lastmod>2023-02-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://gallifrey.asia/categories/%E7%AE%97%E6%B3%95/%E5%AD%A6%E6%A0%A1/</loc>
     <lastmod>2023-02-13</lastmod>
     <changefreq>weekly</changefreq>
@@ -790,6 +758,20 @@
   
   <url>
     <loc>https://gallifrey.asia/categories/%E7%AE%97%E6%B3%95/AcWing%E7%AE%97%E6%B3%95%E5%9F%BA%E7%A1%80/</loc>
+    <lastmod>2023-02-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gallifrey.asia/categories/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%BC%80%E5%8F%91/</loc>
+    <lastmod>2023-02-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gallifrey.asia/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/</loc>
     <lastmod>2023-02-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

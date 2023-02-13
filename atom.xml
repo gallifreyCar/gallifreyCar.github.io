@@ -6,7 +6,7 @@
   <link href="https://gallifrey.asia/atom.xml" rel="self"/>
   
   <link href="https://gallifrey.asia/"/>
-  <updated>2023-02-13T01:09:01.450Z</updated>
+  <updated>2023-02-13T01:53:40.557Z</updated>
   <id>https://gallifrey.asia/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://gallifrey.asia/posts/a6a0d9f31098/"/>
     <id>https://gallifrey.asia/posts/a6a0d9f31098/</id>
     <published>2022-12-06T08:35:44.000Z</published>
-    <updated>2023-02-13T01:09:01.450Z</updated>
+    <updated>2023-02-13T01:53:40.557Z</updated>
     
     
       
@@ -42,7 +42,7 @@
     <link href="https://gallifrey.asia/posts/6dc51934bd80/"/>
     <id>https://gallifrey.asia/posts/6dc51934bd80/</id>
     <published>2022-12-06T08:35:44.000Z</published>
-    <updated>2023-02-13T01:09:01.462Z</updated>
+    <updated>2023-02-13T01:53:40.569Z</updated>
     
     
       
@@ -52,19 +52,6 @@
     <summary type="html">&lt;h2 id=&quot;45、web实验-抽取公共页面&quot;&gt;&lt;a href=&quot;#45、web实验-抽取公共页面&quot; class=&quot;headerlink&quot; title=&quot;45、web实验-抽取公共页面&quot;&gt;&lt;/a&gt;45、web实验-抽取公共页面&lt;/h2&gt;&lt;p&gt;&lt;a</summary>
         
       
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>ROS13小时快速入门（1）</title>
-    <link href="https://gallifrey.asia/posts/1169d88aa91d/"/>
-    <id>https://gallifrey.asia/posts/1169d88aa91d/</id>
-    <published>2022-11-13T08:35:44.000Z</published>
-    <updated>2022-11-13T08:35:44.000Z</updated>
-    
     
     
     
@@ -522,6 +509,31 @@
     <category term="算法" scheme="https://gallifrey.asia/categories/%E7%AE%97%E6%B3%95/"/>
     
     <category term="学校" scheme="https://gallifrey.asia/categories/%E7%AE%97%E6%B3%95/%E5%AD%A6%E6%A0%A1/"/>
+    
+    
+    <category term="算法" scheme="https://gallifrey.asia/tags/%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>配套作业——线性规划</title>
+    <link href="https://gallifrey.asia/posts/59c68416afc1/"/>
+    <id>https://gallifrey.asia/posts/59c68416afc1/</id>
+    <published>2022-04-28T18:22:27.000Z</published>
+    <updated>2022-04-28T18:22:27.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;需求&quot;&gt;&lt;a href=&quot;#需求&quot; class=&quot;headerlink&quot; title=&quot;需求&quot;&gt;&lt;/a&gt;需求&lt;/h2&gt;&lt;p&gt;某农户计划种植黄瓜和韭菜，种植面积不超过50亩，投入资金不超过54万元。假设种植黄瓜和韭菜的产量、成本和售价如下表。</summary>
+        
+      
+    
+    
+    
+    <category term="算法" scheme="https://gallifrey.asia/categories/%E7%AE%97%E6%B3%95/"/>
     
     
     <category term="算法" scheme="https://gallifrey.asia/tags/%E7%AE%97%E6%B3%95/"/>
