@@ -6,7 +6,7 @@
   <link href="https://gallifrey.asia/atom.xml" rel="self"/>
   
   <link href="https://gallifrey.asia/"/>
-  <updated>2023-02-13T01:53:40.557Z</updated>
+  <updated>2023-02-15T14:11:16.000Z</updated>
   <id>https://gallifrey.asia/</id>
   
   <author>
@@ -17,41 +17,14 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Springboot2入门指南1</title>
-    <link href="https://gallifrey.asia/posts/a6a0d9f31098/"/>
-    <id>https://gallifrey.asia/posts/a6a0d9f31098/</id>
-    <published>2022-12-06T08:35:44.000Z</published>
-    <updated>2023-02-13T01:53:40.557Z</updated>
+    <title>Maven指南</title>
+    <link href="https://gallifrey.asia/posts/f257978b8765/"/>
+    <id>https://gallifrey.asia/posts/f257978b8765/</id>
+    <published>2023-02-15T14:11:16.000Z</published>
+    <updated>2023-02-15T14:11:16.000Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;01、基础入门-SpringBoot2课程介绍&quot;&gt;&lt;a href=&quot;#01、基础入门-SpringBoot2课程介绍&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Springboot2入门指南2</title>
-    <link href="https://gallifrey.asia/posts/6dc51934bd80/"/>
-    <id>https://gallifrey.asia/posts/6dc51934bd80/</id>
-    <published>2022-12-06T08:35:44.000Z</published>
-    <updated>2023-02-13T01:53:40.569Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;45、web实验-抽取公共页面&quot;&gt;&lt;a href=&quot;#45、web实验-抽取公共页面&quot; class=&quot;headerlink&quot; title=&quot;45、web实验-抽取公共页面&quot;&gt;&lt;/a&gt;45、web实验-抽取公共页面&lt;/h2&gt;&lt;p&gt;&lt;a</summary>
-        
-      
+    <summary type="html">Maven实用使用技巧，配置和指令</summary>
     
     
     
@@ -534,6 +507,33 @@
     
     
     <category term="算法" scheme="https://gallifrey.asia/categories/%E7%AE%97%E6%B3%95/"/>
+    
+    
+    <category term="算法" scheme="https://gallifrey.asia/tags/%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>算法设计与应用——线性规划</title>
+    <link href="https://gallifrey.asia/posts/4e3708264857/"/>
+    <id>https://gallifrey.asia/posts/4e3708264857/</id>
+    <published>2022-04-28T17:14:23.000Z</published>
+    <updated>2022-04-01T01:14:23.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;线性规划介绍&quot;&gt;&lt;a href=&quot;#线性规划介绍&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="算法" scheme="https://gallifrey.asia/categories/%E7%AE%97%E6%B3%95/"/>
+    
+    <category term="学校" scheme="https://gallifrey.asia/categories/%E7%AE%97%E6%B3%95/%E5%AD%A6%E6%A0%A1/"/>
     
     
     <category term="算法" scheme="https://gallifrey.asia/tags/%E7%AE%97%E6%B3%95/"/>
