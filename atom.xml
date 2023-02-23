@@ -29,6 +29,50 @@
     
     
     
+    <category term="Maven" scheme="https://gallifrey.asia/tags/Maven/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Springboot2入门指南1</title>
+    <link href="https://gallifrey.asia/posts/a6a0d9f31098/"/>
+    <id>https://gallifrey.asia/posts/a6a0d9f31098/</id>
+    <published>2022-12-06T08:35:44.000Z</published>
+    <updated>2023-02-23T08:02:51.210Z</updated>
+    
+    
+    <summary type="html">Springboot2入门指南实用文档1</summary>
+    
+    
+    
+    <category term="springboot" scheme="https://gallifrey.asia/categories/springboot/"/>
+    
+    
+    <category term="springboot" scheme="https://gallifrey.asia/tags/springboot/"/>
+    
+    <category term="spring" scheme="https://gallifrey.asia/tags/spring/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Springboot2入门指南2</title>
+    <link href="https://gallifrey.asia/posts/6dc51934bd80/"/>
+    <id>https://gallifrey.asia/posts/6dc51934bd80/</id>
+    <published>2022-12-06T08:35:44.000Z</published>
+    <updated>2023-02-23T08:02:51.226Z</updated>
+    
+    
+    <summary type="html">Springboot2入门指南实用文档2</summary>
+    
+    
+    
+    <category term="springboot" scheme="https://gallifrey.asia/categories/springboot/"/>
+    
+    
+    <category term="springboot" scheme="https://gallifrey.asia/tags/springboot/"/>
+    
+    <category term="spring" scheme="https://gallifrey.asia/tags/spring/"/>
+    
   </entry>
   
   <entry>
@@ -474,58 +518,6 @@
         
     <summary type="html">&lt;h2 id=&quot;动态规划简介&quot;&gt;&lt;a href=&quot;#动态规划简介&quot; class=&quot;headerlink&quot; title=&quot;动态规划简介&quot;&gt;&lt;/a&gt;动态规划简介&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Dynamic Programming&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img</summary>
-        
-      
-    
-    
-    
-    <category term="算法" scheme="https://gallifrey.asia/categories/%E7%AE%97%E6%B3%95/"/>
-    
-    <category term="学校" scheme="https://gallifrey.asia/categories/%E7%AE%97%E6%B3%95/%E5%AD%A6%E6%A0%A1/"/>
-    
-    
-    <category term="算法" scheme="https://gallifrey.asia/tags/%E7%AE%97%E6%B3%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>配套作业——线性规划</title>
-    <link href="https://gallifrey.asia/posts/59c68416afc1/"/>
-    <id>https://gallifrey.asia/posts/59c68416afc1/</id>
-    <published>2022-04-28T18:22:27.000Z</published>
-    <updated>2022-04-28T18:22:27.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;需求&quot;&gt;&lt;a href=&quot;#需求&quot; class=&quot;headerlink&quot; title=&quot;需求&quot;&gt;&lt;/a&gt;需求&lt;/h2&gt;&lt;p&gt;某农户计划种植黄瓜和韭菜，种植面积不超过50亩，投入资金不超过54万元。假设种植黄瓜和韭菜的产量、成本和售价如下表。</summary>
-        
-      
-    
-    
-    
-    <category term="算法" scheme="https://gallifrey.asia/categories/%E7%AE%97%E6%B3%95/"/>
-    
-    
-    <category term="算法" scheme="https://gallifrey.asia/tags/%E7%AE%97%E6%B3%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>算法设计与应用——线性规划</title>
-    <link href="https://gallifrey.asia/posts/4e3708264857/"/>
-    <id>https://gallifrey.asia/posts/4e3708264857/</id>
-    <published>2022-04-28T17:14:23.000Z</published>
-    <updated>2022-04-01T01:14:23.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;线性规划介绍&quot;&gt;&lt;a href=&quot;#线性规划介绍&quot; class=&quot;headerlink&quot;</summary>
         
       
     
