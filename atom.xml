@@ -6,7 +6,7 @@
   <link href="https://gallifrey.asia/atom.xml" rel="self"/>
   
   <link href="https://gallifrey.asia/"/>
-  <updated>2023-02-15T14:11:16.000Z</updated>
+  <updated>2023-02-23T08:36:44.000Z</updated>
   <id>https://gallifrey.asia/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>关于@Autowired的三种用法</title>
+    <link href="https://gallifrey.asia/posts/111bdf2f8370/"/>
+    <id>https://gallifrey.asia/posts/111bdf2f8370/</id>
+    <published>2023-02-23T08:36:44.000Z</published>
+    <updated>2023-02-23T08:36:44.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Autowired在IDEA的警告&quot;&gt;&lt;a href=&quot;#Autowired在IDEA的警告&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Maven指南</title>
@@ -38,7 +59,7 @@
     <link href="https://gallifrey.asia/posts/a6a0d9f31098/"/>
     <id>https://gallifrey.asia/posts/a6a0d9f31098/</id>
     <published>2022-12-06T08:35:44.000Z</published>
-    <updated>2023-02-23T08:02:51.210Z</updated>
+    <updated>2023-02-23T09:38:37.854Z</updated>
     
     
     <summary type="html">Springboot2入门指南实用文档1</summary>
@@ -59,7 +80,7 @@
     <link href="https://gallifrey.asia/posts/6dc51934bd80/"/>
     <id>https://gallifrey.asia/posts/6dc51934bd80/</id>
     <published>2022-12-06T08:35:44.000Z</published>
-    <updated>2023-02-23T08:02:51.226Z</updated>
+    <updated>2023-02-23T09:38:37.866Z</updated>
     
     
     <summary type="html">Springboot2入门指南实用文档2</summary>
@@ -490,34 +511,6 @@
 &lt;li&gt;&lt;p&gt;动态规划的方法编程实现01背包问题&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;给定实例：n=3，c=30,</summary>
-        
-      
-    
-    
-    
-    <category term="算法" scheme="https://gallifrey.asia/categories/%E7%AE%97%E6%B3%95/"/>
-    
-    <category term="学校" scheme="https://gallifrey.asia/categories/%E7%AE%97%E6%B3%95/%E5%AD%A6%E6%A0%A1/"/>
-    
-    
-    <category term="算法" scheme="https://gallifrey.asia/tags/%E7%AE%97%E6%B3%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>算法设计与应用——动态规划</title>
-    <link href="https://gallifrey.asia/posts/ccfb83cbdb8a/"/>
-    <id>https://gallifrey.asia/posts/ccfb83cbdb8a/</id>
-    <published>2022-04-28T19:51:22.000Z</published>
-    <updated>2022-04-28T19:51:22.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;动态规划简介&quot;&gt;&lt;a href=&quot;#动态规划简介&quot; class=&quot;headerlink&quot; title=&quot;动态规划简介&quot;&gt;&lt;/a&gt;动态规划简介&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Dynamic Programming&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img</summary>
         
       
     
