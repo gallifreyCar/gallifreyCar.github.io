@@ -6,7 +6,7 @@
   <link href="https://gallifrey.asia/atom.xml" rel="self"/>
   
   <link href="https://gallifrey.asia/"/>
-  <updated>2023-02-26T15:05:12.000Z</updated>
+  <updated>2023-03-04T12:48:00.635Z</updated>
   <id>https://gallifrey.asia/</id>
   
   <author>
@@ -17,9 +17,24 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title></title>
+    <link href="https://gallifrey.asia/posts/053742d18879/"/>
+    <id>https://gallifrey.asia/posts/053742d18879/</id>
+    <published>2023-03-04T12:48:00.635Z</published>
+    <updated>2023-03-04T12:48:00.635Z</updated>
+    
+    
+    
+    
+    <category term="Hexo插件" scheme="https://gallifrey.asia/categories/Hexo%E6%8F%92%E4%BB%B6/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>Logback日志框架简要说明</title>
-    <link href="https://gallifrey.asia/posts/8790cde4ff7d/"/>
-    <id>https://gallifrey.asia/posts/8790cde4ff7d/</id>
+    <link href="https://gallifrey.asia/posts/a7d2d38bfe74/"/>
+    <id>https://gallifrey.asia/posts/a7d2d38bfe74/</id>
     <published>2023-02-26T15:05:12.000Z</published>
     <updated>2023-02-26T15:05:12.000Z</updated>
     
@@ -47,8 +62,8 @@
   
   <entry>
     <title>http常用状态码</title>
-    <link href="https://gallifrey.asia/posts/623cc661dd9a/"/>
-    <id>https://gallifrey.asia/posts/623cc661dd9a/</id>
+    <link href="https://gallifrey.asia/posts/5c813d6d3735/"/>
+    <id>https://gallifrey.asia/posts/5c813d6d3735/</id>
     <published>2023-02-26T12:19:33.000Z</published>
     <updated>2023-02-26T12:19:33.000Z</updated>
     
@@ -63,7 +78,7 @@
     
     
     
-    <category term="http" scheme="https://gallifrey.asia/categories/http/"/>
+    <category term="计算机网络" scheme="https://gallifrey.asia/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
     
     
     <category term="http协议" scheme="https://gallifrey.asia/tags/http%E5%8D%8F%E8%AE%AE/"/>
@@ -72,8 +87,8 @@
   
   <entry>
     <title>spring常用注解用法与核心思想名词解释</title>
-    <link href="https://gallifrey.asia/posts/a938bd4e8818/"/>
-    <id>https://gallifrey.asia/posts/a938bd4e8818/</id>
+    <link href="https://gallifrey.asia/posts/d781698669b0/"/>
+    <id>https://gallifrey.asia/posts/d781698669b0/</id>
     <published>2023-02-23T12:14:26.000Z</published>
     <updated>2023-02-23T12:14:26.000Z</updated>
     
@@ -99,8 +114,8 @@
   
   <entry>
     <title>关于@Autowired的三种用法</title>
-    <link href="https://gallifrey.asia/posts/111bdf2f8370/"/>
-    <id>https://gallifrey.asia/posts/111bdf2f8370/</id>
+    <link href="https://gallifrey.asia/posts/e0e7cbbc2032/"/>
+    <id>https://gallifrey.asia/posts/e0e7cbbc2032/</id>
     <published>2023-02-23T08:36:44.000Z</published>
     <updated>2023-02-23T08:36:44.000Z</updated>
     
@@ -126,8 +141,8 @@
   
   <entry>
     <title>Maven指南</title>
-    <link href="https://gallifrey.asia/posts/f257978b8765/"/>
-    <id>https://gallifrey.asia/posts/f257978b8765/</id>
+    <link href="https://gallifrey.asia/posts/9eaf449b8de2/"/>
+    <id>https://gallifrey.asia/posts/9eaf449b8de2/</id>
     <published>2023-02-15T14:11:16.000Z</published>
     <updated>2023-02-15T14:11:16.000Z</updated>
     
@@ -136,6 +151,8 @@
     
     
     
+    <category term="spring" scheme="https://gallifrey.asia/categories/spring/"/>
+    
     
     <category term="Maven" scheme="https://gallifrey.asia/tags/Maven/"/>
     
@@ -143,17 +160,17 @@
   
   <entry>
     <title>Springboot2入门指南1</title>
-    <link href="https://gallifrey.asia/posts/a6a0d9f31098/"/>
-    <id>https://gallifrey.asia/posts/a6a0d9f31098/</id>
+    <link href="https://gallifrey.asia/posts/8307fa59540a/"/>
+    <id>https://gallifrey.asia/posts/8307fa59540a/</id>
     <published>2022-12-06T08:35:44.000Z</published>
-    <updated>2023-02-26T15:27:45.879Z</updated>
+    <updated>2023-03-04T12:48:00.639Z</updated>
     
     
     <summary type="html">Springboot2入门指南实用文档1</summary>
     
     
     
-    <category term="springboot" scheme="https://gallifrey.asia/categories/springboot/"/>
+    <category term="spring" scheme="https://gallifrey.asia/categories/spring/"/>
     
     
     <category term="spring" scheme="https://gallifrey.asia/tags/spring/"/>
@@ -164,17 +181,17 @@
   
   <entry>
     <title>Springboot2入门指南2</title>
-    <link href="https://gallifrey.asia/posts/6dc51934bd80/"/>
-    <id>https://gallifrey.asia/posts/6dc51934bd80/</id>
+    <link href="https://gallifrey.asia/posts/3d7094937deb/"/>
+    <id>https://gallifrey.asia/posts/3d7094937deb/</id>
     <published>2022-12-06T08:35:44.000Z</published>
-    <updated>2023-02-26T15:27:45.891Z</updated>
+    <updated>2023-03-04T12:48:00.651Z</updated>
     
     
     <summary type="html">Springboot2入门指南实用文档2</summary>
     
     
     
-    <category term="springboot" scheme="https://gallifrey.asia/categories/springboot/"/>
+    <category term="spring" scheme="https://gallifrey.asia/categories/spring/"/>
     
     
     <category term="spring" scheme="https://gallifrey.asia/tags/spring/"/>
@@ -185,8 +202,8 @@
   
   <entry>
     <title>计算机网络3</title>
-    <link href="https://gallifrey.asia/posts/0021a19dd2b1/"/>
-    <id>https://gallifrey.asia/posts/0021a19dd2b1/</id>
+    <link href="https://gallifrey.asia/posts/d384b94d7e83/"/>
+    <id>https://gallifrey.asia/posts/d384b94d7e83/</id>
     <published>2022-10-26T01:14:23.000Z</published>
     <updated>2022-10-26T01:14:23.000Z</updated>
     
@@ -214,8 +231,8 @@
   
   <entry>
     <title>数据结构一</title>
-    <link href="https://gallifrey.asia/posts/1a56394bb1d4/"/>
-    <id>https://gallifrey.asia/posts/1a56394bb1d4/</id>
+    <link href="https://gallifrey.asia/posts/331f321b60fd/"/>
+    <id>https://gallifrey.asia/posts/331f321b60fd/</id>
     <published>2022-09-05T11:25:11.000Z</published>
     <updated>2022-09-05T21:25:22.000Z</updated>
     
@@ -241,8 +258,8 @@
   
   <entry>
     <title>数据结构一</title>
-    <link href="https://gallifrey.asia/posts/f63022180ef4/"/>
-    <id>https://gallifrey.asia/posts/f63022180ef4/</id>
+    <link href="https://gallifrey.asia/posts/a3a0cc96a7c3/"/>
+    <id>https://gallifrey.asia/posts/a3a0cc96a7c3/</id>
     <published>2022-08-30T11:25:11.000Z</published>
     <updated>2022-08-30T21:25:22.000Z</updated>
     
@@ -268,8 +285,8 @@
   
   <entry>
     <title>一周入门微信小程序开发(第五天)</title>
-    <link href="https://gallifrey.asia/posts/b58725e0bd45/"/>
-    <id>https://gallifrey.asia/posts/b58725e0bd45/</id>
+    <link href="https://gallifrey.asia/posts/581d08a74e01/"/>
+    <id>https://gallifrey.asia/posts/581d08a74e01/</id>
     <published>2022-06-02T07:51:34.000Z</published>
     <updated>2022-06-03T07:51:34.000Z</updated>
     
@@ -295,8 +312,8 @@
   
   <entry>
     <title>一周入门微信小程序开发(第四天)</title>
-    <link href="https://gallifrey.asia/posts/e54807f67e4a/"/>
-    <id>https://gallifrey.asia/posts/e54807f67e4a/</id>
+    <link href="https://gallifrey.asia/posts/3c36a929ea6c/"/>
+    <id>https://gallifrey.asia/posts/3c36a929ea6c/</id>
     <published>2022-06-01T07:51:27.000Z</published>
     <updated>2022-06-03T07:51:27.000Z</updated>
     
@@ -322,8 +339,8 @@
   
   <entry>
     <title>一周入门微信小程序开发(第三天)</title>
-    <link href="https://gallifrey.asia/posts/2114029ac650/"/>
-    <id>https://gallifrey.asia/posts/2114029ac650/</id>
+    <link href="https://gallifrey.asia/posts/d8377703d3dd/"/>
+    <id>https://gallifrey.asia/posts/d8377703d3dd/</id>
     <published>2022-05-31T14:41:17.000Z</published>
     <updated>2022-05-31T14:41:17.000Z</updated>
     
@@ -349,8 +366,8 @@
   
   <entry>
     <title>一周入门微信小程序开发(第二天)</title>
-    <link href="https://gallifrey.asia/posts/b2084de90a27/"/>
-    <id>https://gallifrey.asia/posts/b2084de90a27/</id>
+    <link href="https://gallifrey.asia/posts/89f22ef961e6/"/>
+    <id>https://gallifrey.asia/posts/89f22ef961e6/</id>
     <published>2022-05-30T08:04:09.000Z</published>
     <updated>2022-05-30T08:04:09.000Z</updated>
     
@@ -376,8 +393,8 @@
   
   <entry>
     <title>一周入门微信小程序开发（第一天）</title>
-    <link href="https://gallifrey.asia/posts/ca6652d135ea/"/>
-    <id>https://gallifrey.asia/posts/ca6652d135ea/</id>
+    <link href="https://gallifrey.asia/posts/1a12a3d4dbca/"/>
+    <id>https://gallifrey.asia/posts/1a12a3d4dbca/</id>
     <published>2022-05-29T08:02:53.000Z</published>
     <updated>2022-05-29T08:02:53.000Z</updated>
     
@@ -403,8 +420,8 @@
   
   <entry>
     <title>操作系统学习笔记（五）IO管理</title>
-    <link href="https://gallifrey.asia/posts/54a6144c0127/"/>
-    <id>https://gallifrey.asia/posts/54a6144c0127/</id>
+    <link href="https://gallifrey.asia/posts/9ce4a93eeee8/"/>
+    <id>https://gallifrey.asia/posts/9ce4a93eeee8/</id>
     <published>2022-05-11T03:17:49.000Z</published>
     <updated>2022-05-11T03:17:49.000Z</updated>
     
@@ -428,8 +445,8 @@
   
   <entry>
     <title>操作系统学习笔记（四）文件管理</title>
-    <link href="https://gallifrey.asia/posts/b002c8663fb0/"/>
-    <id>https://gallifrey.asia/posts/b002c8663fb0/</id>
+    <link href="https://gallifrey.asia/posts/99baf5d86426/"/>
+    <id>https://gallifrey.asia/posts/99baf5d86426/</id>
     <published>2022-05-11T03:17:41.000Z</published>
     <updated>2022-05-11T03:17:41.000Z</updated>
     
@@ -453,8 +470,8 @@
   
   <entry>
     <title>操作系统学习笔记（三）内存管理</title>
-    <link href="https://gallifrey.asia/posts/3f495081e45c/"/>
-    <id>https://gallifrey.asia/posts/3f495081e45c/</id>
+    <link href="https://gallifrey.asia/posts/cfc4beba9d68/"/>
+    <id>https://gallifrey.asia/posts/cfc4beba9d68/</id>
     <published>2022-05-11T03:17:31.000Z</published>
     <updated>2022-05-11T03:17:31.000Z</updated>
     
@@ -478,8 +495,8 @@
   
   <entry>
     <title>操作系统学习笔记（二）进程管理</title>
-    <link href="https://gallifrey.asia/posts/bedca38a5afb/"/>
-    <id>https://gallifrey.asia/posts/bedca38a5afb/</id>
+    <link href="https://gallifrey.asia/posts/e2a80b7f37f2/"/>
+    <id>https://gallifrey.asia/posts/e2a80b7f37f2/</id>
     <published>2022-05-11T03:16:51.000Z</published>
     <updated>2022-05-11T03:16:51.000Z</updated>
     
@@ -498,33 +515,6 @@
     
     
     <category term="操作系统" scheme="https://gallifrey.asia/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Android_5.0Intent与BroadcastReceive</title>
-    <link href="https://gallifrey.asia/posts/b473b7f37125/"/>
-    <id>https://gallifrey.asia/posts/b473b7f37125/</id>
-    <published>2022-05-09T10:37:40.000Z</published>
-    <updated>2022-05-09T10:37:40.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;学习路线&quot;&gt;&lt;a href=&quot;#学习路线&quot; class=&quot;headerlink&quot; title=&quot;学习路线&quot;&gt;&lt;/a&gt;学习路线&lt;/h1&gt;&lt;p&gt;&lt;img src=&quot;/posts/b473b7f37125/image-20220509185308214.png&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="Android学习笔记" scheme="https://gallifrey.asia/categories/Android%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-    <category term="Intent与BroadcastReceive" scheme="https://gallifrey.asia/categories/Android%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Intent%E4%B8%8EBroadcastReceive/"/>
-    
-    
-    <category term="Android" scheme="https://gallifrey.asia/tags/Android/"/>
     
   </entry>
   
