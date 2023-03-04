@@ -6095,149 +6095,155 @@ blockquote.pullquote.right {
   color: var(--font-color);
 }
 /* 页脚透明 */
-#footer{
-  background: transparent!important;
+#footer {
+  background: transparent !important;
 }
+
 /* 头图透明 */
-#page-header{
-  background: transparent!important;
+#page-header {
+  background: transparent !important;
 }
+
 /*top-img黑色透明玻璃效果移除，不建议加，除非你执着于完全一图流或者背景图对比色明显 */
 #page-header.post-bg:before {
-  background-color: transparent!important;
+  background-color: transparent !important;
 }
 
 
- #page-header:not(.not-top-img):before {
-    background-color: transparent!important;
+#page-header:not(.not-top-img):before {
+  background-color: transparent !important;
 }
 
 /*夜间模式伪类遮罩层透明*/
-[data-theme="dark"]
-  #footer::before{
-      background: transparent!important;
-    }
-[data-theme="dark"]
-  #page-header::before{
-    background: transparent!important;
-    }
+[data-theme="dark"] #footer::before {
+  background: transparent !important;
+}
+
+[data-theme="dark"] #page-header::before {
+  background: transparent !important;
+}
 
 
 /* 首页文章卡片 */
-#recent-posts > .recent-post-item{
-  background:rgba(255, 255, 255, 0.8);
+#recent-posts>.recent-post-item {
+  background: rgba(255, 255, 255, 0.8);
 }
 
-[data-theme="dark"]
-  #recent-posts > .recent-post-item{
-    background:rgba(19, 18, 18, 0.7);
-  }
+[data-theme="dark"] #recent-posts>.recent-post-item {
+  background: rgba(19, 18, 18, 0.7);
+}
 
 
 
 /* 首页侧栏卡片 */
-.card-widget{
-background:rgba(255, 255, 255, 0.9)!important;
+.card-widget {
+  background: rgba(255, 255, 255, 0.9) !important;
 }
 
 
 
 
 /* 夜间模式下，首页侧栏卡片 */
-[data-theme="dark"]
-  .card-widget{
-    background:rgba(15, 15, 15, 0.5)!important;
-    }
+[data-theme="dark"] .card-widget {
+  background: rgba(15, 15, 15, 0.5) !important;
+}
 
 
 /* 文章页面正文背景 */
-div#post{
-background: rgba(255, 255, 255, 1);
+div#post {
+  background: rgba(255, 255, 255, 1);
 }
 
 /* 夜间模式 文章页面正文背景 */
-[data-theme="dark"]
-  div#post{
-      background-color: rgba(0, 0, 0, 0.5);
-    }
+[data-theme="dark"] div#post {
+  background-color: rgba(0, 0, 0, 0.5);
+}
 
 
 /* 分页页面 */
-div#page{
-background: rgba(255, 255, 255, 0.9);
+div#page {
+  background: rgba(255, 255, 255, 0.9);
 }
-[data-theme="dark"]
-  div#page{
-    background: rgba(0, 0, 0, 0.5);
-    }
+
+[data-theme="dark"] div#page {
+  background: rgba(0, 0, 0, 0.5);
+}
 
 
 
 
 /* 归档页面 */
-div#archive{
-background: rgba(255, 255, 255, 0.9);
+div#archive {
+  background: rgba(255, 255, 255, 0.9);
 }
-[data-theme="dark"]
-  div#archive{
-    background: rgba(0, 0, 0, 0.5);
-    }
+
+[data-theme="dark"] div#archive {
+  background: rgba(0, 0, 0, 0.5);
+}
+
 /* 标签页面 */
-div#tag{
-background: rgba(255, 255, 255, 0.9);
+div#tag {
+  background: rgba(255, 255, 255, 0.9);
 }
-[data-theme="dark"]
-  div#tag{
-    background: rgba(0, 0, 0, 0.5);
-    }
+
+[data-theme="dark"] div#tag {
+  background: rgba(0, 0, 0, 0.5);
+}
+
 /* 分类页面 */
-div#category{
-background: rgba(255, 255, 255, 0.9);
+div#category {
+  background: rgba(255, 255, 255, 0.9);
 }
-[data-theme="dark"]
-  div#category{
-    background: rgba(0, 0, 0, 0.5);
-    }
+
+[data-theme="dark"] div#category {
+  background: rgba(0, 0, 0, 0.5);
+}
 
 /* 游戏页面 */
-div#steam >#steam{
+div#steam>#steam {
   background: rgba(0, 0, 0, 0.5);
-  }
-  [data-theme="dark"]
-    div#category{
-      background: rgba(0, 0, 0, 0.5);
-      }
+}
 
-/*字体*/
-@font-face{
-  font-family:'Candyhome' ;  /* 字体名自定义即可 */
-  src:url('/fonts/AWAN.ttf'); /* 字体文件路径 */
-  font-display : swap;
+[data-theme="dark"] div#category {
+  background: rgba(0, 0, 0, 0.5);
 }
 
 /*字体*/
-@font-face{
-  font-family:'A_Yuan' ;  /* 字体名自定义即可 */
-  src:url('/fonts/ZhuZiAYuanJWD.woff2'); /* 字体文件路径 */
-  font-display : swap;
+@font-face {
+  font-family: 'Candyhome';
+  /* 字体名自定义即可 */
+  src: url('/fonts/AWAN.ttf');
+  /* 字体文件路径 */
+  font-display: swap;
 }
 
 /*字体*/
-@font-face{
-  font-family:'GUFENG' ;  /* 字体名自定义即可 */
-  src:url('/fonts/GuFeng.ttf'); /* 字体文件路径 */
-  font-display : swap;
+@font-face {
+  font-family: 'A_Yuan';
+  /* 字体名自定义即可 */
+  src: url('/fonts/ZhuZiAYuanJWD.woff2');
+  /* 字体文件路径 */
+  font-display: swap;
+}
+
+/*字体*/
+@font-face {
+  font-family: 'GUFENG';
+  /* 字体名自定义即可 */
+  src: url('/fonts/GuFeng.ttf');
+  /* 字体文件路径 */
+  font-display: swap;
 }
 
 
-div#post{
+div#post {
   font-size: 16px;
 }
 
 
 /*文章页标题字体修改*/
 #post-info .post-title {
- 
+
   margin-bottom: 8px;
   margin: 0;
   color: var(--white);
@@ -6257,50 +6263,51 @@ div#post{
   color: #000;
 }
 
-[data-theme="dark"]
-  #post-info .post-title {
-    font-family: 'Candyhome',-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Lato, Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif;
-    margin-bottom: 8px;
-    color: #ffffffe3;
-  
-    font-size: 2.5em;
-    line-height: 1.5;
-    -webkit-line-clamp: 3;
-  }
+[data-theme="dark"] #post-info .post-title {
+  font-family: 'Candyhome', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Lato, Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  margin-bottom: 8px;
+  color: #ffffffe3;
 
-[data-theme="dark"]
-  #post-info #post-meta {
-    color: #ffffff;
-  }
+  font-size: 2.5em;
+  line-height: 1.5;
+  -webkit-line-clamp: 3;
+}
 
-[data-theme="dark"]
-  #post-info #post-meta a {
-    color: rgb(255, 255, 255);
-  }
+[data-theme="dark"] #post-info #post-meta {
+  color: #ffffff;
+}
+
+[data-theme="dark"] #post-info #post-meta a {
+  color: rgb(255, 255, 255);
+}
+
+
+
+
 
 /*天气组件，夜间模式下修改字体*/
-[data-theme="dark"]
-  div.s-sticker-tmp.module {
-    color: rgb(233, 233, 233) ! important;
-  }
-[data-theme="dark"]
-  div.s-sticker-city.module {
-    color: rgb(233, 233, 233) ! important;
-  }
-[data-theme="dark"]
-  .s-sticker-qlty.module {
-    color: rgb(233, 233, 233) ! important;
-  }
+[data-theme="dark"] div.s-sticker-tmp.module {
+  color: rgb(233, 233, 233) ! important;
+
+}
+
+[data-theme="dark"] div.s-sticker-city.module {
+  color: rgb(233, 233, 233) ! important;
+}
+
+[data-theme="dark"] .s-sticker-qlty.module {
+  color: rgb(233, 233, 233) ! important;
+}
 
 
-  /*连接标签样式修改*/
+/*连接标签样式修改*/
 a.link-card {
   background: linear-gradient(90deg, rgba(247, 149, 51, .1), rgba(243, 112, 85, .1) 15%, rgba(239, 78, 123, .1) 30%, rgba(161, 102, 171, .1) 44%, rgba(80, 115, 184, .1) 58%, rgba(16, 152, 173, .1) 72%, rgba(7, 179, 155, .1) 86%, rgba(109, 186, 130, .1)) !important;
   color: #a77e7e !important;
 }
 
 /*修改tab样式*/
-#article-container .tabs > .nav-tabs > .tab button {
+#article-container .tabs>.nav-tabs>.tab button {
   display: block;
   padding: 8px 18px;
   width: 100%;
@@ -6315,13 +6322,13 @@ a.link-card {
   transition: all 0.4s;
 }
 
-#article-container .tabs > .nav-tabs > .tab.active button {
+#article-container .tabs>.nav-tabs>.tab.active button {
   border-top: 2px solid #0e9124;
   background: #ffffff;
   cursor: default;
 }
 
-#article-container .tabs > .nav-tabs {
+#article-container .tabs>.nav-tabs {
   display: -webkit-box;
   display: -moz-box;
   display: -webkit-flex;
@@ -6339,51 +6346,55 @@ a.link-card {
   background: #c8f3c8;
 }
 
-[data-theme="dark"]
-  #article-container .tabs > .nav-tabs > .tab button {
-    display: block;
-    padding: 8px 18px;
-    width: 100%;
-    border-top: 2px solid #c8f3c8;
-    background: #c8f3c8;
-    color: black;
-    line-height: 2;
-    transition: all 0.4s;
-  }
+[data-theme="dark"] #article-container .tabs>.nav-tabs>.tab button {
+  display: block;
+  padding: 8px 18px;
+  width: 100%;
+  border-top: 2px solid #c8f3c8;
+  background: #c8f3c8;
+  color: black;
+  line-height: 2;
+  transition: all 0.4s;
+}
 
 
-  
-.layout{
+
+.layout {
   display: flex;
-  margin: 0px
-  auto;
+  margin: 0px auto;
   padding: 1.1rem 2.5px;
   max-width: 1400px;
 }
 
-div#aside-content{
+div#aside-content {
   max-width: 290px;
   padding-left: 20px;
 }
 
 /* 标题大小修改 */
-h2{
+h2 {
   font-size: 1.75em;
   line-height: 1.225;
 }
 
-h3{
+h3 {
   font-size: 1.5em;
   line-height: 1.43;
 }
 
-h4{
+h4 {
   font-size: 1.25em;
 }
 
 /* 文章布局居中 */
-#content-inner, #footer {
+#content-inner,
+#footer {
   justify-content: center;
+}
+
+
+span#blog_name {
+  display: flex;
 }
 .search-dialog {
   position: fixed;
