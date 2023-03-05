@@ -6,7 +6,7 @@
   <link href="https://gallifrey.asia/atom.xml" rel="self"/>
   
   <link href="https://gallifrey.asia/"/>
-  <updated>2023-02-26T12:19:33.000Z</updated>
+  <updated>2023-03-04T12:49:10.000Z</updated>
   <id>https://gallifrey.asia/</id>
   
   <author>
@@ -15,6 +15,56 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>git使用指南</title>
+    <link href="https://gallifrey.asia/posts/f2e8ecbf471b/"/>
+    <id>https://gallifrey.asia/posts/f2e8ecbf471b/</id>
+    <published>2023-03-04T12:49:10.000Z</published>
+    <updated>2023-03-04T12:49:10.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;git简介&quot;&gt;&lt;a href=&quot;#git简介&quot; class=&quot;headerlink&quot; title=&quot;git简介&quot;&gt;&lt;/a&gt;git简介&lt;/h2&gt;&lt;p&gt;Git是一个免费、开源的分布式版本控制系统，用于管理代码和其他计算机文件的版本控制。它最初由Linus</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Logback日志框架简要说明</title>
+    <link href="https://gallifrey.asia/posts/faad83ea63b7/"/>
+    <id>https://gallifrey.asia/posts/faad83ea63b7/</id>
+    <published>2023-02-26T15:05:12.000Z</published>
+    <updated>2023-02-26T15:05:12.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;什么是logback&quot;&gt;&lt;a href=&quot;#什么是logback&quot; class=&quot;headerlink&quot; title=&quot;什么是logback&quot;&gt;&lt;/a&gt;什么是logback&lt;/h2&gt;&lt;p&gt;Logback 是一个开源的 Java 日志框架，是 log4j</summary>
+        
+      
+    
+    
+    
+    <category term="Java框架" scheme="https://gallifrey.asia/categories/Java%E6%A1%86%E6%9E%B6/"/>
+    
+    
+    <category term="spring" scheme="https://gallifrey.asia/tags/spring/"/>
+    
+    <category term="springboot" scheme="https://gallifrey.asia/tags/springboot/"/>
+    
+    <category term="logback" scheme="https://gallifrey.asia/tags/logback/"/>
+    
+  </entry>
   
   <entry>
     <title>http常用状态码</title>
@@ -38,6 +88,121 @@
     
     
     <category term="http协议" scheme="https://gallifrey.asia/tags/http%E5%8D%8F%E8%AE%AE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>spring常用注解用法与核心思想名词解释</title>
+    <link href="https://gallifrey.asia/posts/33beec51b4b4/"/>
+    <id>https://gallifrey.asia/posts/33beec51b4b4/</id>
+    <published>2023-02-23T12:14:26.000Z</published>
+    <updated>2023-02-23T12:14:26.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Spring常用注解&quot;&gt;&lt;a href=&quot;#Spring常用注解&quot; class=&quot;headerlink&quot; title=&quot;Spring常用注解&quot;&gt;&lt;/a&gt;Spring常用注解&lt;/h2&gt;&lt;div</summary>
+        
+      
+    
+    
+    
+    <category term="Java框架" scheme="https://gallifrey.asia/categories/Java%E6%A1%86%E6%9E%B6/"/>
+    
+    
+    <category term="spring" scheme="https://gallifrey.asia/tags/spring/"/>
+    
+    <category term="springboot" scheme="https://gallifrey.asia/tags/springboot/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>关于@Autowired的三种用法</title>
+    <link href="https://gallifrey.asia/posts/15f54c296858/"/>
+    <id>https://gallifrey.asia/posts/15f54c296858/</id>
+    <published>2023-02-23T08:36:44.000Z</published>
+    <updated>2023-02-23T08:36:44.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Autowired在IDEA的警告&quot;&gt;&lt;a href=&quot;#Autowired在IDEA的警告&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Java框架" scheme="https://gallifrey.asia/categories/Java%E6%A1%86%E6%9E%B6/"/>
+    
+    
+    <category term="spring" scheme="https://gallifrey.asia/tags/spring/"/>
+    
+    <category term="springboot" scheme="https://gallifrey.asia/tags/springboot/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Maven指南</title>
+    <link href="https://gallifrey.asia/posts/f95c3e710460/"/>
+    <id>https://gallifrey.asia/posts/f95c3e710460/</id>
+    <published>2023-02-15T14:11:16.000Z</published>
+    <updated>2023-02-15T14:11:16.000Z</updated>
+    
+    
+    <summary type="html">Maven实用使用技巧，配置和指令</summary>
+    
+    
+    
+    <category term="Java框架" scheme="https://gallifrey.asia/categories/Java%E6%A1%86%E6%9E%B6/"/>
+    
+    
+    <category term="Maven" scheme="https://gallifrey.asia/tags/Maven/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Springboot2入门指南1</title>
+    <link href="https://gallifrey.asia/posts/74ce8e482edc/"/>
+    <id>https://gallifrey.asia/posts/74ce8e482edc/</id>
+    <published>2022-12-06T08:35:44.000Z</published>
+    <updated>2023-03-05T05:13:11.943Z</updated>
+    
+    
+    <summary type="html">Springboot2入门指南实用文档1</summary>
+    
+    
+    
+    <category term="Java框架" scheme="https://gallifrey.asia/categories/Java%E6%A1%86%E6%9E%B6/"/>
+    
+    
+    <category term="spring" scheme="https://gallifrey.asia/tags/spring/"/>
+    
+    <category term="springboot" scheme="https://gallifrey.asia/tags/springboot/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Springboot2入门指南2</title>
+    <link href="https://gallifrey.asia/posts/569ddd5d97d4/"/>
+    <id>https://gallifrey.asia/posts/569ddd5d97d4/</id>
+    <published>2022-12-06T08:35:44.000Z</published>
+    <updated>2023-03-05T05:13:11.955Z</updated>
+    
+    
+    <summary type="html">Springboot2入门指南实用文档2</summary>
+    
+    
+    
+    <category term="Java框架" scheme="https://gallifrey.asia/categories/Java%E6%A1%86%E6%9E%B6/"/>
+    
+    
+    <category term="spring" scheme="https://gallifrey.asia/tags/spring/"/>
+    
+    <category term="springboot" scheme="https://gallifrey.asia/tags/springboot/"/>
     
   </entry>
   
@@ -356,199 +521,6 @@
     
     
     <category term="操作系统" scheme="https://gallifrey.asia/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Android_5.0Intent与BroadcastReceive</title>
-    <link href="https://gallifrey.asia/posts/f28fd07ef1d4/"/>
-    <id>https://gallifrey.asia/posts/f28fd07ef1d4/</id>
-    <published>2022-05-09T10:37:40.000Z</published>
-    <updated>2022-05-09T10:37:40.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;学习路线&quot;&gt;&lt;a href=&quot;#学习路线&quot; class=&quot;headerlink&quot; title=&quot;学习路线&quot;&gt;&lt;/a&gt;学习路线&lt;/h1&gt;&lt;p&gt;&lt;img src=&quot;/posts/f28fd07ef1d4/image-20220509185308214.png&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="Android学习笔记" scheme="https://gallifrey.asia/categories/Android%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-    <category term="Intent与BroadcastReceive" scheme="https://gallifrey.asia/categories/Android%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Intent%E4%B8%8EBroadcastReceive/"/>
-    
-    
-    <category term="Android" scheme="https://gallifrey.asia/tags/Android/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Android_WebView与Intent练习</title>
-    <link href="https://gallifrey.asia/posts/3d77e8d2840c/"/>
-    <id>https://gallifrey.asia/posts/3d77e8d2840c/</id>
-    <published>2022-05-05T21:41:02.000Z</published>
-    <updated>2022-05-05T21:41:02.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;需求分析&quot;&gt;&lt;a href=&quot;#需求分析&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="Android学习笔记" scheme="https://gallifrey.asia/categories/Android%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-    <category term="实战练习" scheme="https://gallifrey.asia/categories/Android%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E5%AE%9E%E6%88%98%E7%BB%83%E4%B9%A0/"/>
-    
-    
-    <category term="Android" scheme="https://gallifrey.asia/tags/Android/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Android_TableLayout与ViewPager2练习</title>
-    <link href="https://gallifrey.asia/posts/ee113e127644/"/>
-    <id>https://gallifrey.asia/posts/ee113e127644/</id>
-    <published>2022-05-05T19:37:12.000Z</published>
-    <updated>2022-05-05T19:37:12.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;需求分析&quot;&gt;&lt;a href=&quot;#需求分析&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="Android学习笔记" scheme="https://gallifrey.asia/categories/Android%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-    <category term="实战练习" scheme="https://gallifrey.asia/categories/Android%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E5%AE%9E%E6%88%98%E7%BB%83%E4%B9%A0/"/>
-    
-    
-    <category term="Android" scheme="https://gallifrey.asia/tags/Android/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>配套作业——动态规划</title>
-    <link href="https://gallifrey.asia/posts/08c32a868527/"/>
-    <id>https://gallifrey.asia/posts/08c32a868527/</id>
-    <published>2022-04-28T21:31:31.000Z</published>
-    <updated>2022-04-28T21:31:31.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;需求&quot;&gt;&lt;a href=&quot;#需求&quot; class=&quot;headerlink&quot; title=&quot;需求&quot;&gt;&lt;/a&gt;需求&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;动态规划的方法编程实现01背包问题&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;给定实例：n=3，c=30,</summary>
-        
-      
-    
-    
-    
-    <category term="算法" scheme="https://gallifrey.asia/categories/%E7%AE%97%E6%B3%95/"/>
-    
-    <category term="学校" scheme="https://gallifrey.asia/categories/%E7%AE%97%E6%B3%95/%E5%AD%A6%E6%A0%A1/"/>
-    
-    
-    <category term="算法" scheme="https://gallifrey.asia/tags/%E7%AE%97%E6%B3%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>算法设计与应用——动态规划</title>
-    <link href="https://gallifrey.asia/posts/af66ff415c78/"/>
-    <id>https://gallifrey.asia/posts/af66ff415c78/</id>
-    <published>2022-04-28T19:51:22.000Z</published>
-    <updated>2022-04-28T19:51:22.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;动态规划简介&quot;&gt;&lt;a href=&quot;#动态规划简介&quot; class=&quot;headerlink&quot; title=&quot;动态规划简介&quot;&gt;&lt;/a&gt;动态规划简介&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Dynamic Programming&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img</summary>
-        
-      
-    
-    
-    
-    <category term="算法" scheme="https://gallifrey.asia/categories/%E7%AE%97%E6%B3%95/"/>
-    
-    <category term="学校" scheme="https://gallifrey.asia/categories/%E7%AE%97%E6%B3%95/%E5%AD%A6%E6%A0%A1/"/>
-    
-    
-    <category term="算法" scheme="https://gallifrey.asia/tags/%E7%AE%97%E6%B3%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>配套作业——线性规划</title>
-    <link href="https://gallifrey.asia/posts/c02078adc1a5/"/>
-    <id>https://gallifrey.asia/posts/c02078adc1a5/</id>
-    <published>2022-04-28T18:22:27.000Z</published>
-    <updated>2022-04-28T18:22:27.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;需求&quot;&gt;&lt;a href=&quot;#需求&quot; class=&quot;headerlink&quot; title=&quot;需求&quot;&gt;&lt;/a&gt;需求&lt;/h2&gt;&lt;p&gt;某农户计划种植黄瓜和韭菜，种植面积不超过50亩，投入资金不超过54万元。假设种植黄瓜和韭菜的产量、成本和售价如下表。</summary>
-        
-      
-    
-    
-    
-    <category term="算法" scheme="https://gallifrey.asia/categories/%E7%AE%97%E6%B3%95/"/>
-    
-    <category term="学校" scheme="https://gallifrey.asia/categories/%E7%AE%97%E6%B3%95/%E5%AD%A6%E6%A0%A1/"/>
-    
-    
-    <category term="算法" scheme="https://gallifrey.asia/tags/%E7%AE%97%E6%B3%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>算法设计与应用——线性规划</title>
-    <link href="https://gallifrey.asia/posts/d4f7c910ba4d/"/>
-    <id>https://gallifrey.asia/posts/d4f7c910ba4d/</id>
-    <published>2022-04-28T17:14:23.000Z</published>
-    <updated>2022-04-01T01:14:23.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;线性规划介绍&quot;&gt;&lt;a href=&quot;#线性规划介绍&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="算法" scheme="https://gallifrey.asia/categories/%E7%AE%97%E6%B3%95/"/>
-    
-    <category term="学校" scheme="https://gallifrey.asia/categories/%E7%AE%97%E6%B3%95/%E5%AD%A6%E6%A0%A1/"/>
-    
-    
-    <category term="算法" scheme="https://gallifrey.asia/tags/%E7%AE%97%E6%B3%95/"/>
     
   </entry>
   
