@@ -40,6 +40,29 @@
   </entry>
   
   <entry>
+    <title>conventional commits</title>
+    <link href="https://gallifrey.asia/posts/e761137f2c37/"/>
+    <id>https://gallifrey.asia/posts/e761137f2c37/</id>
+    <published>2023-03-28T01:28:57.000Z</published>
+    <updated>2023-03-28T01:28:57.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;定义&quot;&gt;&lt;a href=&quot;#定义&quot; class=&quot;headerlink&quot; title=&quot;定义&quot;&gt;&lt;/a&gt;定义&lt;/h3&gt;&lt;p&gt;当多人参与开发时，对于提交的代码需要有一个标准的格式和规范，这就是&lt;a</summary>
+        
+      
+    
+    
+    
+    
+    <category term="git" scheme="https://gallifrey.asia/tags/git/"/>
+    
+  </entry>
+  
+  <entry>
     <title>虚拟机网络配置中的网络模式</title>
     <link href="https://gallifrey.asia/posts/fbb76e3be5c6/"/>
     <id>https://gallifrey.asia/posts/fbb76e3be5c6/</id>
@@ -300,7 +323,7 @@
     <link href="https://gallifrey.asia/posts/74ce8e482edc/"/>
     <id>https://gallifrey.asia/posts/74ce8e482edc/</id>
     <published>2022-12-06T08:35:44.000Z</published>
-    <updated>2023-03-29T07:18:21.326Z</updated>
+    <updated>2023-03-29T07:36:27.662Z</updated>
     
     
     <summary type="html">Springboot2入门指南实用文档1</summary>
@@ -321,7 +344,7 @@
     <link href="https://gallifrey.asia/posts/569ddd5d97d4/"/>
     <id>https://gallifrey.asia/posts/569ddd5d97d4/</id>
     <published>2022-12-06T08:35:44.000Z</published>
-    <updated>2023-03-29T07:18:21.338Z</updated>
+    <updated>2023-03-29T07:36:27.678Z</updated>
     
     
     <summary type="html">Springboot2入门指南实用文档2</summary>
@@ -487,33 +510,6 @@
         
         
     <summary type="html">&lt;h2 id=&quot;页面导航&quot;&gt;&lt;a href=&quot;#页面导航&quot; class=&quot;headerlink&quot; title=&quot;页面导航&quot;&gt;&lt;/a&gt;页面导航&lt;/h2&gt;&lt;h3 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="微信小程序开发" scheme="https://gallifrey.asia/categories/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%BC%80%E5%8F%91/"/>
-    
-    
-    <category term="微信小程序开发" scheme="https://gallifrey.asia/tags/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%BC%80%E5%8F%91/"/>
-    
-    <category term="学习笔记" scheme="https://gallifrey.asia/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>一周入门微信小程序开发(第二天)</title>
-    <link href="https://gallifrey.asia/posts/89f22ef961e6/"/>
-    <id>https://gallifrey.asia/posts/89f22ef961e6/</id>
-    <published>2022-05-30T08:04:09.000Z</published>
-    <updated>2022-05-30T08:04:09.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;WXML-模板语法&quot;&gt;&lt;a href=&quot;#WXML-模板语法&quot; class=&quot;headerlink&quot; title=&quot;WXML 模板语法&quot;&gt;&lt;/a&gt;WXML 模板语法&lt;/h2&gt;&lt;h3 id=&quot;数据绑定&quot;&gt;&lt;a href=&quot;#数据绑定&quot;</summary>
         
       
     
