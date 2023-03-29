@@ -6,7 +6,7 @@
   <link href="https://gallifrey.asia/atom.xml" rel="self"/>
   
   <link href="https://gallifrey.asia/"/>
-  <updated>2023-03-05T09:23:25.000Z</updated>
+  <updated>2023-03-29T05:13:52.000Z</updated>
   <id>https://gallifrey.asia/</id>
   
   <author>
@@ -15,6 +15,81 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Go语言之旅练习题目与答案</title>
+    <link href="https://gallifrey.asia/posts/dc4deb4a4208/"/>
+    <id>https://gallifrey.asia/posts/dc4deb4a4208/</id>
+    <published>2023-03-29T05:13:52.000Z</published>
+    <updated>2023-03-29T05:13:52.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;练习：等价二叉查找树&quot;&gt;&lt;a href=&quot;#练习：等价二叉查找树&quot; class=&quot;headerlink&quot; title=&quot;练习：等价二叉查找树&quot;&gt;&lt;/a&gt;练习：等价二叉查找树&lt;/h2&gt;&lt;p&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    
+    <category term="Go" scheme="https://gallifrey.asia/tags/Go/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>虚拟机网络配置中的网络模式</title>
+    <link href="https://gallifrey.asia/posts/fbb76e3be5c6/"/>
+    <id>https://gallifrey.asia/posts/fbb76e3be5c6/</id>
+    <published>2023-03-25T06:05:15.000Z</published>
+    <updated>2023-03-25T06:05:15.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;定义&quot;&gt;&lt;a href=&quot;#定义&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="虚拟机" scheme="https://gallifrey.asia/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
+    
+    <category term="计算机网络" scheme="https://gallifrey.asia/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux学习笔记一</title>
+    <link href="https://gallifrey.asia/posts/f3a82f41ae43/"/>
+    <id>https://gallifrey.asia/posts/f3a82f41ae43/</id>
+    <published>2023-03-25T03:09:00.000Z</published>
+    <updated>2023-03-25T03:09:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Linux与Unix的区别&quot;&gt;&lt;a href=&quot;#Linux与Unix的区别&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="操作系统" scheme="https://gallifrey.asia/categories/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
+    
+    <category term="Linux" scheme="https://gallifrey.asia/categories/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/Linux/"/>
+    
+    
+    <category term="Linux" scheme="https://gallifrey.asia/tags/Linux/"/>
+    
+  </entry>
   
   <entry>
     <title>正则表达式</title>
@@ -33,6 +108,8 @@
       
     
     
+    
+    <category term="编程基础" scheme="https://gallifrey.asia/categories/%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/"/>
     
     
     <category term="正则表达式" scheme="https://gallifrey.asia/tags/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/"/>
@@ -56,6 +133,10 @@
       
     
     
+    
+    <category term="编程基础" scheme="https://gallifrey.asia/categories/%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/"/>
+    
+    <category term="Java" scheme="https://gallifrey.asia/categories/%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/Java/"/>
     
     
     <category term="Java" scheme="https://gallifrey.asia/tags/Java/"/>
@@ -81,6 +162,8 @@
       
     
     
+    
+    <category term="版本控制" scheme="https://gallifrey.asia/categories/%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6/"/>
     
     
   </entry>
@@ -205,7 +288,7 @@
     
     
     
-    <category term="Java框架" scheme="https://gallifrey.asia/categories/Java%E6%A1%86%E6%9E%B6/"/>
+    <category term="依赖管理" scheme="https://gallifrey.asia/categories/%E4%BE%9D%E8%B5%96%E7%AE%A1%E7%90%86/"/>
     
     
     <category term="Maven" scheme="https://gallifrey.asia/tags/Maven/"/>
@@ -217,7 +300,7 @@
     <link href="https://gallifrey.asia/posts/74ce8e482edc/"/>
     <id>https://gallifrey.asia/posts/74ce8e482edc/</id>
     <published>2022-12-06T08:35:44.000Z</published>
-    <updated>2023-03-06T02:48:48.498Z</updated>
+    <updated>2023-03-29T07:18:21.326Z</updated>
     
     
     <summary type="html">Springboot2入门指南实用文档1</summary>
@@ -238,7 +321,7 @@
     <link href="https://gallifrey.asia/posts/569ddd5d97d4/"/>
     <id>https://gallifrey.asia/posts/569ddd5d97d4/</id>
     <published>2022-12-06T08:35:44.000Z</published>
-    <updated>2023-03-06T02:48:48.510Z</updated>
+    <updated>2023-03-29T07:18:21.338Z</updated>
     
     
     <summary type="html">Springboot2入门指南实用文档2</summary>
@@ -442,83 +525,6 @@
     <category term="微信小程序开发" scheme="https://gallifrey.asia/tags/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%BC%80%E5%8F%91/"/>
     
     <category term="学习笔记" scheme="https://gallifrey.asia/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>一周入门微信小程序开发（第一天）</title>
-    <link href="https://gallifrey.asia/posts/1a12a3d4dbca/"/>
-    <id>https://gallifrey.asia/posts/1a12a3d4dbca/</id>
-    <published>2022-05-29T08:02:53.000Z</published>
-    <updated>2022-05-29T08:02:53.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="微信小程序开发" scheme="https://gallifrey.asia/categories/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%BC%80%E5%8F%91/"/>
-    
-    
-    <category term="微信小程序开发" scheme="https://gallifrey.asia/tags/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%BC%80%E5%8F%91/"/>
-    
-    <category term="学习笔记" scheme="https://gallifrey.asia/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>操作系统学习笔记（五）IO管理</title>
-    <link href="https://gallifrey.asia/posts/9ce4a93eeee8/"/>
-    <id>https://gallifrey.asia/posts/9ce4a93eeee8/</id>
-    <published>2022-05-11T03:17:49.000Z</published>
-    <updated>2022-05-11T03:17:49.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;IO设备的基本概念和分类&quot;&gt;&lt;a href=&quot;#IO设备的基本概念和分类&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="操作系统" scheme="https://gallifrey.asia/categories/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
-    
-    
-    <category term="操作系统" scheme="https://gallifrey.asia/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>操作系统学习笔记（四）文件管理</title>
-    <link href="https://gallifrey.asia/posts/99baf5d86426/"/>
-    <id>https://gallifrey.asia/posts/99baf5d86426/</id>
-    <published>2022-05-11T03:17:41.000Z</published>
-    <updated>2022-05-11T03:17:41.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;文件管理&quot;&gt;&lt;a href=&quot;#文件管理&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="操作系统" scheme="https://gallifrey.asia/categories/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
-    
-    
-    <category term="操作系统" scheme="https://gallifrey.asia/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
     
   </entry>
   
