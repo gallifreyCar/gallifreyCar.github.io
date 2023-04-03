@@ -34,6 +34,8 @@
     
     
     
+    <category term="Go" scheme="https://gallifrey.asia/categories/Go/"/>
+    
     
     <category term="Go" scheme="https://gallifrey.asia/tags/Go/"/>
     
@@ -57,6 +59,8 @@
     
     
     
+    <category term="版本控制" scheme="https://gallifrey.asia/categories/%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6/"/>
+    
     
     <category term="git" scheme="https://gallifrey.asia/tags/git/"/>
     
@@ -79,6 +83,8 @@
       
     
     
+    
+    <category term="计算机网络" scheme="https://gallifrey.asia/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
     
     
     <category term="虚拟机" scheme="https://gallifrey.asia/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
@@ -323,7 +329,7 @@
     <link href="https://gallifrey.asia/posts/74ce8e482edc/"/>
     <id>https://gallifrey.asia/posts/74ce8e482edc/</id>
     <published>2022-12-06T08:35:44.000Z</published>
-    <updated>2023-04-03T07:30:18.035Z</updated>
+    <updated>2023-04-03T09:08:03.675Z</updated>
     
     
     <summary type="html">Springboot2入门指南实用文档1</summary>
@@ -344,7 +350,7 @@
     <link href="https://gallifrey.asia/posts/569ddd5d97d4/"/>
     <id>https://gallifrey.asia/posts/569ddd5d97d4/</id>
     <published>2022-12-06T08:35:44.000Z</published>
-    <updated>2023-04-03T07:30:18.047Z</updated>
+    <updated>2023-04-03T09:08:03.687Z</updated>
     
     
     <summary type="html">Springboot2入门指南实用文档2</summary>
