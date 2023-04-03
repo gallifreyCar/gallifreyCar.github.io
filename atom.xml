@@ -220,7 +220,7 @@
     
     <category term="Spring" scheme="https://gallifrey.asia/tags/Spring/"/>
     
-    <category term="Springboot" scheme="https://gallifrey.asia/tags/Springboot/"/>
+    <category term="SpringBoot" scheme="https://gallifrey.asia/tags/SpringBoot/"/>
     
     <category term="Java框架" scheme="https://gallifrey.asia/tags/Java%E6%A1%86%E6%9E%B6/"/>
     
@@ -301,7 +301,7 @@
     
     <category term="Spring" scheme="https://gallifrey.asia/tags/Spring/"/>
     
-    <category term="Springboot" scheme="https://gallifrey.asia/tags/Springboot/"/>
+    <category term="SpringBoot" scheme="https://gallifrey.asia/tags/SpringBoot/"/>
     
   </entry>
   
@@ -329,7 +329,7 @@
     <link href="https://gallifrey.asia/posts/74ce8e482edc/"/>
     <id>https://gallifrey.asia/posts/74ce8e482edc/</id>
     <published>2022-12-06T08:35:44.000Z</published>
-    <updated>2023-04-03T09:08:03.675Z</updated>
+    <updated>2023-04-03T09:22:11.896Z</updated>
     
     
     <summary type="html">Springboot2入门指南实用文档1</summary>
@@ -350,7 +350,7 @@
     <link href="https://gallifrey.asia/posts/569ddd5d97d4/"/>
     <id>https://gallifrey.asia/posts/569ddd5d97d4/</id>
     <published>2022-12-06T08:35:44.000Z</published>
-    <updated>2023-04-03T09:08:03.687Z</updated>
+    <updated>2023-04-03T09:22:11.908Z</updated>
     
     
     <summary type="html">Springboot2入门指南实用文档2</summary>
