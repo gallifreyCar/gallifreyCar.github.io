@@ -6,7 +6,7 @@
   <link href="https://gallifrey.asia/atom.xml" rel="self"/>
   
   <link href="https://gallifrey.asia/"/>
-  <updated>2023-03-29T05:13:52.000Z</updated>
+  <updated>2023-04-03T10:06:32.000Z</updated>
   <id>https://gallifrey.asia/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>英语单词表</title>
+    <link href="https://gallifrey.asia/posts/6334f87bfdb1/"/>
+    <id>https://gallifrey.asia/posts/6334f87bfdb1/</id>
+    <published>2023-04-03T10:06:32.000Z</published>
+    <updated>2023-04-03T10:06:32.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Go语言之旅练习题目与答案</title>
@@ -329,7 +350,7 @@
     <link href="https://gallifrey.asia/posts/74ce8e482edc/"/>
     <id>https://gallifrey.asia/posts/74ce8e482edc/</id>
     <published>2022-12-06T08:35:44.000Z</published>
-    <updated>2023-04-03T09:22:11.896Z</updated>
+    <updated>2023-04-03T10:14:44.173Z</updated>
     
     
     <summary type="html">Springboot2入门指南实用文档1</summary>
@@ -350,7 +371,7 @@
     <link href="https://gallifrey.asia/posts/569ddd5d97d4/"/>
     <id>https://gallifrey.asia/posts/569ddd5d97d4/</id>
     <published>2022-12-06T08:35:44.000Z</published>
-    <updated>2023-04-03T09:22:11.908Z</updated>
+    <updated>2023-04-03T10:14:44.185Z</updated>
     
     
     <summary type="html">Springboot2入门指南实用文档2</summary>
@@ -489,33 +510,6 @@
         
         
     <summary type="html">&lt;h2 id=&quot;自定义组件&quot;&gt;&lt;a href=&quot;#自定义组件&quot; class=&quot;headerlink&quot; title=&quot;自定义组件&quot;&gt;&lt;/a&gt;自定义组件&lt;/h2&gt;&lt;h3 id=&quot;组件的创建与引用&quot;&gt;&lt;a href=&quot;#组件的创建与引用&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="微信小程序开发" scheme="https://gallifrey.asia/categories/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%BC%80%E5%8F%91/"/>
-    
-    
-    <category term="微信小程序开发" scheme="https://gallifrey.asia/tags/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%BC%80%E5%8F%91/"/>
-    
-    <category term="学习笔记" scheme="https://gallifrey.asia/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>一周入门微信小程序开发(第三天)</title>
-    <link href="https://gallifrey.asia/posts/d8377703d3dd/"/>
-    <id>https://gallifrey.asia/posts/d8377703d3dd/</id>
-    <published>2022-05-31T14:41:17.000Z</published>
-    <updated>2022-05-31T14:41:17.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;页面导航&quot;&gt;&lt;a href=&quot;#页面导航&quot; class=&quot;headerlink&quot; title=&quot;页面导航&quot;&gt;&lt;/a&gt;页面导航&lt;/h2&gt;&lt;h3 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot;</summary>
         
       
     

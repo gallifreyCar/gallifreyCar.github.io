@@ -119,6 +119,15 @@
   </url>
   
   <url>
+    <loc>https://gallifrey.asia/posts/6334f87bfdb1/</loc>
+    
+    <lastmod>2023-04-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://gallifrey.asia/posts/dc4deb4a4208/</loc>
     
     <lastmod>2023-03-29</lastmod>
@@ -942,6 +951,13 @@
   </url>
   
   <url>
+    <loc>https://gallifrey.asia/categories/%E7%AE%97%E6%B3%95/</loc>
+    <lastmod>2023-04-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://gallifrey.asia/categories/Android%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Intent%E4%B8%8EBroadcastReceive/</loc>
     <lastmod>2023-04-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -957,6 +973,20 @@
   
   <url>
     <loc>https://gallifrey.asia/categories/Android%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/UI%E8%BF%9B%E9%98%B6/</loc>
+    <lastmod>2023-04-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gallifrey.asia/categories/%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/Java/</loc>
+    <lastmod>2023-04-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gallifrey.asia/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2023-04-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -984,13 +1014,6 @@
   </url>
   
   <url>
-    <loc>https://gallifrey.asia/categories/%E7%AE%97%E6%B3%95/</loc>
-    <lastmod>2023-04-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://gallifrey.asia/categories/%E7%AE%97%E6%B3%95/AcWing%E7%AE%97%E6%B3%95%E5%9F%BA%E7%A1%80/</loc>
     <lastmod>2023-04-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -1006,20 +1029,6 @@
   
   <url>
     <loc>https://gallifrey.asia/categories/%E7%AE%97%E6%B3%95/%E9%A2%98%E8%A7%A3/</loc>
-    <lastmod>2023-04-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://gallifrey.asia/categories/%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/Java/</loc>
-    <lastmod>2023-04-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://gallifrey.asia/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2023-04-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
