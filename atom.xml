@@ -34,6 +34,8 @@
     
     
     
+    <category term="Kafka" scheme="https://gallifrey.asia/categories/Kafka/"/>
+    
     
     <category term="Kafka" scheme="https://gallifrey.asia/tags/Kafka/"/>
     
@@ -56,6 +58,8 @@
       
     
     
+    
+    <category term="日常表" scheme="https://gallifrey.asia/categories/%E6%97%A5%E5%B8%B8%E8%A1%A8/"/>
     
     
   </entry>
@@ -373,7 +377,7 @@
     <link href="https://gallifrey.asia/posts/74ce8e482edc/"/>
     <id>https://gallifrey.asia/posts/74ce8e482edc/</id>
     <published>2022-12-06T08:35:44.000Z</published>
-    <updated>2023-04-11T10:15:50.376Z</updated>
+    <updated>2023-04-12T03:53:37.192Z</updated>
     
     
     <summary type="html">Springboot2入门指南实用文档1</summary>
@@ -394,7 +398,7 @@
     <link href="https://gallifrey.asia/posts/569ddd5d97d4/"/>
     <id>https://gallifrey.asia/posts/569ddd5d97d4/</id>
     <published>2022-12-06T08:35:44.000Z</published>
-    <updated>2023-04-11T10:15:50.388Z</updated>
+    <updated>2023-04-12T03:53:37.208Z</updated>
     
     
     <summary type="html">Springboot2入门指南实用文档2</summary>
