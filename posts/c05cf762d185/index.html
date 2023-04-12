@@ -420,15 +420,15 @@ end
 <p><strong>下载</strong></p>
 <p>下载地址：<a target="_blank" rel="noopener external nofollow noreferrer" href="https://kafka.apache.org/downloads">Apache Kafka</a>，我下载的是scala2.12的版本:<a target="_blank" rel="noopener external nofollow noreferrer" href="https://downloads.apache.org/kafka/3.4.0/kafka_2.12-3.4.0.tgz">https://downloads.apache.org/kafka/3.4.0/kafka_2.12-3.4.0.tgz</a></p>
 <p><strong>解压</strong></p>
-<p>将下载好的tgz文件复制到主机的新路径下，这边推荐是<code>home\user\</code>路径下，可以减少一些关于root权限的问题，执行以下命令进行解压</p>
+<p>将下载好的tgz文件复制到主机的新路径下，这边推荐是<code>home/user/</code>路径下，可以减少一些关于root权限的问题，执行以下命令进行解压</p>
 <figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ tar -zxvf kafka_2.13-3.4.0.tgz </span><br></pre></td></tr></table></figure>
 <p>注意：这里是<code>user</code>是用户目录，如果你想设置和我同一个位置，请自行将<code>user</code>更改为自己的用户名</p>
 <h3 id="Config配置"><a href="#Config配置" class="headerlink" title="Config配置"></a>Config配置</h3><p>上述步骤完成后，为了搭建集群，我们得进行一些config配置：</p>
 <ol>
-<li>在<code>\kafka_2.12-3.4.0\config\kafka\</code>打开<code>server.properties</code>文件：这里不要打开错误的文件,在<code>\kafka_2.12-3.4.0\config\</code>也有一个<code>server.properties</code>配置文件，但是那个是用zookeeper设置的，最明显的区别的是<code>kafka</code>文件夹下只有三个<code>properties</code>配置文件</li>
+<li>在<code>/kafka_2.12-3.4.0/config/kafka/</code>打开<code>server.properties</code>文件：这里不要打开错误的文件,在<code>/kafka_2.12-3.4.0/config/</code>也有一个<code>server.properties</code>配置文件，但是那个是用zookeeper设置的，最明显的区别的是<code>kafka</code>文件夹下只有三个<code>properties</code>配置文件</li>
 <li>分别设置不同<code>node.id</code>标识主机，例如：主机1：<code>node.id=1</code>，主机2：<code>node.id=2</code></li>
 <li>共同设置<code>controller.quorum.voters=1@主机1地址:9093,2@主机2地址:9093</code>，这是Controller的选举队列</li>
-<li>设置<code>log.dirs=home/user/kafka-ouput/kraft-combined-logs</code>，我这里设置数据存储路径<code>home/user/kafka-ouput/kraft-combined-logs</code>。当然这里你也这里你可以设置任意文件路径来存放数据，但是<strong>千万不要使用相对路径</strong>（因为使用相对路径，文件在下面生成时，会相对于你命令执行的路径生成存储目录和相关文件，这一点特别不好）</li>
+<li>设置<code>log.dirs=/home/user/kafka-ouput/kraft-combined-logs</code>，我这里设置数据存储路径<code>/home/user/kafka-ouput/kraft-combined-logs</code>。当然这里你也这里你可以设置任意文件路径来存放数据，但是<strong>千万不要使用相对路径</strong>（因为使用相对路径，文件在下面生成时，会相对于你命令执行的路径生成存储目录和相关文件，这一点特别不好）</li>
 </ol>
 <p>一些没有用到但有用的参数：</p>
 <ol>
@@ -439,7 +439,7 @@ end
 <h3 id="运行"><a href="#运行" class="headerlink" title="运行"></a>运行</h3><ol>
 <li><p>首先我们要生成一个数据存储的文件夹，步骤如下</p>
 <ol>
-<li><p>进入kafka文件目录<code>..\kafka_2.13-3.4.0\</code></p>
+<li><p>进入kafka文件目录<code>../kafka_2.13-3.4.0/</code></p>
 </li>
 <li><p>执行以下代码运行脚本，生成随机uuid</p>
 <figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ./bin/kafka-storage.sh random-uuid</span><br></pre></td></tr></table></figure>
