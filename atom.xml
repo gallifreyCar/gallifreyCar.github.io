@@ -6,7 +6,7 @@
   <link href="https://gallifrey.asia/atom.xml" rel="self"/>
   
   <link href="https://gallifrey.asia/"/>
-  <updated>2023-04-10T02:43:09.000Z</updated>
+  <updated>2023-04-12T08:56:40.000Z</updated>
   <id>https://gallifrey.asia/</id>
   
   <author>
@@ -15,6 +15,19 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>计算机常识——开篇文</title>
+    <link href="https://gallifrey.asia/posts/9d45d014e749/"/>
+    <id>https://gallifrey.asia/posts/9d45d014e749/</id>
+    <published>2023-04-12T08:56:40.000Z</published>
+    <updated>2023-04-12T08:56:40.000Z</updated>
+    
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Kafka3 入门指南</title>
@@ -377,7 +390,7 @@
     <link href="https://gallifrey.asia/posts/74ce8e482edc/"/>
     <id>https://gallifrey.asia/posts/74ce8e482edc/</id>
     <published>2022-12-06T08:35:44.000Z</published>
-    <updated>2023-04-12T05:29:55.851Z</updated>
+    <updated>2023-04-12T15:54:40.943Z</updated>
     
     
     <summary type="html">Springboot2入门指南实用文档1</summary>
@@ -398,7 +411,7 @@
     <link href="https://gallifrey.asia/posts/569ddd5d97d4/"/>
     <id>https://gallifrey.asia/posts/569ddd5d97d4/</id>
     <published>2022-12-06T08:35:44.000Z</published>
-    <updated>2023-04-12T05:29:55.863Z</updated>
+    <updated>2023-04-12T15:54:40.951Z</updated>
     
     
     <summary type="html">Springboot2入门指南实用文档2</summary>
@@ -494,33 +507,6 @@
     
     
     <category term="Android" scheme="https://gallifrey.asia/tags/Android/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>一周入门微信小程序开发(第五天)</title>
-    <link href="https://gallifrey.asia/posts/581d08a74e01/"/>
-    <id>https://gallifrey.asia/posts/581d08a74e01/</id>
-    <published>2022-06-02T07:51:34.000Z</published>
-    <updated>2022-06-03T07:51:34.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;使用npm包&quot;&gt;&lt;a href=&quot;#使用npm包&quot; class=&quot;headerlink&quot; title=&quot;使用npm包&quot;&gt;&lt;/a&gt;使用npm包&lt;/h2&gt;&lt;h3 id=&quot;小程序对npm包的支持与限制&quot;&gt;&lt;a href=&quot;#小程序对npm包的支持与限制&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="微信小程序开发" scheme="https://gallifrey.asia/categories/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%BC%80%E5%8F%91/"/>
-    
-    
-    <category term="微信小程序开发" scheme="https://gallifrey.asia/tags/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%BC%80%E5%8F%91/"/>
-    
-    <category term="学习笔记" scheme="https://gallifrey.asia/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
