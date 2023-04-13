@@ -18,26 +18,40 @@
   
   <entry>
     <title>Kafka3 指令指南</title>
-    <link href="https://gallifrey.asia/posts/d832e032d1e8/"/>
-    <id>https://gallifrey.asia/posts/d832e032d1e8/</id>
+    <link href="https://gallifrey.asia/posts/b100640ac381/"/>
+    <id>https://gallifrey.asia/posts/b100640ac381/</id>
     <published>2023-04-13T04:00:36.000Z</published>
     <updated>2023-04-13T04:00:36.000Z</updated>
     
     
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;基础概念&quot;&gt;&lt;a href=&quot;#基础概念&quot; class=&quot;headerlink&quot; title=&quot;基础概念&quot;&gt;&lt;/a&gt;基础概念&lt;/h2&gt;&lt;p&gt;在 Kafka 目录下的 bin 目录中，我们可以看到很多 &lt;code&gt;.sh&lt;/code&gt; 文件和一个</summary>
+        
+      
     
     
+    
+    <category term="Kafka" scheme="https://gallifrey.asia/categories/Kafka/"/>
+    
+    
+    <category term="Kafka" scheme="https://gallifrey.asia/tags/Kafka/"/>
     
   </entry>
   
   <entry>
     <title>计算机常识——开篇文</title>
-    <link href="https://gallifrey.asia/posts/9d45d014e749/"/>
-    <id>https://gallifrey.asia/posts/9d45d014e749/</id>
+    <link href="https://gallifrey.asia/posts/ff74924ba120/"/>
+    <id>https://gallifrey.asia/posts/ff74924ba120/</id>
     <published>2023-04-12T08:56:40.000Z</published>
     <updated>2023-04-12T08:56:40.000Z</updated>
     
     
     
+    
+    <category term="计算机常识" scheme="https://gallifrey.asia/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%B8%B8%E8%AF%86/"/>
     
     
   </entry>
@@ -403,7 +417,7 @@
     <link href="https://gallifrey.asia/posts/74ce8e482edc/"/>
     <id>https://gallifrey.asia/posts/74ce8e482edc/</id>
     <published>2022-12-06T08:35:44.000Z</published>
-    <updated>2023-04-13T04:04:52.914Z</updated>
+    <updated>2023-04-13T10:22:40.142Z</updated>
     
     
     <summary type="html">Springboot2入门指南实用文档1</summary>
@@ -424,7 +438,7 @@
     <link href="https://gallifrey.asia/posts/569ddd5d97d4/"/>
     <id>https://gallifrey.asia/posts/569ddd5d97d4/</id>
     <published>2022-12-06T08:35:44.000Z</published>
-    <updated>2023-04-13T04:04:52.926Z</updated>
+    <updated>2023-04-13T10:22:40.154Z</updated>
     
     
     <summary type="html">Springboot2入门指南实用文档2</summary>
