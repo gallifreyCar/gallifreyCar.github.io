@@ -6,7 +6,7 @@
   <link href="https://gallifrey.asia/atom.xml" rel="self"/>
   
   <link href="https://gallifrey.asia/"/>
-  <updated>2023-04-15T05:33:10.000Z</updated>
+  <updated>2023-04-16T02:19:23.000Z</updated>
   <id>https://gallifrey.asia/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>MIME类型</title>
+    <link href="https://gallifrey.asia/posts/df31c174552a/"/>
+    <id>https://gallifrey.asia/posts/df31c174552a/</id>
+    <published>2023-04-16T02:19:23.000Z</published>
+    <updated>2023-04-16T02:19:23.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;📖前言&quot;&gt;&lt;a href=&quot;#📖前言&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="计算机常识" scheme="https://gallifrey.asia/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%B8%B8%E8%AF%86/"/>
+    
+    
+    <category term="http" scheme="https://gallifrey.asia/tags/http/"/>
+    
+  </entry>
   
   <entry>
     <title>UNIX时间戳</title>
@@ -33,6 +58,8 @@
       
     
     
+    
+    <category term="计算机常识" scheme="https://gallifrey.asia/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%B8%B8%E8%AF%86/"/>
     
     
     <category term="UNIX" scheme="https://gallifrey.asia/tags/UNIX/"/>
@@ -349,8 +376,8 @@
   
   <entry>
     <title>Http常用状态码</title>
-    <link href="https://gallifrey.asia/posts/5c813d6d3735/"/>
-    <id>https://gallifrey.asia/posts/5c813d6d3735/</id>
+    <link href="https://gallifrey.asia/posts/d0df74786cc3/"/>
+    <id>https://gallifrey.asia/posts/d0df74786cc3/</id>
     <published>2023-02-26T12:19:33.000Z</published>
     <updated>2023-02-26T12:19:33.000Z</updated>
     
@@ -365,10 +392,10 @@
     
     
     
-    <category term="计算机网络" scheme="https://gallifrey.asia/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
+    <category term="计算机常识" scheme="https://gallifrey.asia/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%B8%B8%E8%AF%86/"/>
     
     
-    <category term="http协议" scheme="https://gallifrey.asia/tags/http%E5%8D%8F%E8%AE%AE/"/>
+    <category term="http" scheme="https://gallifrey.asia/tags/http/"/>
     
   </entry>
   
@@ -450,7 +477,7 @@
     <link href="https://gallifrey.asia/posts/74ce8e482edc/"/>
     <id>https://gallifrey.asia/posts/74ce8e482edc/</id>
     <published>2022-12-06T08:35:44.000Z</published>
-    <updated>2023-04-15T11:36:44.953Z</updated>
+    <updated>2023-04-16T04:48:46.655Z</updated>
     
     
     <summary type="html">Springboot2入门指南实用文档1</summary>
@@ -471,7 +498,7 @@
     <link href="https://gallifrey.asia/posts/569ddd5d97d4/"/>
     <id>https://gallifrey.asia/posts/569ddd5d97d4/</id>
     <published>2022-12-06T08:35:44.000Z</published>
-    <updated>2023-04-15T11:36:44.965Z</updated>
+    <updated>2023-04-16T04:48:46.667Z</updated>
     
     
     <summary type="html">Springboot2入门指南实用文档2</summary>
@@ -484,35 +511,6 @@
     <category term="Spring" scheme="https://gallifrey.asia/tags/Spring/"/>
     
     <category term="SpringBoot" scheme="https://gallifrey.asia/tags/SpringBoot/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>计算机网络3</title>
-    <link href="https://gallifrey.asia/posts/d384b94d7e83/"/>
-    <id>https://gallifrey.asia/posts/d384b94d7e83/</id>
-    <published>2022-10-26T01:14:23.000Z</published>
-    <updated>2022-10-26T01:14:23.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;数据链路层&quot;&gt;&lt;a href=&quot;#数据链路层&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="计算机网络" scheme="https://gallifrey.asia/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
-    
-    <category term="读书笔记" scheme="https://gallifrey.asia/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
-    
-    
-    <category term="计算机网络" scheme="https://gallifrey.asia/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
-    
-    <category term="读书笔记" scheme="https://gallifrey.asia/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
