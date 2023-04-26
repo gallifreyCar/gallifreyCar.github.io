@@ -6,7 +6,7 @@
   <link href="https://gallifrey.asia/atom.xml" rel="self"/>
   
   <link href="https://gallifrey.asia/"/>
-  <updated>2023-04-24T03:22:20.000Z</updated>
+  <updated>2023-04-26T07:47:01.000Z</updated>
   <id>https://gallifrey.asia/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>PromQL指南</title>
+    <link href="https://gallifrey.asia/posts/278d3938691c/"/>
+    <id>https://gallifrey.asia/posts/278d3938691c/</id>
+    <published>2023-04-26T07:47:01.000Z</published>
+    <updated>2023-04-26T07:47:01.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;声明&quot;&gt;&lt;a href=&quot;#声明&quot; class=&quot;headerlink&quot; title=&quot;声明&quot;&gt;&lt;/a&gt;声明&lt;/h2&gt;&lt;p&gt;本文是个人对&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Prometheus" scheme="https://gallifrey.asia/categories/Prometheus/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>Prometheus入门指南</title>
@@ -494,27 +517,6 @@
     
     
     <category term="Maven" scheme="https://gallifrey.asia/tags/Maven/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Springboot2入门指南1</title>
-    <link href="https://gallifrey.asia/posts/74ce8e482edc/"/>
-    <id>https://gallifrey.asia/posts/74ce8e482edc/</id>
-    <published>2022-12-06T08:35:44.000Z</published>
-    <updated>2023-04-25T09:21:36.476Z</updated>
-    
-    
-    <summary type="html">Springboot2入门指南实用文档1</summary>
-    
-    
-    
-    <category term="Java框架" scheme="https://gallifrey.asia/categories/Java%E6%A1%86%E6%9E%B6/"/>
-    
-    
-    <category term="Spring" scheme="https://gallifrey.asia/tags/Spring/"/>
-    
-    <category term="SpringBoot" scheme="https://gallifrey.asia/tags/SpringBoot/"/>
     
   </entry>
   
