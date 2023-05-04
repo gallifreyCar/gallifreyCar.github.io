@@ -101,7 +101,7 @@
   </url>
   
   <url>
-    <loc>https://gallifrey.asia/posts/74ce8e482edc/</loc>
+    <loc>https://gallifrey.asia/posts/71def8d4ef23/</loc>
     
     <lastmod>2023-05-04</lastmod>
     
@@ -110,7 +110,7 @@
   </url>
   
   <url>
-    <loc>https://gallifrey.asia/posts/71def8d4ef23/</loc>
+    <loc>https://gallifrey.asia/posts/74ce8e482edc/</loc>
     
     <lastmod>2023-05-04</lastmod>
     
@@ -1129,6 +1129,13 @@
   </url>
   
   <url>
+    <loc>https://gallifrey.asia/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2023-05-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://gallifrey.asia/categories/Android%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Intent%E4%B8%8EBroadcastReceive/</loc>
     <lastmod>2023-05-04</lastmod>
     <changefreq>weekly</changefreq>
@@ -1186,13 +1193,6 @@
   
   <url>
     <loc>https://gallifrey.asia/categories/%E7%AE%97%E6%B3%95/%E9%A2%98%E8%A7%A3/</loc>
-    <lastmod>2023-05-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://gallifrey.asia/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2023-05-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
