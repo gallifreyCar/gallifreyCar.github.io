@@ -6,7 +6,7 @@
   <link href="https://gallifrey.asia/atom.xml" rel="self"/>
   
   <link href="https://gallifrey.asia/"/>
-  <updated>2023-04-26T07:47:01.000Z</updated>
+  <updated>2023-05-04T16:33:25.000Z</updated>
   <id>https://gallifrey.asia/</id>
   
   <author>
@@ -15,6 +15,115 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>淘宝千万级别的十四次演进</title>
+    <link href="https://gallifrey.asia/posts/384a17593e9a/"/>
+    <id>https://gallifrey.asia/posts/384a17593e9a/</id>
+    <published>2023-05-04T16:33:25.000Z</published>
+    <updated>2023-05-04T16:33:25.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;基本概念&quot;&gt;&lt;a href=&quot;#基本概念&quot; class=&quot;headerlink&quot; title=&quot;基本概念&quot;&gt;&lt;/a&gt;基本概念&lt;/h2&gt;&lt;h3 id=&quot;分布式系统&quot;&gt;&lt;a href=&quot;#分布式系统&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="软件架构与设计模式" scheme="https://gallifrey.asia/categories/%E8%BD%AF%E4%BB%B6%E6%9E%B6%E6%9E%84%E4%B8%8E%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>软件体系结构与设计模式期末复习4</title>
+    <link href="https://gallifrey.asia/posts/22bcb0cf9f9f/"/>
+    <id>https://gallifrey.asia/posts/22bcb0cf9f9f/</id>
+    <published>2023-05-04T16:02:10.000Z</published>
+    <updated>2023-05-04T16:02:10.000Z</updated>
+    
+    
+    
+    
+    <category term="软件架构与设计模式" scheme="https://gallifrey.asia/categories/%E8%BD%AF%E4%BB%B6%E6%9E%B6%E6%9E%84%E4%B8%8E%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>软件体系结构与设计模式期末复习3</title>
+    <link href="https://gallifrey.asia/posts/5a38b15663fa/"/>
+    <id>https://gallifrey.asia/posts/5a38b15663fa/</id>
+    <published>2023-05-04T16:02:03.000Z</published>
+    <updated>2023-05-04T16:02:03.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;软件危机&quot;&gt;&lt;a href=&quot;#软件危机&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="软件架构与设计模式" scheme="https://gallifrey.asia/categories/%E8%BD%AF%E4%BB%B6%E6%9E%B6%E6%9E%84%E4%B8%8E%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>软件体系结构与设计模式期末复习——概论</title>
+    <link href="https://gallifrey.asia/posts/515618a48afe/"/>
+    <id>https://gallifrey.asia/posts/515618a48afe/</id>
+    <published>2023-05-04T16:01:54.000Z</published>
+    <updated>2023-05-04T16:01:54.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;📙食用说明&quot;&gt;&lt;a href=&quot;#📙食用说明&quot; class=&quot;headerlink&quot; title=&quot;📙食用说明&quot;&gt;&lt;/a&gt;📙食用说明&lt;/h2&gt;&lt;div</summary>
+        
+      
+    
+    
+    
+    <category term="软件架构与设计模式" scheme="https://gallifrey.asia/categories/%E8%BD%AF%E4%BB%B6%E6%9E%B6%E6%9E%84%E4%B8%8E%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Alertmanager指南</title>
+    <link href="https://gallifrey.asia/posts/a69a82247d59/"/>
+    <id>https://gallifrey.asia/posts/a69a82247d59/</id>
+    <published>2023-04-28T08:10:01.000Z</published>
+    <updated>2023-04-28T08:10:01.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;告警概述&quot;&gt;&lt;a href=&quot;#告警概述&quot; class=&quot;headerlink&quot; title=&quot;告警概述&quot;&gt;&lt;/a&gt;告警概述&lt;/h2&gt;&lt;p&gt;Prometheus的告警分为两部分。Prometheus服务器中的告警规则会将告警发送给一个&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Prometheus" scheme="https://gallifrey.asia/categories/Prometheus/"/>
+    
+    
+    <category term="Prometheus" scheme="https://gallifrey.asia/tags/Prometheus/"/>
+    
+  </entry>
   
   <entry>
     <title>PromQL指南</title>
@@ -36,6 +145,8 @@
     
     <category term="Prometheus" scheme="https://gallifrey.asia/categories/Prometheus/"/>
     
+    
+    <category term="Prometheus" scheme="https://gallifrey.asia/tags/Prometheus/"/>
     
   </entry>
   
@@ -318,8 +429,8 @@
   
   <entry>
     <title>正则表达式</title>
-    <link href="https://gallifrey.asia/posts/841cd427c92f/"/>
-    <id>https://gallifrey.asia/posts/841cd427c92f/</id>
+    <link href="https://gallifrey.asia/posts/7cd066d25c9f/"/>
+    <id>https://gallifrey.asia/posts/7cd066d25c9f/</id>
     <published>2023-03-05T09:23:25.000Z</published>
     <updated>2023-03-05T09:23:25.000Z</updated>
     
@@ -334,7 +445,7 @@
     
     
     
-    <category term="编程基础" scheme="https://gallifrey.asia/categories/%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/"/>
+    <category term="计算机常识" scheme="https://gallifrey.asia/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%B8%B8%E8%AF%86/"/>
     
     
     <category term="正则表达式" scheme="https://gallifrey.asia/tags/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/"/>
@@ -343,8 +454,8 @@
   
   <entry>
     <title>Java的字符串操作方法</title>
-    <link href="https://gallifrey.asia/posts/b2f007d4a161/"/>
-    <id>https://gallifrey.asia/posts/b2f007d4a161/</id>
+    <link href="https://gallifrey.asia/posts/1fdf0a167413/"/>
+    <id>https://gallifrey.asia/posts/1fdf0a167413/</id>
     <published>2023-03-05T09:23:01.000Z</published>
     <updated>2023-03-05T09:23:01.000Z</updated>
     
@@ -359,9 +470,7 @@
     
     
     
-    <category term="编程基础" scheme="https://gallifrey.asia/categories/%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/"/>
-    
-    <category term="Java" scheme="https://gallifrey.asia/categories/%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/Java/"/>
+    <category term="Java" scheme="https://gallifrey.asia/categories/Java/"/>
     
     
     <category term="Java" scheme="https://gallifrey.asia/tags/Java/"/>
@@ -390,133 +499,6 @@
     
     <category term="版本控制" scheme="https://gallifrey.asia/categories/%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6/"/>
     
-    
-  </entry>
-  
-  <entry>
-    <title>Logback日志框架简要说明</title>
-    <link href="https://gallifrey.asia/posts/faad83ea63b7/"/>
-    <id>https://gallifrey.asia/posts/faad83ea63b7/</id>
-    <published>2023-02-26T15:05:12.000Z</published>
-    <updated>2023-02-26T15:05:12.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;什么是logback&quot;&gt;&lt;a href=&quot;#什么是logback&quot; class=&quot;headerlink&quot; title=&quot;什么是logback&quot;&gt;&lt;/a&gt;什么是logback&lt;/h2&gt;&lt;p&gt;Logback 是一个开源的 Java 日志框架，是 log4j</summary>
-        
-      
-    
-    
-    
-    <category term="Java框架" scheme="https://gallifrey.asia/categories/Java%E6%A1%86%E6%9E%B6/"/>
-    
-    
-    <category term="Spring" scheme="https://gallifrey.asia/tags/Spring/"/>
-    
-    <category term="SpringBoot" scheme="https://gallifrey.asia/tags/SpringBoot/"/>
-    
-    <category term="Java框架" scheme="https://gallifrey.asia/tags/Java%E6%A1%86%E6%9E%B6/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Http常用状态码</title>
-    <link href="https://gallifrey.asia/posts/d0df74786cc3/"/>
-    <id>https://gallifrey.asia/posts/d0df74786cc3/</id>
-    <published>2023-02-26T12:19:33.000Z</published>
-    <updated>2023-02-26T12:19:33.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;什么是http状态码&quot;&gt;&lt;a href=&quot;#什么是http状态码&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="计算机常识" scheme="https://gallifrey.asia/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%B8%B8%E8%AF%86/"/>
-    
-    
-    <category term="http" scheme="https://gallifrey.asia/tags/http/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Spring常用注解用法与核心思想名词解释</title>
-    <link href="https://gallifrey.asia/posts/33beec51b4b4/"/>
-    <id>https://gallifrey.asia/posts/33beec51b4b4/</id>
-    <published>2023-02-23T12:14:26.000Z</published>
-    <updated>2023-02-23T12:14:26.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;Spring常用注解&quot;&gt;&lt;a href=&quot;#Spring常用注解&quot; class=&quot;headerlink&quot; title=&quot;Spring常用注解&quot;&gt;&lt;/a&gt;Spring常用注解&lt;/h2&gt;&lt;div</summary>
-        
-      
-    
-    
-    
-    <category term="Java框架" scheme="https://gallifrey.asia/categories/Java%E6%A1%86%E6%9E%B6/"/>
-    
-    
-    <category term="Spring" scheme="https://gallifrey.asia/tags/Spring/"/>
-    
-    <category term="SpringBoot" scheme="https://gallifrey.asia/tags/SpringBoot/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>关于@Autowired的三种用法</title>
-    <link href="https://gallifrey.asia/posts/15f54c296858/"/>
-    <id>https://gallifrey.asia/posts/15f54c296858/</id>
-    <published>2023-02-23T08:36:44.000Z</published>
-    <updated>2023-02-23T08:36:44.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;Autowired在IDEA的警告&quot;&gt;&lt;a href=&quot;#Autowired在IDEA的警告&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="Java框架" scheme="https://gallifrey.asia/categories/Java%E6%A1%86%E6%9E%B6/"/>
-    
-    
-    <category term="Spring" scheme="https://gallifrey.asia/tags/Spring/"/>
-    
-    <category term="SpringBoot" scheme="https://gallifrey.asia/tags/SpringBoot/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Maven指南</title>
-    <link href="https://gallifrey.asia/posts/f95c3e710460/"/>
-    <id>https://gallifrey.asia/posts/f95c3e710460/</id>
-    <published>2023-02-15T14:11:16.000Z</published>
-    <updated>2023-02-15T14:11:16.000Z</updated>
-    
-    
-    <summary type="html">Maven实用使用技巧，配置和指令</summary>
-    
-    
-    
-    <category term="依赖管理" scheme="https://gallifrey.asia/categories/%E4%BE%9D%E8%B5%96%E7%AE%A1%E7%90%86/"/>
-    
-    
-    <category term="Maven" scheme="https://gallifrey.asia/tags/Maven/"/>
     
   </entry>
   
