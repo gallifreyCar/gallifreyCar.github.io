@@ -1,9 +1,9 @@
-<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>软件体系结构与设计模式期末复习3 | Gallifrey的计算机学习日记</title><meta name="author" content="Gallifrey"><meta name="copyright" content="Gallifrey"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="软件危机">
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>软件体系结构与设计模式期末复习——软件体系结构风格 | Gallifrey的计算机学习日记</title><meta name="author" content="Gallifrey"><meta name="copyright" content="Gallifrey"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="📙食用说明    emoji 说明     🥑 不考   🍌 了解   🍇 要考   🍉 重点   🚩 flag     🍌软件体系结构风格概述软件体系结构表示系统的框架结构，用于从较高的层次上来描述各部分之间的关系和接口，主要包括：构件、构件性质和构件之间的关系 软件框架设计的核心问题是：能否复用已经成型的体系结构方案不同系统的设计方案存在着许多共性问题，把这些共性部分抽取出来，就">
 <meta property="og:type" content="article">
-<meta property="og:title" content="软件体系结构与设计模式期末复习3">
+<meta property="og:title" content="软件体系结构与设计模式期末复习——软件体系结构风格">
 <meta property="og:url" content="https://gallifrey.asia/posts/5a38b15663fa/index.html">
 <meta property="og:site_name" content="Gallifrey的计算机学习日记">
-<meta property="og:description" content="软件危机">
+<meta property="og:description" content="📙食用说明    emoji 说明     🥑 不考   🍌 了解   🍇 要考   🍉 重点   🚩 flag     🍌软件体系结构风格概述软件体系结构表示系统的框架结构，用于从较高的层次上来描述各部分之间的关系和接口，主要包括：构件、构件性质和构件之间的关系 软件框架设计的核心问题是：能否复用已经成型的体系结构方案不同系统的设计方案存在着许多共性问题，把这些共性部分抽取出来，就">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2023-05-04T16:02:03.000Z">
 <meta property="article:modified_time" content="2023-05-04T16:02:03.000Z">
@@ -52,7 +52,7 @@
   islazyload: false,
   isAnchor: false
 }</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
-  title: '软件体系结构与设计模式期末复习3',
+  title: '软件体系结构与设计模式期末复习——软件体系结构风格',
   isPost: true,
   isHome: false,
   isHighlightShrink: false,
@@ -147,7 +147,871 @@
     }
     detectApple()
     })(window)</script><script src="https://widget.qweather.net/simple/static/js/he-simple-common.js?v=2.0"></script><script async src="/js/weather.js"></script><script src="https://cdn.jsdelivr.net/npm/echarts@4.9.0/dist/echarts.min.js"></script><script src="https://cdn.jsdelivr.net/npm/echarts@4.9.0/dist/echarts.min.js"></script><script src="https://cdn.jsdelivr.net/npm/echarts@4.9.0/map/js/china.js"></script><!-- hexo injector head_end start --><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-footer-beautify@1.0.0/lib/runtime.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiper.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/font-awesome-animation.min.css" media="defer" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@1.0.17/lib/tag_plugins.css" media="defer" onload="this.media='all'"><script src="https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/carousel-touch.js"></script><!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="Gallifrey的计算机学习日记" type="application/atom+xml">
-</head><body><div id="loading-box"><div class="bb8-loadingWarp"><div class="loading-bb8"></div></div></div><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/images/shizi.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data is-center"><div class="data-item"><a href="/archives/"><div class="headline">文章</div><div class="length-num">72</div></a></div><div class="data-item"><a href="/tags/"><div class="headline">标签</div><div class="length-num">36</div></a></div><div class="data-item"><a href="/categories/"><div class="headline">分类</div><div class="length-num">28</div></a></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fa-fw fas fa-list"></i><span> 清单</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/steam/"><i class="fa-fw fab fa-steam"></i><span> 游戏</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li><li><a class="site-page child" href="/census/"><i class="fa-fw fas fa-street-view"></i><span> 访客</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fa-fw fas fa-globe"></i><span> 镜像</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="https://gallifrey.asia"><i class="fa-fw fas fa-globe-asia"></i><span> 国内镜像</span></a></li><li><a class="site-page child" target="_blank" rel="noopener external nofollow noreferrer" href="https://gallifreycar.github.io"><i class="fa-fw fas fa-globe-americas"></i><span> 国外镜像</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/toyhouse/"><i class="fa-fw fas fa-robot"></i><span> 模型屋</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">Gallifrey的计算机学习日记</a><div id="he-plugin-simple"></div></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fa-fw fas fa-list"></i><span> 清单</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/steam/"><i class="fa-fw fab fa-steam"></i><span> 游戏</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li><li><a class="site-page child" href="/census/"><i class="fa-fw fas fa-street-view"></i><span> 访客</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fa-fw fas fa-globe"></i><span> 镜像</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="https://gallifrey.asia"><i class="fa-fw fas fa-globe-asia"></i><span> 国内镜像</span></a></li><li><a class="site-page child" target="_blank" rel="noopener external nofollow noreferrer" href="https://gallifreycar.github.io"><i class="fa-fw fas fa-globe-americas"></i><span> 国外镜像</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/toyhouse/"><i class="fa-fw fas fa-robot"></i><span> 模型屋</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">软件体系结构与设计模式期末复习3</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-05-04T16:02:03.000Z" title="发表于 2023-05-05 00:02:03">2023-05-05</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-05-04T16:02:03.000Z" title="更新于 2023-05-05 00:02:03">2023-05-05</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E8%BD%AF%E4%BB%B6%E6%9E%B6%E6%9E%84%E4%B8%8E%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/">软件架构与设计模式</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">4</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>1分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="软件体系结构与设计模式期末复习3"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h2 id="软件危机"><a href="#软件危机" class="headerlink" title="软件危机"></a>软件危机</h2></article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:undefined" rel="external nofollow noreferrer">Gallifrey</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://gallifrey.asia/posts/5a38b15663fa/">https://gallifrey.asia/posts/5a38b15663fa/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="external nofollow noreferrer" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://gallifrey.asia" target="_blank">Gallifrey的计算机学习日记</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"></div><div class="post_share"><div class="social-share" data-image="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js" defer></script></div></div><div class="post-reward"><div class="reward-button"><i class="fas fa-qrcode"></i> 打赏</div><div class="reward-main"><ul class="reward-all"><li class="reward-item"><a href="/images/wechatreward.webp" target="_blank"><img class="post-qr-code-img" src="/images/wechatreward.webp" alt="wechat"/></a><div class="post-qr-code-desc">wechat</div></li><li class="reward-item"><a href="/images/alipay.webp" target="_blank"><img class="post-qr-code-img" src="/images/alipay.webp" alt="alipay"/></a><div class="post-qr-code-desc">alipay</div></li></ul></div></div><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div id="twikoo-wrap"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/images/shizi.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">Gallifrey</div><div class="author-info__description"></div></div><div class="card-info-data is-center"><div class="card-info-data-item"><a href="/archives/"><div class="headline">文章</div><div class="length-num">72</div></a></div><div class="card-info-data-item"><a href="/tags/"><div class="headline">标签</div><div class="length-num">36</div></a></div><div class="card-info-data-item"><a href="/categories/"><div class="headline">分类</div><div class="length-num">28</div></a></div></div><a id="card-info-btn" target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/gallifreyCar"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/gallifreyCar" rel="external nofollow noreferrer" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="mailto:956465331@qq.com" rel="external nofollow noreferrer" target="_blank" title="Email"><i class="fas fa-envelope"></i></a><a class="social-icon" href="/images/wechat.webp" target="_blank" title="Wechat"><i class="fa-brands fa-weixin"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">该站点还在修建中ing...</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%BD%AF%E4%BB%B6%E5%8D%B1%E6%9C%BA"><span class="toc-number">1.</span> <span class="toc-text">软件危机</span></a></li></ol></div></div></div></div></main><footer id="footer"><div id="footer-wrap"></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div id="algolia-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">Algolia</span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="search-wrap"><div id="algolia-search-input"></div><hr/><div id="algolia-search-results"><div id="algolia-hits"></div><div id="algolia-pagination"></div><div id="algolia-stats"></div></div></div></div><div id="search-mask"></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script><script src="https://cdn.jsdelivr.net/npm/algoliasearch@4/dist/algoliasearch-lite.umd.js"></script><script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4/dist/instantsearch.production.min.js"></script><script src="/js/search/algolia.js"></script><script>var preloader = {
+</head><body><div id="loading-box"><div class="bb8-loadingWarp"><div class="loading-bb8"></div></div></div><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/images/shizi.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data is-center"><div class="data-item"><a href="/archives/"><div class="headline">文章</div><div class="length-num">72</div></a></div><div class="data-item"><a href="/tags/"><div class="headline">标签</div><div class="length-num">36</div></a></div><div class="data-item"><a href="/categories/"><div class="headline">分类</div><div class="length-num">28</div></a></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fa-fw fas fa-list"></i><span> 清单</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/steam/"><i class="fa-fw fab fa-steam"></i><span> 游戏</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li><li><a class="site-page child" href="/census/"><i class="fa-fw fas fa-street-view"></i><span> 访客</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fa-fw fas fa-globe"></i><span> 镜像</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="https://gallifrey.asia"><i class="fa-fw fas fa-globe-asia"></i><span> 国内镜像</span></a></li><li><a class="site-page child" target="_blank" rel="noopener external nofollow noreferrer" href="https://gallifreycar.github.io"><i class="fa-fw fas fa-globe-americas"></i><span> 国外镜像</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/toyhouse/"><i class="fa-fw fas fa-robot"></i><span> 模型屋</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">Gallifrey的计算机学习日记</a><div id="he-plugin-simple"></div></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fa-fw fas fa-list"></i><span> 清单</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/steam/"><i class="fa-fw fab fa-steam"></i><span> 游戏</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li><li><a class="site-page child" href="/census/"><i class="fa-fw fas fa-street-view"></i><span> 访客</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fa-fw fas fa-globe"></i><span> 镜像</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="https://gallifrey.asia"><i class="fa-fw fas fa-globe-asia"></i><span> 国内镜像</span></a></li><li><a class="site-page child" target="_blank" rel="noopener external nofollow noreferrer" href="https://gallifreycar.github.io"><i class="fa-fw fas fa-globe-americas"></i><span> 国外镜像</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/toyhouse/"><i class="fa-fw fas fa-robot"></i><span> 模型屋</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">软件体系结构与设计模式期末复习——软件体系结构风格</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-05-04T16:02:03.000Z" title="发表于 2023-05-05 00:02:03">2023-05-05</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-05-04T16:02:03.000Z" title="更新于 2023-05-05 00:02:03">2023-05-05</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E8%BD%AF%E4%BB%B6%E6%9E%B6%E6%9E%84%E4%B8%8E%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/">软件架构与设计模式</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">9.9k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>29分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="软件体系结构与设计模式期末复习——软件体系结构风格"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h2 id="📙食用说明"><a href="#📙食用说明" class="headerlink" title="📙食用说明"></a>📙食用说明</h2><div class="table-container">
+<table>
+<thead>
+<tr>
+<th>emoji</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>🥑</td>
+<td>不考</td>
+</tr>
+<tr>
+<td>🍌</td>
+<td>了解</td>
+</tr>
+<tr>
+<td>🍇</td>
+<td>要考</td>
+</tr>
+<tr>
+<td>🍉</td>
+<td>重点</td>
+</tr>
+<tr>
+<td>🚩</td>
+<td>flag</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="🍌软件体系结构风格概述"><a href="#🍌软件体系结构风格概述" class="headerlink" title="🍌软件体系结构风格概述"></a>🍌软件体系结构风格概述</h2><p>软件体系结构表示系统的框架结构，用于从较高的层次上来描述各部分之间的关系和接口，主要包括：构件、构件性质和构件之间的关系</p>
+<p>软件框架设计的核心问题是：能否复用已经成型的体系结构方案<br>不同系统的设计方案存在着许多共性问题，把这些共性部分抽取出来，就形成了具有代表性的和可广泛接受的体系结构风格</p>
+<p>体系结构风格:<strong>体系结构设计方案的共性</strong></p>
+<p>软件体系结构风格包括</p>
+<ol>
+<li><strong>构件</strong></li>
+<li><strong>连接件</strong></li>
+<li><strong>约束</strong>：<ul>
+<li>诸如：拓扑限制和语义限制等</li>
+</ul>
+</li>
+</ol>
+<p>对于高质量的软件产品而言，首先要为其选择合适的体系结构风格，这样就能够更好地重用已有的设计方案和实现方案</p>
+<p>利用软件体系结构风格中的不变部分，可以使系统<strong>大粒度地重用</strong>已有的实现代码</p>
+<h2 id="🍉-常用的软件体系结构风格"><a href="#🍉-常用的软件体系结构风格" class="headerlink" title="🍉 常用的软件体系结构风格"></a>🍉 常用的软件体系结构风格</h2><h3 id="数据流风格"><a href="#数据流风格" class="headerlink" title="数据流风格"></a>数据流风格</h3><p>批处理和管道/过滤器</p>
+<h3 id="调用-返回风格"><a href="#调用-返回风格" class="headerlink" title="调用/返回风格"></a>调用/返回风格</h3><p>主程序/子程序、层次结构和客户机/服务器</p>
+<h3 id="面向对象风格"><a href="#面向对象风格" class="headerlink" title="面向对象风格"></a>面向对象风格</h3><h3 id="独立部件风格"><a href="#独立部件风格" class="headerlink" title="独立部件风格"></a>独立部件风格</h3><p>进程通讯和事件驱动</p>
+<h3 id="虚拟机风格"><a href="#虚拟机风格" class="headerlink" title="虚拟机风格"></a>虚拟机风格</h3><p>解释器和基于规则的系统</p>
+<h3 id="数据共享风格"><a href="#数据共享风格" class="headerlink" title="数据共享风格"></a>数据共享风格</h3><p>数据库系统和黑板系统</p>
+<h2 id="🍉-管道-过滤器体系结构风格"><a href="#🍉-管道-过滤器体系结构风格" class="headerlink" title="🍉 管道/过滤器体系结构风格"></a>🍉 管道/过滤器体系结构风格</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>管道/过滤器结构主要包括<strong>过滤器和管道</strong>两种元素</p>
+<p>过滤器：负责对数据进行加工处理</p>
+<ol>
+<li>每个过滤器都有一组输入端口和输出端口</li>
+<li>从输入端口接收数据</li>
+<li>经过内部加工处理</li>
+<li>传送到输出端口上</li>
+</ol>
+<p>管道：输入数据流和输出数据流之间的通路</p>
+<ol>
+<li>数据通过相邻过滤器之间的连接件进行传输</li>
+</ol>
+<p><img src="/posts/5a38b15663fa/image-20230505032424237.png" alt="image-20230505032424237"></p>
+<h3 id="示例：管道-过滤器-真"><a href="#示例：管道-过滤器-真" class="headerlink" title="示例：管道/过滤器  . 真"></a>示例：管道/过滤器  . 真</h3><p>管道：水管</p>
+<p>过滤器：</p>
+<ul>
+<li>5μmPP滤芯</li>
+<li>85c颗粒活性炭滤芯</li>
+<li>1μmPP滤芯</li>
+<li>反渗透膜</li>
+<li>后置活性炭滤芯</li>
+</ul>
+<p><img src="/posts/5a38b15663fa/image-20230505032638340.png" alt="image-20230505032638340"></p>
+<h3 id="Web请求中的过滤器"><a href="#Web请求中的过滤器" class="headerlink" title="Web请求中的过滤器"></a>Web请求中的过滤器</h3><p>例1：<br>3个过滤器<br>全部正常处理，返回Page1内容</p>
+<p><img src="/posts/5a38b15663fa/image-20230505032813699.png" alt="image-20230505032813699"></p>
+<p>例2：<br>过滤器2异常结束<br>返回出错页</p>
+<p><img src="/posts/5a38b15663fa/image-20230505032824729.png" alt="image-20230505032824729"></p>
+<p>例3：<br>过滤器2，根据逻辑返回另一页面<br>如404、登录页等</p>
+<p><img src="/posts/5a38b15663fa/image-20230505032836124.png" alt="image-20230505032836124"></p>
+<h3 id="常见的过滤器"><a href="#常见的过滤器" class="headerlink" title="常见的过滤器"></a>常见的过滤器</h3><ol>
+<li>字符集编码检查</li>
+<li>Header数据检查</li>
+<li>重定向</li>
+<li>身份验证过滤器（Authentication Filters）。</li>
+<li>数据压缩过滤器（Data compression Filters）。</li>
+<li>加密过滤器（Encryption Filters）。</li>
+<li>触发资源访问事件过滤器。</li>
+<li>图像转换过滤器（Image Conversion Filters）。</li>
+<li>日志记录和审核过滤器（Logging and Auditing Filters）。</li>
+<li>MIME-TYPE 链过滤器（MIME-TYPE Chain Filters）。</li>
+<li>标记化过滤器（Tokenizing Filters）。</li>
+<li>XSL/T 过滤器（XSL/T Filters），转换 XML 内容</li>
+</ol>
+<h3 id="链式调用语法糖"><a href="#链式调用语法糖" class="headerlink" title="链式调用语法糖"></a>链式调用语法糖</h3><p>例1：Java</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">Builder</span> <span class="variable">builder</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">User</span>.Builder();</span><br><span class="line">builder.setUserName(<span class="string">&quot;lss0555&quot;</span>)</span><br><span class="line">             .setPassword(<span class="string">&quot;12345&quot;</span>)</span><br><span class="line">             .build();</span><br></pre></td></tr></table></figure>
+<p>例2：Node.js</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> sqlstr = sql.<span class="title function_">table</span>(<span class="string">&#x27;web_pages’)</span></span><br><span class="line"><span class="string">                         .where(&#123;id:147&#125;)</span></span><br><span class="line"><span class="string">                         .select()</span></span><br></pre></td></tr></table></figure>
+<h3 id="管道-过滤器——编译器"><a href="#管道-过滤器——编译器" class="headerlink" title="管道/过滤器——编译器"></a>管道/过滤器——编译器</h3><p>例：编译程序</p>
+<p><img src="/posts/5a38b15663fa/image-20230505033221359.png" alt="image-20230505033221359"></p>
+<h3 id="管道-过滤器结构"><a href="#管道-过滤器结构" class="headerlink" title="管道/过滤器结构"></a>管道/过滤器结构</h3><ol>
+<li>将数据流处理分为几个顺序的步骤来进行</li>
+<li>一个步骤的输出是下一个步骤的输入</li>
+<li>每个处理步骤由一个过滤器来实现</li>
+<li>每个过滤器独立完成自己的任务，不同过滤器之间不需要进行交互</li>
+<li>在管道/过滤器结构中数据输出的最终结果与各个过滤器执行的顺序无关</li>
+</ol>
+<p><img src="/posts/5a38b15663fa/image-20230505033421734.png" alt="image-20230505033421734"></p>
+<p>每个过滤器都是一个独立的个体元素</p>
+<ol>
+<li>状态无关性：各个过滤器的状态互不相关</li>
+<li>信息无关性：非邻近过滤器不共享任何信息</li>
+<li>顺序无关性：运行结果的正确性与各个过滤器运行的先后顺序无关</li>
+</ol>
+<h3 id="优点"><a href="#优点" class="headerlink" title="优点"></a>优点</h3><ul>
+<li><p>简单性：</p>
+<ul>
+<li>允许将系统的输入和输出看作是各个过滤器行为的简单组合</li>
+<li>独立的过滤器能够减小构件之间的耦合程度</li>
+</ul>
+</li>
+<li><p>系统具有可扩展性和可进化性</p>
+<ul>
+<li>易扩展：各个过滤器是相互独立的，因此可以很容易地将新过滤器添加到现有的系统之中，以扩展系统的业务处理能力</li>
+<li>易进化：原有过滤器可以很方便地被改进的过滤器所替代</li>
+</ul>
+</li>
+<li>支持复用<ul>
+<li>如果一个过滤器的输出数据格式与另一个过滤器的输入数据格式是一致的，就可以将这两个过滤器连接在一起</li>
+</ul>
+</li>
+<li>系统并发性<ul>
+<li>各个过滤器能够独立运行，因此，不同子任务可以并行执行，提高了系统运行效率</li>
+</ul>
+</li>
+<li>便于系统分析<ul>
+<li>由于系统是独立构件的组合，具有清晰的拓扑结构，因而有利于对数据吞吐量、死锁和计算准确性进行分析</li>
+</ul>
+</li>
+</ul>
+<h3 id="存在的问题"><a href="#存在的问题" class="headerlink" title="存在的问题"></a>存在的问题</h3><ol>
+<li>系统处理过程是批处理方式，<strong>过滤器具有很强的独立性</strong>，对于每一个过滤器，设计者必须考虑从输入到输出的转换过程，这种方式会造成过滤器对输入数据的批量转换处理</li>
+<li><strong>不适合用来设计交互式</strong>应用系统</li>
+<li>由于没有通用的数据传输标准，因此每个过滤器都需要解析输入数据和合成数据，添加和去除标记需要花费一定的时间，从而导致了系统性能下降，<strong>增加了过滤器设计的复杂性</strong></li>
+<li><strong>难以进行错误处理</strong>，管道/过滤器结构的固有特性，决定了很难制定错误处理的一般性策略</li>
+</ol>
+<h2 id="🍉面向对象体系结构风格"><a href="#🍉面向对象体系结构风格" class="headerlink" title="🍉面向对象体系结构风格"></a>🍉面向对象体系结构风格</h2><h3 id="定义-1"><a href="#定义-1" class="headerlink" title="定义"></a>定义</h3><p>在这种体系结构中，数据表示和相关原语操作都被封装在抽象数据类型中</p>
+<p>构件：</p>
+<ol>
+<li>对象，也称为抽象数据类型的实例</li>
+<li>对象是一种被称为管理器的构件，负责保持资源的完整性</li>
+</ol>
+<p>连接器：</p>
+<ol>
+<li>函数调用和过程调用来进行交互</li>
+</ol>
+<p><img src="/posts/5a38b15663fa/image-20230505034000391.png" alt="image-20230505034000391"></p>
+<p><img src="/posts/5a38b15663fa/image-20230505034015478.png" alt="image-20230505034015478"></p>
+<p><img src="/posts/5a38b15663fa/image-20230505034025892.png" alt="image-20230505034025892"></p>
+<p><img src="/posts/5a38b15663fa/image-20230505034032781.png" alt="image-20230505034032781"></p>
+<h3 id="优点-1"><a href="#优点-1" class="headerlink" title="优点"></a>优点</h3><ol>
+<li>封装：一个对象对外界隐藏了自己的详细信息，改变一个对象的表示，不会影响系统的其它部分</li>
+<li>继承和封装方法为对象复用提供了技术支持</li>
+<li>对象将数据和操作封装在一起，提高了系统内聚性，减小了模块之间的耦合程度，使系统更容易分解为既相互作用又相互独立的对象集合</li>
+<li>面向对象体系结构风格也存在着一些问题：</li>
+<li>依赖：如果一个对象要调用另一个对象，则必须知道它的标识和名称</li>
+<li><strong>会产生连锁反应</strong>，如果一个对象的标识发生改变，那么必须修改所有显式调用它的其它对象，并消除由此引发的副作用</li>
+</ol>
+<h2 id="🍉事件驱动体系结构风格"><a href="#🍉事件驱动体系结构风格" class="headerlink" title="🍉事件驱动体系结构风格"></a>🍉事件驱动体系结构风格</h2><h3 id="定义-2"><a href="#定义-2" class="headerlink" title="定义"></a>定义</h3><p>根据事件声明和发展状况来驱动整个应用程序运行</p>
+<p>系统提供处理事件的机制<br>部分构件具备响应事件的能力<br>部分构件触发事件（不再直接调用过程）</p>
+<p>触发事件——系统管理事件——处理事件</p>
+<p>事件驱动系统的构件提供了</p>
+<ol>
+<li>一个过程集合</li>
+<li>一组事件</li>
+</ol>
+<p>过程可以使用显示方法进行调用，同时也可以由构件在系统事件中注册</p>
+<p>在消息机制的控制下，系统作为一个整体与外界环境进行交互</p>
+<h3 id="示例"><a href="#示例" class="headerlink" title="示例"></a>示例</h3><p>例1：<br>事件：下课铃响<br>响应：~~~</p>
+<p>例2：<br>事件：本月生活费花完<br>响应：发微信/打电话</p>
+<p>例3：<br>事件：上课铃响<br>响应：</p>
+<h3 id="IM聊天软件中的事件"><a href="#IM聊天软件中的事件" class="headerlink" title="IM聊天软件中的事件"></a>IM聊天软件中的事件</h3><ol>
+<li>用户连接</li>
+<li>用户断开连接</li>
+<li>会话过期</li>
+<li>收到一条聊天消息</li>
+<li>用户变为不活动</li>
+<li>用户变为活动</li>
+<li>与 UI 协调相关的其他所有事件</li>
+</ol>
+<h3 id="发布-订阅模型"><a href="#发布-订阅模型" class="headerlink" title="发布/订阅模型"></a>发布/订阅模型</h3><p><img src="/posts/5a38b15663fa/image-20230505034434282.png" alt="image-20230505034434282"></p>
+<h3 id="点对点模型"><a href="#点对点模型" class="headerlink" title="点对点模型"></a>点对点模型</h3><p><img src="/posts/5a38b15663fa/image-20230505034503312.png" alt="image-20230505034503312"></p>
+<h3 id="存储-分发模型"><a href="#存储-分发模型" class="headerlink" title="存储/分发模型"></a>存储/分发模型</h3><p><img src="/posts/5a38b15663fa/image-20230505034518714.png" alt="image-20230505034518714"></p>
+<h3 id="请求-响应模型"><a href="#请求-响应模型" class="headerlink" title="请求/响应模型"></a>请求/响应模型</h3><p><img src="/posts/5a38b15663fa/image-20230505034541911.png" alt="image-20230505034541911"></p>
+<h3 id="优点-2"><a href="#优点-2" class="headerlink" title="优点"></a>优点</h3><ul>
+<li><p>事件声明者不需要知道哪些构件会响应事件</p>
+<ul>
+<li>因此，不能确定构件处理的先后顺序</li>
+<li>甚至不能确定事件会引发哪些过程调用</li>
+</ul>
+</li>
+<li><p>提高了软件复用能力</p>
+<ul>
+<li>只要在系统事件中注册构件的过程，就可以将该构件集成到系统中</li>
+</ul>
+</li>
+<li><p>便于系统升级</p>
+<ul>
+<li>只要构件名和事件中所注册的过程名保持不变，原有构件就可以被新构件所替代</li>
+</ul>
+</li>
+</ul>
+<h3 id="存在的问题-1"><a href="#存在的问题-1" class="headerlink" title="存在的问题"></a>存在的问题</h3><ul>
+<li><p>构件放弃了对计算的控制权</p>
+<ul>
+<li>完全由系统来决定</li>
+<li>当构件触发一个事件时，它不知道其余构件是如何对其进行处理的</li>
+<li>（微信特殊字符闪退事件）</li>
+</ul>
+</li>
+<li><p>存在数据传输问题</p>
+<ul>
+<li>数据可以通过事件来进行传输</li>
+<li>但是在大多数情况下，系统本身需要维护一定的存储空间，这将对系统的逻辑功能和资源管理有一定影响</li>
+</ul>
+</li>
+</ul>
+<h2 id="🍉分层体系结构风格"><a href="#🍉分层体系结构风格" class="headerlink" title="🍉分层体系结构风格"></a>🍉分层体系结构风格</h2><h3 id="定义-3"><a href="#定义-3" class="headerlink" title="定义"></a>定义</h3><p>在分层风格中，系统将划分为一个层次结构</p>
+<p>每一层都具有高度的内聚性</p>
+<ul>
+<li>包含抽象程度一致的各种构件，支持信息隐藏</li>
+</ul>
+<p>分层有助于将复杂系统划分为独立的模块</p>
+<ul>
+<li>从而简化程序的设计和实现</li>
+</ul>
+<p>通过分解，可以将系统功能划分为一些具有明确定义的层</p>
+<ul>
+<li>较高层是面向特定应用问题的</li>
+<li><p>较低层更具有一般性</p>
+<p>每层都为上层提供服务，同时又利用了下层的逻辑功能</p>
+<p>每层只对相邻层可见，层次之间的连接件是协议和过程调用，用以实现各层之间的交互</p>
+<p>上层通过下层提供的接口来使用下层的功能，而下层却不能使用上层的功能</p>
+<p>良好的层次结构将有助于对逻辑功能实施灵活的增加、删除和修改</p>
+</li>
+</ul>
+<h3 id="常见分层体系结构"><a href="#常见分层体系结构" class="headerlink" title="常见分层体系结构"></a>常见分层体系结构</h3><ol>
+<li>表示层</li>
+<li>业务逻辑层</li>
+<li>数据访问层</li>
+<li>数据库</li>
+</ol>
+<p><img src="/posts/5a38b15663fa/image-20230505035008281.png" alt="image-20230505035008281"></p>
+<h3 id="IBM定义的三层Web应用架构"><a href="#IBM定义的三层Web应用架构" class="headerlink" title="IBM定义的三层Web应用架构"></a>IBM定义的三层Web应用架构</h3><ol>
+<li>表现层</li>
+<li>业务逻辑层</li>
+<li>数据存储/资源层</li>
+</ol>
+<p><img src="/posts/5a38b15663fa/image-20230505035104001.png" alt="image-20230505035104001"></p>
+<h3 id="安卓操作系统体系结构"><a href="#安卓操作系统体系结构" class="headerlink" title="安卓操作系统体系结构"></a>安卓操作系统体系结构</h3><ol>
+<li>应用层</li>
+<li>应用框架层</li>
+<li>库/运行时</li>
+<li>Linux内核</li>
+</ol>
+<p><img src="/posts/5a38b15663fa/image-20230505035148678.png" alt="image-20230505035148678"></p>
+<h3 id="网络协议"><a href="#网络协议" class="headerlink" title="网络协议"></a>网络协议</h3><ol>
+<li>OSI 7层</li>
+<li>Tcp/Ip4层</li>
+</ol>
+<p><img src="/posts/5a38b15663fa/image-20230505035230140.png" alt="image-20230505035230140"></p>
+<h3 id="优点-3"><a href="#优点-3" class="headerlink" title="优点"></a>优点</h3><ol>
+<li>设计者可以将系统分解为一个增量的步骤序列，从而完成复杂的业务逻辑</li>
+<li>每一层至多和相邻的上下两层进行交互，每一层的功能变化最多只影响相邻两层，便于实现系统功能的扩展</li>
+<li>只要给相邻层提供相同的接口，就可以使用不同的方法来实现每一层，支持软件资源的复用</li>
+</ol>
+<h3 id="存在的问题-2"><a href="#存在的问题-2" class="headerlink" title="存在的问题"></a>存在的问题</h3><ol>
+<li><p>并非所有系统都能够按照层次来进行划分，即使一个系统的逻辑结构是层次化的，但是出于对系统性能的考虑，需要把不同抽象程度的功能合并到一层，破坏了逻辑独立性</p>
+</li>
+<li><p>很难找到一种合适和正确的层次划分方法，其应用范围受到限制</p>
+</li>
+<li><p>在传输数据时，需要经过多个层次，导致了系统性能下降</p>
+</li>
+<li><p>多层结构难以调试，往往需要通过一系列的跨层次调用来实现</p>
+</li>
+</ol>
+<h2 id="🥑C2体系结构风格"><a href="#🥑C2体系结构风格" class="headerlink" title="🥑C2体系结构风格"></a>🥑C2体系结构风格</h2><h3 id="定义-4"><a href="#定义-4" class="headerlink" title="定义"></a>定义</h3><p>C2结构是一个层次网络，包括构件和连接件两种软件元素</p>
+<p>构件和连接件都是包含顶部和底部的软件元素</p>
+<p>构件与构件之间只能通过连接件进行连接，连接件之间则可以直接进行连接</p>
+<p>构件的顶部、底部分别与连接件的底部、顶部相连，连接件的顶部、底部也分别与连接件的底部、顶部相连</p>
+<h2 id="🍉数据共享体系结构风格"><a href="#🍉数据共享体系结构风格" class="headerlink" title="🍉数据共享体系结构风格"></a>🍉数据共享体系结构风格</h2><h3 id="定义-5"><a href="#定义-5" class="headerlink" title="定义"></a>定义</h3><p>数据共享风格也称为仓库风格，有两种不同类型的软件元素：</p>
+<ul>
+<li>一种是中央数据单元，也称为资源库，用于表示系统的当前状态</li>
+<li>一种是相互依赖的构件组</li>
+</ul>
+<p>中央数据单元和构件之间可以进行信息交换</p>
+<ul>
+<li>这是数据共享体系结构的技术实现基础</li>
+</ul>
+<p>按控制策略分为两种类型：</p>
+<ul>
+<li>一种是传统的数据库</li>
+<li>一种是黑板</li>
+</ul>
+<p>数据库应用系统：</p>
+<ul>
+<li>输入流中的事件来驱动系统进行信息处理</li>
+<li>执行结果存储到中央数据单元中</li>
+</ul>
+<p>黑板应用系统：</p>
+<ul>
+<li>由中央数据单元的当前状态来驱动系统运行</li>
+</ul>
+<p><img src="/posts/5a38b15663fa/image-20230505035631420.png" alt="image-20230505035631420"></p>
+<p>黑板是数据共享体系结构的一个特例，用以解决状态冲突并处理可能存在的不确定性知识源</p>
+<p>黑板经常被用于</p>
+<ul>
+<li>信号处理，例如：语音和模式识别，</li>
+<li>自然语言处理领域中也有广泛的应用，例如：机器翻译和句法分析</li>
+</ul>
+<p><img src="/posts/5a38b15663fa/image-20230505035708631.png" alt="image-20230505035708631"></p>
+<p>黑板系统主要包括3部分：</p>
+<ul>
+<li><p>知识源是主要的信息来源</p>
+<ul>
+<li>知识源在逻辑上和物理上都是独立的</li>
+<li>知识源只与产生它们的应用有关</li>
+<li>通过中央数据单元与知识源的配合完成相关业务逻辑</li>
+<li>这一过程对外部环境是透明的</li>
+</ul>
+</li>
+<li><p>中央数据单元</p>
+<ul>
+<li>黑板系统的运行完全依赖于中央数据单元的状态变化</li>
+<li>中央数据单元反映了业务逻辑的求解状态</li>
+<li>在多个知识源之间，中央数据单元起到了通信机制的作用</li>
+</ul>
+</li>
+<li><p>控制单元</p>
+<ul>
+<li>由中央数据单元的状态来驱动的</li>
+<li>知识源的执行导致了中央数据单元的状态发生变化</li>
+<li>控制单元根据预先定义的策略，启动相应的知识源，以完成系统的控制任务</li>
+</ul>
+</li>
+</ul>
+<h3 id="示例-1"><a href="#示例-1" class="headerlink" title="示例"></a>示例</h3><p>自然/科学类期刊</p>
+<ul>
+<li>中央数据单元：期刊</li>
+<li>知识源：科研人员/研究所</li>
+<li><p>控制单元：评审机制</p>
+</li>
+<li><p>知识源发布最新研究结果到期刊上</p>
+</li>
+<li>期刊发布的最新研究，影响科研人员的新的研究方向</li>
+<li>审稿人可以看作控制单元</li>
+</ul>
+<p>IBM沃森</p>
+<ul>
+<li>中央数据单元：问题的求解过程</li>
+<li>知识源：不同信息库</li>
+<li>商业信息文本，例如《世界百科全书》</li>
+<li>维基百科和各类书籍。</li>
+<li>控制单元：答案搜索和评估算法</li>
+</ul>
+<p>在对沃森提出问题时</p>
+<ul>
+<li>同时执行100多种不同算法分析问题寻找不同答案。</li>
+<li>另一组算法对答案进行排序和打分。寻找可能支持或者反驳这个答案的证据。然后利用证据支持答案的程度进行评分。</li>
+<li>最佳证据评估结果的答案将获得最高的可信度。评分最高的答案会成为最终答案。</li>
+</ul>
+<h2 id="🍉解释器体系结构风格"><a href="#🍉解释器体系结构风格" class="headerlink" title="🍉解释器体系结构风格"></a>🍉解释器体系结构风格</h2><h3 id="定义-6"><a href="#定义-6" class="headerlink" title="定义"></a>定义</h3><p>解释器作为一种体系结构，主要用于构建虚拟，以弥合程序语义和计算机硬件之间的间隙</p>
+<p>解释器是利用软件来创建的一种虚拟机，解释器风格又被称为虚拟机风格</p>
+<p>程序的逻辑功能很复杂,用户需要采用复杂的方式来进行操作，一个较好的解决方案是提供面向领域的虚拟机语言</p>
+<p>解释器体系结构有许多现实应用，可以将其作为整个软件系统的一个组成部分</p>
+<ul>
+<li>Java和Smalltalk的编译器</li>
+<li>基于规则的系统，诸如：专家系统领域中的Prolog语言</li>
+<li>脚本语言，例如：Awk和Perl</li>
+</ul>
+<h3 id="示例-2"><a href="#示例-2" class="headerlink" title="示例"></a>示例</h3><p> Java运行过程中的JIT</p>
+<ul>
+<li><p>JIT 编译器</p>
+<ul>
+<li><p>Hot Spot 编译</p>
+</li>
+<li><p>不Hot的情况解释执行</p>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>性能比较<ul>
+<li>机器码</li>
+<li>一次性解释执行</li>
+<li>一次性Jit编译执行</li>
+</ul>
+</li>
+</ul>
+<p><img src="/posts/5a38b15663fa/image-20230505040346185.png" alt="image-20230505040346185"></p>
+<p>LUA脚本语言</p>
+<ul>
+<li><p>Lua解释器</p>
+</li>
+<li><p>游戏开发</p>
+</li>
+</ul>
+<p>Redis</p>
+<p>Lightroom</p>
+<p>Nginx</p>
+<h3 id="优点-4"><a href="#优点-4" class="headerlink" title="优点"></a>优点</h3><ol>
+<li>能够提高应用程序的移植能力和编程语言的跨平台移植能力</li>
+<li>实际测试工作可能非常复杂，测试代价极其昂贵，具有一定的风险性，可以利用解释器对未实现的硬件进行仿真</li>
+<li>解释器体系结构风格也存在着一些问题：</li>
+<li>由于使用了特定语言和自定义操作规则，因此增加了系统运行的开销</li>
+<li>解释器系统难以设计和测试</li>
+</ol>
+<h2 id="🍉-反馈控制环体系结构风格"><a href="#🍉-反馈控制环体系结构风格" class="headerlink" title="🍉 反馈控制环体系结构风格"></a>🍉 反馈控制环体系结构风格</h2><h3 id="定义-7"><a href="#定义-7" class="headerlink" title="定义"></a>定义</h3><p>反馈控制环是一种特定的数据流结构，传统数据流结构是线性的，控制连续循环过程的体系结构应该是环形的<br>在反馈控制环系统中，主要包括以下3个部分：</p>
+<ul>
+<li>过程，指操纵过程变量的相关机制</li>
+<li>数据元素<ul>
+<li>指连续更新的过程变量，包括：</li>
+<li>输入变量</li>
+<li>控制变量</li>
+<li>操纵变量</li>
+<li>相关参考值</li>
+</ul>
+</li>
+<li>控制器<ul>
+<li>通过控制规则来修正变量</li>
+<li>收集过程的实际状态和目标状态</li>
+<li>调节变量以驱动实际状态朝目标状态前进</li>
+</ul>
+</li>
+</ul>
+<h3 id="示例-3"><a href="#示例-3" class="headerlink" title="示例"></a>示例</h3><p>反馈控制环结构能够处理复杂的自适应问题，机器学习就是一个典型的实例</p>
+<p>例：强化学习</p>
+<ul>
+<li>智能体：被训练的模型</li>
+<li>环境：Agent所能感知和控制的世界模型。提供带标签的训练、测试数据</li>
+<li>状态：Agent能感知到的Environment情况</li>
+<li><p>行为：Agent能在Environment中执行的行为</p>
+</li>
+<li><p>智能体执行一系列行为，获得环境的反馈</p>
+</li>
+<li>根据反馈调整智能体权重后重新执行</li>
+</ul>
+<p><img src="/posts/5a38b15663fa/image-20230505040717321.png" alt="image-20230505040717321"></p>
+<p>例：自动驾驶方面的应用</p>
+<ul>
+<li>智能体：<ul>
+<li>自动驾驶软件</li>
+</ul>
+</li>
+<li>环境：<ul>
+<li>传感器探测的环境</li>
+</ul>
+</li>
+<li>状态：<ul>
+<li>环境各对象</li>
+</ul>
+</li>
+<li>行为：<ul>
+<li>软件决定如何行驶</li>
+</ul>
+</li>
+</ul>
+<p>例：机器人控制领域</p>
+<ul>
+<li>机械臂控制</li>
+<li>控制电机/伺服</li>
+<li>传感器反馈状态</li>
+<li>软件根据反馈调整控制</li>
+</ul>
+<p><img src="/posts/5a38b15663fa/image-20230505040918678.png" alt="image-20230505040918678"></p>
+<h2 id="🍉客户机-服务器体系结构风格"><a href="#🍉客户机-服务器体系结构风格" class="headerlink" title="🍉客户机/服务器体系结构风格"></a>🍉客户机/服务器体系结构风格</h2><h3 id="定义-8"><a href="#定义-8" class="headerlink" title="定义"></a>定义</h3><p>在集中计算时代，主要采用大型机/小型机模型，在这种模型中，通过与宿主机相连的非智能终端来实现宿主机程序的逻辑功能</p>
+<p>个人计算机和工作站的采用，改变了这种协作计算模式，导致了分散计算模型的出现</p>
+<p>分散计算模型的主要优点是：用户可以选择适合自己的工作站、操作系统和应用程序，在这一时期，集中计算模式逐渐被以PC机为主的网络计算模式所取代</p>
+<p>客户机/服务器是20世纪90年代开始成熟的一项技术</p>
+<ul>
+<li>(Client/Server，C/S)</li>
+<li>主要针对资源不对等问题而提出的一种共享策略</li>
+</ul>
+<p>客户机/服务器是两个相互独立的逻辑系统，为了完成特定任务，它们形成了一种协作关系</p>
+<p>在C/S体系结构中，主要包括三个部分：</p>
+<ul>
+<li>服务器</li>
+<li>客户机</li>
+<li>网络</li>
+</ul>
+<p><img src="/posts/5a38b15663fa/image-20230505041046720.png" alt="image-20230505041046720"></p>
+<p>客户机向服务器发送操作请求，期待服务器的响应</p>
+<p>二者之间具有一定的连接机制，遵循公共的通信协议</p>
+<p>都需要处理请求表达、返回结果表示、连接关系和状态表达等一系列问题</p>
+<p><img src="/posts/5a38b15663fa/image-20230505041115548.png" alt="image-20230505041115548"></p>
+<p>数据和业务处理分布在一定范围内的多个构件上，包括客户机程序中的构件和服务器程序中的构件，构件与构件之间是通过网络进行连接的</p>
+<p>定义了工作站与服务器的连接方法，从而使数据存储和逻辑计算可以分布到物理上的多个处理器上</p>
+<p>服务器负责存储和管理数据信息，客户机负责数据显示、用户交互以及对业务逻辑的处理</p>
+<p>C/S系统可以分为前台客户机程序和后台服务器程序两部分</p>
+<ul>
+<li>客户机程序<ul>
+<li>表示层</li>
+<li>包括用户界面和业务处理程序</li>
+</ul>
+</li>
+<li>服务器程序<ul>
+<li>数据层</li>
+<li>包括中心数据库、数据查询程序、数据存储程序和数据更新程序</li>
+</ul>
+</li>
+</ul>
+<p>服务器程序负责管理系统资源</p>
+<ul>
+<li>包括：管理数据库的安全性、控制数据库访问的并发性、定义全局数据完整性规则以及备份恢复数据库</li>
+</ul>
+<p>服务器</p>
+<ul>
+<li>永远处于激活状态</li>
+<li>监听用户请求</li>
+<li>为客户提供服务操作</li>
+</ul>
+<p>客户机程序的主要任务</p>
+<ul>
+<li>提供用户与数据库交互的界面</li>
+<li>向服务器提交用户请求</li>
+<li>接收来自服务器的信息以及对客户机数据执行业务逻辑操作</li>
+</ul>
+<p>网络通信软件</p>
+<ul>
+<li>主要功能是完成服务器程序和客户机程序之间的数据传输</li>
+</ul>
+<p>代理风格</p>
+<ul>
+<li>服务器将其服务和数据发布到代理服务器上，客户机通过代理服务器来访问服务，提高了系统的安全性</li>
+</ul>
+<p><img src="/posts/5a38b15663fa/image-20230505041409631.png" alt="image-20230505041409631"></p>
+<h3 id="优点-5"><a href="#优点-5" class="headerlink" title="优点"></a>优点</h3><ol>
+<li>客户机构件和服务器构件分别运行在不同的计算机上，有利于分布式数据的组织和处理</li>
+<li>构件之间的位置是相互透明的，客户机程序和服务器程序都不必考虑对方的实际存储位置</li>
+<li>客户机侧重数据的显示和分析，服务器则注重数据的管理，因此，客户机程序和服务器程序可以运行在不同的操作系统上，便于实现异构环境和多种不同开发技术的融合</li>
+<li>构件之间是彼此独立和充分隔离的，这使得软件环境和硬件环境的配置具有极大的灵活性，易于系统功能的扩展</li>
+<li>将大规模的业务逻辑分布到多个通过网络连接的低成本的计算机上，降低了系统的整体开销</li>
+</ol>
+<h3 id="存在的问题-3"><a href="#存在的问题-3" class="headerlink" title="存在的问题"></a>存在的问题</h3><ol>
+<li>开发成本较高，客户机的软件配置和硬件配置的要求比较高、多端适配要求多个开发组同时工作。</li>
+<li>客户机程序的复杂度，负荷太重，降低了系统性能</li>
+<li>信息内容和形式单一，在开发之初就已经确定</li>
+<li>客户端运行环境复杂多样，兼容困难</li>
+<li>客户端升级需要一定的技术保障，增加了维护难度</li>
+<li>早期C/S结构采用了单一的服务器，同时以局域网为中心，因此难以扩展到Intranet和Internet</li>
+<li>数据安全性不高，客户机程序可以直接访问数据库服务器，因此，客户机上的其它恶意性程序也有可能访问到数据库，无法保证中心数据库的安全</li>
+</ol>
+<h3 id="三层C-S体系结构"><a href="#三层C-S体系结构" class="headerlink" title="三层C/S体系结构"></a>三层C/S体系结构</h3><p>为了克服两层C/S结构的缺点，可以将客户机和服务器中的部分业务逻辑抽取出来，形成功能层，放在应用服务器上，这就是所谓的三层C/S体系结构</p>
+<p>三层C/S结构包括：</p>
+<ul>
+<li>客户机</li>
+<li>应用服务器</li>
+<li>数据库服务器</li>
+</ul>
+<p><img src="/posts/5a38b15663fa/image-20230505041719287.png" alt="image-20230505041719287"></p>
+<p>中间层，即功能层，配置在应用服务器上</p>
+<p>应用服务器</p>
+<ul>
+<li>负责处理客户机与数据库服务器之间的交互，而不是直接让客户机与中心数据库相连，因此减少了同数据库服务器相连的客户机的数目，提高了系统安全性</li>
+<li>由于将数据存取构件放在应用服务器上，客户机只存放系统的表示层，因此，客户机程序不必关心数据的操作细节，便于实现软件的安装与维护</li>
+</ul>
+<p>表示层</p>
+<ul>
+<li>是系统和用户之间的接口</li>
+<li>实现用户与系统之间的对话功能</li>
+<li>用于检查从键盘和鼠标等设备输入的数据，显示输出结果</li>
+</ul>
+<p>功能层</p>
+<ul>
+<li>负责处理所有的业务逻辑</li>
+</ul>
+<p>数据层</p>
+<ul>
+<li>数据库管理系统，负责读写数据</li>
+<li>数据库管理系统必须能够迅速地执行大量数据的更新和检索操作</li>
+</ul>
+<p>在开发三层C/S结构的应用系统时，需要对这三层的功能进行明确地划分，使之在逻辑上相互独立</p>
+<p>设计过程中的难点是：如何从两层C/S结构的表示层和数据层中分离各自的应用程序，同时使层次之间的接口简单明了</p>
+<p>在实现三层C/S体系结构时，通常可以采用<strong>中间件技术</strong></p>
+<ul>
+<li>中间件是一个用API定义的软件层，是一种具有强大通信能力和良好扩展能力的分布式软件管理框架</li>
+<li>在客户机和服务器以及服务器和服务器之间，使用中间件来传送数据，完成客户机群和服务器群之间的通信任务</li>
+</ul>
+<p>在配置三层C/S结构的系统时，通常有多种不同的选择方案</p>
+<ul>
+<li>将表示层放在客户机上，功能层和数据层都放在同一个服务器上，与两层C/S结构相比，虽然提高了程序的可维护性，但两层C/S结构的缺陷并未得到完全解决</li>
+</ul>
+<p><img src="/posts/5a38b15663fa/image-20230505042318806.png" alt="image-20230505042318806"></p>
+<h3 id="三层C-S体系结的优点"><a href="#三层C-S体系结的优点" class="headerlink" title="三层C/S体系结的优点"></a>三层C/S体系结的优点</h3><ul>
+<li>如果合理地划分三层结构的功能，可以使系统的逻辑结构更加清晰，提高了软件的可维护性和可扩充性</li>
+<li>在实现三层C/S结构时，可以更有效地选择运行平台和硬件环境，从而使每一层都具有清晰的逻辑结构、良好的负荷处理能力和较好的开放性，清晰和合理地划分三层C/S结构，使各层之间保持相互独立，可以降低每一层应用的修改难度</li>
+<li>在三层C/S结构中，可以分别选择合适的编程语言来并行地开发每一层的逻辑功能，以提高开发效率，同时，每一层的维护也更加容易</li>
+<li>系统具有较高的安全性，可以充分利用功能层来将数据层和表示层分隔开来，使未授权用户难以绕过功能层，无法利用数据库工具和黑客手段来非法访问数据层，从而保证了中心数据库的安全性，整个系统也更加便于控制，管理层次也更加合理</li>
+</ul>
+<h3 id="三层C-S体系结的存在的问题"><a href="#三层C-S体系结的存在的问题" class="headerlink" title="三层C/S体系结的存在的问题"></a>三层C/S体系结的存在的问题</h3><ul>
+<li>如果各层之间的通信效率不高，即使每一层的硬件配置都很高，系统的整体性能也不会太高</li>
+<li>必须慎重考虑三层之间的通信方法、通信频率和传输数据量，这和提高各层的独立性一样也是实现三层C/S结构的关键性问题</li>
+</ul>
+<h2 id="🍉浏览器-服务器体系结构风格"><a href="#🍉浏览器-服务器体系结构风格" class="headerlink" title="🍉浏览器/服务器体系结构风格"></a>🍉浏览器/服务器体系结构风格</h2><h3 id="定义-9"><a href="#定义-9" class="headerlink" title="定义"></a>定义</h3><p>浏览器/服务器(Browser/Server，B/S)</p>
+<ul>
+<li>是三层C/S体系结构的一种实现方式</li>
+<li>主要包括：浏览器、Web服务器和数据库服务器</li>
+</ul>
+<p>B/S结构：</p>
+<ul>
+<li>B = 浏览器+HTML+CSS+脚本语言</li>
+<li>S = Web服务器+数据库等</li>
+</ul>
+<p>核心：Web服务器</p>
+<p><img src="/posts/5a38b15663fa/image-20230505042633205.png" alt="image-20230505042633205"></p>
+<ol>
+<li>用户在浏览器中键入相应的URL</li>
+<li>浏览器向Web服务器提出HTTP请求</li>
+<li>Web服务器调用相关的应用程序</li>
+<li>Web服务器返回HTML格式的结果</li>
+<li>浏览器渲染HTML呈现给用户</li>
+</ol>
+<p><img src="/posts/5a38b15663fa/image-20230505042715399.png" alt="image-20230505042715399"></p>
+<h3 id="特点"><a href="#特点" class="headerlink" title="特点"></a>特点</h3><ol>
+<li>主要功能由Web服务器来完成（数据请求、网页生成、数据库访问）</li>
+<li>系统的安装、修改和维护都在Web服务器和数据库服务器上进行</li>
+<li>客户端：仅使用一个浏览器</li>
+<li>B/S结构有利于异构机、异构网和异构应用服务的集成</li>
+</ol>
+<h3 id="优点-6"><a href="#优点-6" class="headerlink" title="优点"></a>优点</h3><ol>
+<li>客户端只需要浏览器</li>
+<li>标准统一（HTTP标准协议）跨平台通信容易</li>
+<li>同步更新便捷</li>
+</ol>
+<h3 id="存在的问题-4"><a href="#存在的问题-4" class="headerlink" title="存在的问题"></a>存在的问题</h3><ol>
+<li>个性化程度比较低</li>
+<li>客户端兼容性问题较大</li>
+<li>服务器端性能问题较大</li>
+<li>可扩展性比较差（受限于浏览器）</li>
+<li>系统安全性难以保障</li>
+<li>速度要远低于C/S体系结构</li>
+</ol>
+<h2 id="🍉公共对象请求代理体系结构风格"><a href="#🍉公共对象请求代理体系结构风格" class="headerlink" title="🍉公共对象请求代理体系结构风格"></a>🍉公共对象请求代理体系结构风格</h2><h3 id="定义-10"><a href="#定义-10" class="headerlink" title="定义"></a>定义</h3><p>CORBA ：Common Object Request Broker Architecture</p>
+<p>OMG对象管理组织（Object Management Group）</p>
+<p>在异构分布式环境下，可以利用CORBA来实现应用程序之间的交互操作</p>
+<p><img src="/posts/5a38b15663fa/image-20230505043020206.png" alt="image-20230505043020206"></p>
+<p>CORBA规范主要包括：</p>
+<ul>
+<li>对象请求代理ORB</li>
+<li>对象适配器(Object Adapter，OA)</li>
+<li>接口定义语言IDL ( Interface description language )</li>
+<li>接口存储(Interface Repository，IR)</li>
+<li>ORB内部的相关协议</li>
+</ul>
+<p>CORBA体系结构的核心是ORB</p>
+<ul>
+<li>Object Request Broker</li>
+<li>ORB作为“软件总线”用来连接网络上的不同应用对象</li>
+</ul>
+<p>ORB的任务是定位服务器，通过对象适配器OA将操作请求传送给相应的服务器</p>
+<p>OA（Object Adapter）</p>
+<ul>
+<li>位于ORB和对象之间</li>
+<li>屏蔽ORB内部的实现细节</li>
+<li>为服务器对象提供了抽象接口</li>
+<li>其功能包括：登录服务器、注册对象、创建对象、激活对象、分发客户请求和认证客户请求</li>
+</ul>
+<p>CORBA提供了透明访问对象的相关方法</p>
+<ul>
+<li>能够屏蔽实现方式、对象状态、通信机制和开发技术之间的差异</li>
+</ul>
+<p><img src="/posts/5a38b15663fa/image-20230505043059651.png" alt="image-20230505043059651"></p>
+<p>Internet ORB内部协议(Internet Inter-ORB Protocol，IIOP)</p>
+<ul>
+<li>ORB的内部协议</li>
+<li>用以描述IDL类型的在线表示方法和协议数据单元</li>
+<li>负责实现传输：IIOP使用TCP/IP来传输ORB之间的操作请求和相关参数</li>
+</ul>
+<p>接口存储(Interface Repository，IR)</p>
+<ul>
+<li>IR包含了运行时所需要的IDL规范</li>
+<li>定义了基本类型映射机制</li>
+</ul>
+<p>Implementation Repository</p>
+<ul>
+<li>IMR存储服务器的详细信息</li>
+</ul>
+<h3 id="动态工作方式"><a href="#动态工作方式" class="headerlink" title="动态工作方式"></a>动态工作方式</h3><p>客户端：动态调用接口</p>
+<ul>
+<li>(Dynamic Invocation Interface，DII)</li>
+<li>客户端用来发送操作请求，提供了动态调用方法</li>
+<li>以API的形式出现</li>
+</ul>
+<p>服务器端：动态框架接口</p>
+<ul>
+<li>Dynamic Skeleton Interface，DSI)</li>
+<li>用来传输操作请求，提供了动态实现方法</li>
+</ul>
+<h3 id="静态工作方式"><a href="#静态工作方式" class="headerlink" title="静态工作方式"></a>静态工作方式</h3><p>接口定义语言</p>
+<ul>
+<li>(Interface Definition Language，IDL)</li>
+<li>用来定义客户端和服务器之间的静态接口</li>
+<li>IDL不是编程语言</li>
+<li>CORBA规范的一种中性定义语言，描述对象接口</li>
+</ul>
+<p>客户端与ORB之间的静态接口</p>
+<ul>
+<li>静态调用接口</li>
+<li>(Static Invocation Interface，SII)</li>
+</ul>
+<p>服务器与ORB之间的静态接口</p>
+<ul>
+<li>静态框架接口</li>
+<li>(Static Skeleton Interface，SSI)</li>
+</ul>
+<h3 id="优点-7"><a href="#优点-7" class="headerlink" title="优点"></a>优点</h3><ul>
+<li>实现了客户端程序与服务器程序的分离，客户不再直接与服务器发生联系，而仅需要和ORB进行通信，客户端和服务器之间的关系更加灵活</li>
+<li>将分布式计算模式与面向对象技术结合起来，提高了软件复用效率</li>
+<li>提供了软件总线机制<ul>
+<li>软件总线是指一组定义完整的接口规范，应用程序、软件构件和相关工具只要具有与接口规范相符的接口定义，就能集成到应用系统中，这个接口规范是独立于编程语言和开发环境的</li>
+</ul>
+</li>
+<li>CORBA能够支持异构系统<ul>
+<li>支持不同的编程语言和操作系统，在更大的范围内，开发人员能够相互利用已有的开发成果</li>
+</ul>
+</li>
+</ul>
+<h2 id="🥑-正交体系结构风格"><a href="#🥑-正交体系结构风格" class="headerlink" title="🥑 正交体系结构风格"></a>🥑 正交体系结构风格</h2><h3 id="定义-11"><a href="#定义-11" class="headerlink" title="定义"></a>定义</h3><p>线性代数的概念，是垂直这一直观概念的推广</p>
+<p>线性代数中：内积为0的两个或多个向量<br>物理中：力的正交分解<br>分子生物学：互相独立的元件称为互相正交的</p>
+<p>正交：表示某种不相依赖性或是解耦性</p>
+<p><img src="/posts/5a38b15663fa/image-20230505043628150.png" alt="image-20230505043628150"></p>
+<h3 id="优点-8"><a href="#优点-8" class="headerlink" title="优点"></a>优点</h3><ul>
+<li>结构清晰，线索与线索之间是独立的，不进行相互调用，构件的位置可以清楚地说明它所实现的抽象层次和担负的功能</li>
+<li>便于修改和维护，因为线索之间是相互独立的，因此，某一条线索的修改不会影响到其它线索，当需求发生变动时，可以将新需求分解为独立的子需求，然后使用线索和构件来实现每一个子需求</li>
+<li>易于重用，在同一应用领域中，不同软件系统往往具有相同的层次和线索，因此，可以共享同一个框架结构</li>
+</ul>
+<h2 id="🍉基于层次消息总线的体系结构风格"><a href="#🍉基于层次消息总线的体系结构风格" class="headerlink" title="🍉基于层次消息总线的体系结构风格"></a>🍉基于层次消息总线的体系结构风格</h2><p>在HMB体系结构中，主要包括构件和消息总线两种软件元素</p>
+<p><img src="/posts/5a38b15663fa/image-20230505043730681.png" alt="image-20230505043730681"></p>
+<p>消息总线</p>
+<ul>
+<li>系统的连接件，负责消息的分派、传递和过滤，并返回处理结果</li>
+<li>可以支持构件的分布式存储和并发运行</li>
+<li>构件挂接在消息总线上，向总线登记自己所感兴趣的消息类型</li>
+</ul>
+<p>层次</p>
+<ul>
+<li>叶结点是原子构件，不再包含子构件可以采用不同的软件体系结构风格</li>
+<li>复杂构件通过局部消息总线进行分解，从而形成复合构件</li>
+<li>系统将形成树状的拓扑结构</li>
+</ul>
+<p><img src="/posts/5a38b15663fa/image-20230505043851317.png" alt="image-20230505043851317"></p>
+<p>HMB构件主要包括接口、行为和结构</p>
+<ul>
+<li>接口：<ul>
+<li>定义了构件与外界之间交互的信息和承担的责任，HMB构件的接口是一种基于消息的互连接口</li>
+</ul>
+</li>
+<li>行为：<ul>
+<li>使用有限状态自动机来描述构件的功能</li>
+</ul>
+</li>
+<li>构件行为要同时受到外来消息和自身状态的影响</li>
+<li>结构：<ul>
+<li>消息总线连接构件；</li>
+<li>复合构件由简单的子构件组合</li>
+</ul>
+</li>
+</ul>
+<p>构件可以生产消息</p>
+<p>构件可以消费消息</p>
+<p><img src="/posts/5a38b15663fa/image-20230505043900569.png" alt="image-20230505043900569"></p>
+<p>消息总线：</p>
+<ul>
+<li>在HMB体系结构中，消息总线是连接件</li>
+<li>消费者构件向消息总线登记自己感兴趣的消息，形成构件—消息响应登记表</li>
+<li>消息总线接收到的消息查阅构件—消息响应登记表确定能够响应该消息的构件将消息传递给消费者构件返回处理结果给生产者</li>
+<li>逻辑上，消息总线是一个整体</li>
+<li>物理上，可以分布在多个不同的机器</li>
+</ul>
+<p><img src="/posts/5a38b15663fa/image-20230505044035662.png" alt="image-20230505044035662"></p>
+<p>消息登记：</p>
+<ul>
+<li>消费者构件需要向消息总线登记自己所感兴趣的消息</li>
+<li>不关心消息生产者是哪个构件</li>
+</ul>
+<p>消息分派和传递：</p>
+<ul>
+<li>消息总线接收消息</li>
+<li>根据构件—消息响应登记表把消息分派给对其感兴趣的构件</li>
+<li>返回处理结果</li>
+</ul>
+<p>消息过滤：</p>
+<ul>
+<li>在不同的构件中，同一消息可能使用了不同的名字，不同的消息也可能使用了相同的名字，在构件集成时，需要对消息进行过滤</li>
+</ul>
+<h3 id="优点-9"><a href="#优点-9" class="headerlink" title="优点"></a>优点</h3><ul>
+<li>HMB体系结构风格支持运行时系统演化<ul>
+<li>动态增加和删除构件：<ul>
+<li>保持接口不变就可以方便地实施构件替换</li>
+</ul>
+</li>
+<li>动态改变构件所响应的消息<ul>
+<li>构件可以动态地改变自己所提供的服务</li>
+</ul>
+</li>
+<li>消息过滤<ul>
+<li>可以解决构件集成中的不匹配问题</li>
+<li>可以阻塞构件对某些消息的响应</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="🍉-MVC体系结构风格"><a href="#🍉-MVC体系结构风格" class="headerlink" title="🍉 MVC体系结构风格"></a>🍉 MVC体系结构风格</h2><p>在开发具有人机界面的软件系统时，比较适合使用模型-视图-控制器体系结构</p>
+<p>在MVC结构中，主要包括模型、视图和控制器：</p>
+<ul>
+<li>模型：是应用程序的核心，封装了问题的核心数据、逻辑关系和计算功能，提供了处理问题的操作过程</li>
+<li>视图：是模型的表示，提供了交互界面，显示模型信息</li>
+<li>控制器：负责处理用户与系统之间的交互</li>
+</ul>
+<p><img src="/posts/5a38b15663fa/image-20230505044240079.png" alt="image-20230505044240079"></p>
+<p><img src="/posts/5a38b15663fa/image-20230505044249045.png" alt="image-20230505044249045"></p>
+<h3 id="优点-10"><a href="#优点-10" class="headerlink" title="优点"></a>优点</h3><ul>
+<li>多个视图与一个模型相对应，变化-传播机制确保了所有相关视图都能够及时地获取模型变化信息，从而使所有视图和控制器同步，便于维护</li>
+<li>具有良好的移植性：由于模型独立于视图，因此，可以方便地实现不同部分的移植</li>
+<li>系统被分割为三个独立的部分，当功能发生变化时，改变其中的一个部分就能够满足要求</li>
+</ul>
+<h3 id="存在的问题-5"><a href="#存在的问题-5" class="headerlink" title="存在的问题"></a>存在的问题</h3><ul>
+<li>增加了系统设计和运行复杂性</li>
+<li>视图与控制器连接过于紧密，妨碍了二者的独立重用</li>
+<li>视图访问模型的效率比较低</li>
+</ul>
+<h2 id="🍉-异构体系结构集成"><a href="#🍉-异构体系结构集成" class="headerlink" title="🍉 异构体系结构集成"></a>🍉 异构体系结构集成</h2><h3 id="原因"><a href="#原因" class="headerlink" title="原因"></a>原因</h3><ul>
+<li>不同体系结构风格有各自的优点和缺陷，应该根据具体情况来选择系统的框架结构，以解决实际问题</li>
+<li>关于框架、通信和体系结构问题，目前，存在着多种不同的标准，在某一段时间内，一种标准占据了统治地位，但其变动最终是绝对的</li>
+<li>在实际工作中，总会遇到一些遗留下来的代码，它们仍然有用，但是与新系统的框架结构不一致，出于技术与经济因素的考虑，决定不再重写</li>
+<li>在某一单位中，规定了共享软件包和某些标准，但仍会存在解释和表示习惯上的不同，选择异构体系结构风格，可以解决这一问题</li>
+</ul>
+<h3 id="方式"><a href="#方式" class="headerlink" title="方式"></a>方式</h3><ul>
+<li>空间异构。允许构件使用不同的连接件，不同子系统采用了不同的体系结构</li>
+<li>分层异构。软件元素按层次结构进行组织，每一层使用了不同的体系结构</li>
+</ul>
+<h3 id="“内外有别”模型："><a href="#“内外有别”模型：" class="headerlink" title="“内外有别”模型："></a>“内外有别”模型：</h3><ul>
+<li>在企业内部使用C/S结构，内部用户可以通过局域网直接访问数据库服务器</li>
+<li>在企业外部使用B/S结构，外部用户通过Internet访问Web服务器，Web服务器再访问数据库服务器，</li>
+</ul>
+<p><img src="/posts/5a38b15663fa/image-20230505044503329.png" alt="image-20230505044503329"></p>
+<h4 id="“内外有别”模型的优点"><a href="#“内外有别”模型的优点" class="headerlink" title="“内外有别”模型的优点"></a>“内外有别”模型的优点</h4><ul>
+<li>企业外部用户无法直接访问数据库服务器，能够保证企业数据库的安全</li>
+<li>企业内部用户的交互操作比较多，采用C/S结构能够提高查询和修改的响应速度</li>
+</ul>
+<h4 id="“内外有别”模型的缺点："><a href="#“内外有别”模型的缺点：" class="headerlink" title="“内外有别”模型的缺点："></a>“内外有别”模型的缺点：</h4><ul>
+<li>对于企业外部用户而言，采用了B/S结构，在修改和维护数据时，需要经过Web服务器，因此响应速度比较慢，数据动态交互性不强</li>
+</ul>
+<h3 id="“查改有别”模型："><a href="#“查改有别”模型：" class="headerlink" title="“查改有别”模型："></a>“查改有别”模型：</h3><ul>
+<li>不管用户采用何种方式与系统互联，如果需要执行维护和修改操作，就采用C/S结构</li>
+<li><p>如果只是执行查询和浏览操作，则采用B/S结构</p>
+<p>“查改有别”模型体现了B/S结构和C/S结构的共同优点</p>
+<p>外部用户能够直接通过Internet访问服务器，给企业信息安全造成了一定的威胁</p>
+</li>
+</ul>
+<p><img src="/posts/5a38b15663fa/image-20230505044646927.png" alt="image-20230505044646927"></p>
+<h3 id="基于HMB的异构体系结构"><a href="#基于HMB的异构体系结构" class="headerlink" title="基于HMB的异构体系结构"></a>基于HMB的异构体系结构</h3><p>整体框架采用HMB，各个复合构件分别采用HMB结构、管道/过滤器结构和数据共享结构</p>
+<p><img src="/posts/5a38b15663fa/image-20230505044716909.png" alt="image-20230505044716909"></p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:undefined" rel="external nofollow noreferrer">Gallifrey</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://gallifrey.asia/posts/5a38b15663fa/">https://gallifrey.asia/posts/5a38b15663fa/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="external nofollow noreferrer" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://gallifrey.asia" target="_blank">Gallifrey的计算机学习日记</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"></div><div class="post_share"><div class="social-share" data-image="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js" defer></script></div></div><div class="post-reward"><div class="reward-button"><i class="fas fa-qrcode"></i> 打赏</div><div class="reward-main"><ul class="reward-all"><li class="reward-item"><a href="/images/wechatreward.webp" target="_blank"><img class="post-qr-code-img" src="/images/wechatreward.webp" alt="wechat"/></a><div class="post-qr-code-desc">wechat</div></li><li class="reward-item"><a href="/images/alipay.webp" target="_blank"><img class="post-qr-code-img" src="/images/alipay.webp" alt="alipay"/></a><div class="post-qr-code-desc">alipay</div></li></ul></div></div><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div id="twikoo-wrap"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/images/shizi.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">Gallifrey</div><div class="author-info__description"></div></div><div class="card-info-data is-center"><div class="card-info-data-item"><a href="/archives/"><div class="headline">文章</div><div class="length-num">72</div></a></div><div class="card-info-data-item"><a href="/tags/"><div class="headline">标签</div><div class="length-num">36</div></a></div><div class="card-info-data-item"><a href="/categories/"><div class="headline">分类</div><div class="length-num">28</div></a></div></div><a id="card-info-btn" target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/gallifreyCar"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/gallifreyCar" rel="external nofollow noreferrer" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="mailto:956465331@qq.com" rel="external nofollow noreferrer" target="_blank" title="Email"><i class="fas fa-envelope"></i></a><a class="social-icon" href="/images/wechat.webp" target="_blank" title="Wechat"><i class="fa-brands fa-weixin"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">该站点还在修建中ing...</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%F0%9F%93%99%E9%A3%9F%E7%94%A8%E8%AF%B4%E6%98%8E"><span class="toc-number">1.</span> <span class="toc-text">📙食用说明</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%F0%9F%8D%8C%E8%BD%AF%E4%BB%B6%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84%E9%A3%8E%E6%A0%BC%E6%A6%82%E8%BF%B0"><span class="toc-number">2.</span> <span class="toc-text">🍌软件体系结构风格概述</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%F0%9F%8D%89-%E5%B8%B8%E7%94%A8%E7%9A%84%E8%BD%AF%E4%BB%B6%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84%E9%A3%8E%E6%A0%BC"><span class="toc-number">3.</span> <span class="toc-text">🍉 常用的软件体系结构风格</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%95%B0%E6%8D%AE%E6%B5%81%E9%A3%8E%E6%A0%BC"><span class="toc-number">3.1.</span> <span class="toc-text">数据流风格</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%B0%83%E7%94%A8-%E8%BF%94%E5%9B%9E%E9%A3%8E%E6%A0%BC"><span class="toc-number">3.2.</span> <span class="toc-text">调用&#x2F;返回风格</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E9%A3%8E%E6%A0%BC"><span class="toc-number">3.3.</span> <span class="toc-text">面向对象风格</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%8B%AC%E7%AB%8B%E9%83%A8%E4%BB%B6%E9%A3%8E%E6%A0%BC"><span class="toc-number">3.4.</span> <span class="toc-text">独立部件风格</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%99%9A%E6%8B%9F%E6%9C%BA%E9%A3%8E%E6%A0%BC"><span class="toc-number">3.5.</span> <span class="toc-text">虚拟机风格</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%95%B0%E6%8D%AE%E5%85%B1%E4%BA%AB%E9%A3%8E%E6%A0%BC"><span class="toc-number">3.6.</span> <span class="toc-text">数据共享风格</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%F0%9F%8D%89-%E7%AE%A1%E9%81%93-%E8%BF%87%E6%BB%A4%E5%99%A8%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84%E9%A3%8E%E6%A0%BC"><span class="toc-number">4.</span> <span class="toc-text">🍉 管道&#x2F;过滤器体系结构风格</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%9A%E4%B9%89"><span class="toc-number">4.1.</span> <span class="toc-text">定义</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%A4%BA%E4%BE%8B%EF%BC%9A%E7%AE%A1%E9%81%93-%E8%BF%87%E6%BB%A4%E5%99%A8-%E7%9C%9F"><span class="toc-number">4.2.</span> <span class="toc-text">示例：管道&#x2F;过滤器  . 真</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Web%E8%AF%B7%E6%B1%82%E4%B8%AD%E7%9A%84%E8%BF%87%E6%BB%A4%E5%99%A8"><span class="toc-number">4.3.</span> <span class="toc-text">Web请求中的过滤器</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%B8%B8%E8%A7%81%E7%9A%84%E8%BF%87%E6%BB%A4%E5%99%A8"><span class="toc-number">4.4.</span> <span class="toc-text">常见的过滤器</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%93%BE%E5%BC%8F%E8%B0%83%E7%94%A8%E8%AF%AD%E6%B3%95%E7%B3%96"><span class="toc-number">4.5.</span> <span class="toc-text">链式调用语法糖</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%AE%A1%E9%81%93-%E8%BF%87%E6%BB%A4%E5%99%A8%E2%80%94%E2%80%94%E7%BC%96%E8%AF%91%E5%99%A8"><span class="toc-number">4.6.</span> <span class="toc-text">管道&#x2F;过滤器——编译器</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%AE%A1%E9%81%93-%E8%BF%87%E6%BB%A4%E5%99%A8%E7%BB%93%E6%9E%84"><span class="toc-number">4.7.</span> <span class="toc-text">管道&#x2F;过滤器结构</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BC%98%E7%82%B9"><span class="toc-number">4.8.</span> <span class="toc-text">优点</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AD%98%E5%9C%A8%E7%9A%84%E9%97%AE%E9%A2%98"><span class="toc-number">4.9.</span> <span class="toc-text">存在的问题</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%F0%9F%8D%89%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84%E9%A3%8E%E6%A0%BC"><span class="toc-number">5.</span> <span class="toc-text">🍉面向对象体系结构风格</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%9A%E4%B9%89-1"><span class="toc-number">5.1.</span> <span class="toc-text">定义</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BC%98%E7%82%B9-1"><span class="toc-number">5.2.</span> <span class="toc-text">优点</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%F0%9F%8D%89%E4%BA%8B%E4%BB%B6%E9%A9%B1%E5%8A%A8%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84%E9%A3%8E%E6%A0%BC"><span class="toc-number">6.</span> <span class="toc-text">🍉事件驱动体系结构风格</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%9A%E4%B9%89-2"><span class="toc-number">6.1.</span> <span class="toc-text">定义</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%A4%BA%E4%BE%8B"><span class="toc-number">6.2.</span> <span class="toc-text">示例</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#IM%E8%81%8A%E5%A4%A9%E8%BD%AF%E4%BB%B6%E4%B8%AD%E7%9A%84%E4%BA%8B%E4%BB%B6"><span class="toc-number">6.3.</span> <span class="toc-text">IM聊天软件中的事件</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8F%91%E5%B8%83-%E8%AE%A2%E9%98%85%E6%A8%A1%E5%9E%8B"><span class="toc-number">6.4.</span> <span class="toc-text">发布&#x2F;订阅模型</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%82%B9%E5%AF%B9%E7%82%B9%E6%A8%A1%E5%9E%8B"><span class="toc-number">6.5.</span> <span class="toc-text">点对点模型</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AD%98%E5%82%A8-%E5%88%86%E5%8F%91%E6%A8%A1%E5%9E%8B"><span class="toc-number">6.6.</span> <span class="toc-text">存储&#x2F;分发模型</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%AF%B7%E6%B1%82-%E5%93%8D%E5%BA%94%E6%A8%A1%E5%9E%8B"><span class="toc-number">6.7.</span> <span class="toc-text">请求&#x2F;响应模型</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BC%98%E7%82%B9-2"><span class="toc-number">6.8.</span> <span class="toc-text">优点</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AD%98%E5%9C%A8%E7%9A%84%E9%97%AE%E9%A2%98-1"><span class="toc-number">6.9.</span> <span class="toc-text">存在的问题</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%F0%9F%8D%89%E5%88%86%E5%B1%82%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84%E9%A3%8E%E6%A0%BC"><span class="toc-number">7.</span> <span class="toc-text">🍉分层体系结构风格</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%9A%E4%B9%89-3"><span class="toc-number">7.1.</span> <span class="toc-text">定义</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%B8%B8%E8%A7%81%E5%88%86%E5%B1%82%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84"><span class="toc-number">7.2.</span> <span class="toc-text">常见分层体系结构</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#IBM%E5%AE%9A%E4%B9%89%E7%9A%84%E4%B8%89%E5%B1%82Web%E5%BA%94%E7%94%A8%E6%9E%B6%E6%9E%84"><span class="toc-number">7.3.</span> <span class="toc-text">IBM定义的三层Web应用架构</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%89%E5%8D%93%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84"><span class="toc-number">7.4.</span> <span class="toc-text">安卓操作系统体系结构</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BD%91%E7%BB%9C%E5%8D%8F%E8%AE%AE"><span class="toc-number">7.5.</span> <span class="toc-text">网络协议</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BC%98%E7%82%B9-3"><span class="toc-number">7.6.</span> <span class="toc-text">优点</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AD%98%E5%9C%A8%E7%9A%84%E9%97%AE%E9%A2%98-2"><span class="toc-number">7.7.</span> <span class="toc-text">存在的问题</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%F0%9F%A5%91C2%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84%E9%A3%8E%E6%A0%BC"><span class="toc-number">8.</span> <span class="toc-text">🥑C2体系结构风格</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%9A%E4%B9%89-4"><span class="toc-number">8.1.</span> <span class="toc-text">定义</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%F0%9F%8D%89%E6%95%B0%E6%8D%AE%E5%85%B1%E4%BA%AB%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84%E9%A3%8E%E6%A0%BC"><span class="toc-number">9.</span> <span class="toc-text">🍉数据共享体系结构风格</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%9A%E4%B9%89-5"><span class="toc-number">9.1.</span> <span class="toc-text">定义</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%A4%BA%E4%BE%8B-1"><span class="toc-number">9.2.</span> <span class="toc-text">示例</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%F0%9F%8D%89%E8%A7%A3%E9%87%8A%E5%99%A8%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84%E9%A3%8E%E6%A0%BC"><span class="toc-number">10.</span> <span class="toc-text">🍉解释器体系结构风格</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%9A%E4%B9%89-6"><span class="toc-number">10.1.</span> <span class="toc-text">定义</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%A4%BA%E4%BE%8B-2"><span class="toc-number">10.2.</span> <span class="toc-text">示例</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BC%98%E7%82%B9-4"><span class="toc-number">10.3.</span> <span class="toc-text">优点</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%F0%9F%8D%89-%E5%8F%8D%E9%A6%88%E6%8E%A7%E5%88%B6%E7%8E%AF%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84%E9%A3%8E%E6%A0%BC"><span class="toc-number">11.</span> <span class="toc-text">🍉 反馈控制环体系结构风格</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%9A%E4%B9%89-7"><span class="toc-number">11.1.</span> <span class="toc-text">定义</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%A4%BA%E4%BE%8B-3"><span class="toc-number">11.2.</span> <span class="toc-text">示例</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%F0%9F%8D%89%E5%AE%A2%E6%88%B7%E6%9C%BA-%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84%E9%A3%8E%E6%A0%BC"><span class="toc-number">12.</span> <span class="toc-text">🍉客户机&#x2F;服务器体系结构风格</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%9A%E4%B9%89-8"><span class="toc-number">12.1.</span> <span class="toc-text">定义</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BC%98%E7%82%B9-5"><span class="toc-number">12.2.</span> <span class="toc-text">优点</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AD%98%E5%9C%A8%E7%9A%84%E9%97%AE%E9%A2%98-3"><span class="toc-number">12.3.</span> <span class="toc-text">存在的问题</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%89%E5%B1%82C-S%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84"><span class="toc-number">12.4.</span> <span class="toc-text">三层C&#x2F;S体系结构</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%89%E5%B1%82C-S%E4%BD%93%E7%B3%BB%E7%BB%93%E7%9A%84%E4%BC%98%E7%82%B9"><span class="toc-number">12.5.</span> <span class="toc-text">三层C&#x2F;S体系结的优点</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%89%E5%B1%82C-S%E4%BD%93%E7%B3%BB%E7%BB%93%E7%9A%84%E5%AD%98%E5%9C%A8%E7%9A%84%E9%97%AE%E9%A2%98"><span class="toc-number">12.6.</span> <span class="toc-text">三层C&#x2F;S体系结的存在的问题</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%F0%9F%8D%89%E6%B5%8F%E8%A7%88%E5%99%A8-%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84%E9%A3%8E%E6%A0%BC"><span class="toc-number">13.</span> <span class="toc-text">🍉浏览器&#x2F;服务器体系结构风格</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%9A%E4%B9%89-9"><span class="toc-number">13.1.</span> <span class="toc-text">定义</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%89%B9%E7%82%B9"><span class="toc-number">13.2.</span> <span class="toc-text">特点</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BC%98%E7%82%B9-6"><span class="toc-number">13.3.</span> <span class="toc-text">优点</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AD%98%E5%9C%A8%E7%9A%84%E9%97%AE%E9%A2%98-4"><span class="toc-number">13.4.</span> <span class="toc-text">存在的问题</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%F0%9F%8D%89%E5%85%AC%E5%85%B1%E5%AF%B9%E8%B1%A1%E8%AF%B7%E6%B1%82%E4%BB%A3%E7%90%86%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84%E9%A3%8E%E6%A0%BC"><span class="toc-number">14.</span> <span class="toc-text">🍉公共对象请求代理体系结构风格</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%9A%E4%B9%89-10"><span class="toc-number">14.1.</span> <span class="toc-text">定义</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8A%A8%E6%80%81%E5%B7%A5%E4%BD%9C%E6%96%B9%E5%BC%8F"><span class="toc-number">14.2.</span> <span class="toc-text">动态工作方式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%9D%99%E6%80%81%E5%B7%A5%E4%BD%9C%E6%96%B9%E5%BC%8F"><span class="toc-number">14.3.</span> <span class="toc-text">静态工作方式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BC%98%E7%82%B9-7"><span class="toc-number">14.4.</span> <span class="toc-text">优点</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%F0%9F%A5%91-%E6%AD%A3%E4%BA%A4%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84%E9%A3%8E%E6%A0%BC"><span class="toc-number">15.</span> <span class="toc-text">🥑 正交体系结构风格</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%9A%E4%B9%89-11"><span class="toc-number">15.1.</span> <span class="toc-text">定义</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BC%98%E7%82%B9-8"><span class="toc-number">15.2.</span> <span class="toc-text">优点</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%F0%9F%8D%89%E5%9F%BA%E4%BA%8E%E5%B1%82%E6%AC%A1%E6%B6%88%E6%81%AF%E6%80%BB%E7%BA%BF%E7%9A%84%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84%E9%A3%8E%E6%A0%BC"><span class="toc-number">16.</span> <span class="toc-text">🍉基于层次消息总线的体系结构风格</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BC%98%E7%82%B9-9"><span class="toc-number">16.1.</span> <span class="toc-text">优点</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%F0%9F%8D%89-MVC%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84%E9%A3%8E%E6%A0%BC"><span class="toc-number">17.</span> <span class="toc-text">🍉 MVC体系结构风格</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BC%98%E7%82%B9-10"><span class="toc-number">17.1.</span> <span class="toc-text">优点</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AD%98%E5%9C%A8%E7%9A%84%E9%97%AE%E9%A2%98-5"><span class="toc-number">17.2.</span> <span class="toc-text">存在的问题</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%F0%9F%8D%89-%E5%BC%82%E6%9E%84%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84%E9%9B%86%E6%88%90"><span class="toc-number">18.</span> <span class="toc-text">🍉 异构体系结构集成</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8E%9F%E5%9B%A0"><span class="toc-number">18.1.</span> <span class="toc-text">原因</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%96%B9%E5%BC%8F"><span class="toc-number">18.2.</span> <span class="toc-text">方式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E2%80%9C%E5%86%85%E5%A4%96%E6%9C%89%E5%88%AB%E2%80%9D%E6%A8%A1%E5%9E%8B%EF%BC%9A"><span class="toc-number">18.3.</span> <span class="toc-text">“内外有别”模型：</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E2%80%9C%E5%86%85%E5%A4%96%E6%9C%89%E5%88%AB%E2%80%9D%E6%A8%A1%E5%9E%8B%E7%9A%84%E4%BC%98%E7%82%B9"><span class="toc-number">18.3.1.</span> <span class="toc-text">“内外有别”模型的优点</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E2%80%9C%E5%86%85%E5%A4%96%E6%9C%89%E5%88%AB%E2%80%9D%E6%A8%A1%E5%9E%8B%E7%9A%84%E7%BC%BA%E7%82%B9%EF%BC%9A"><span class="toc-number">18.3.2.</span> <span class="toc-text">“内外有别”模型的缺点：</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E2%80%9C%E6%9F%A5%E6%94%B9%E6%9C%89%E5%88%AB%E2%80%9D%E6%A8%A1%E5%9E%8B%EF%BC%9A"><span class="toc-number">18.4.</span> <span class="toc-text">“查改有别”模型：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%9F%BA%E4%BA%8EHMB%E7%9A%84%E5%BC%82%E6%9E%84%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84"><span class="toc-number">18.5.</span> <span class="toc-text">基于HMB的异构体系结构</span></a></li></ol></li></ol></div></div></div></div></main><footer id="footer"><div id="footer-wrap"></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div id="algolia-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">Algolia</span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="search-wrap"><div id="algolia-search-input"></div><hr/><div id="algolia-search-results"><div id="algolia-hits"></div><div id="algolia-pagination"></div><div id="algolia-stats"></div></div></div></div><div id="search-mask"></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script><script src="https://cdn.jsdelivr.net/npm/algoliasearch@4/dist/algoliasearch-lite.umd.js"></script><script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4/dist/instantsearch.production.min.js"></script><script src="/js/search/algolia.js"></script><script>var preloader = {
   endLoading: () => {
     document.body.style.overflow = 'auto';
     document.getElementById('loading-box').classList.add("loaded")
