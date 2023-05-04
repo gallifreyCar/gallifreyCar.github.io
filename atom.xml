@@ -18,8 +18,8 @@
   
   <entry>
     <title>淘宝千万级别的十四次演进</title>
-    <link href="https://gallifrey.asia/posts/384a17593e9a/"/>
-    <id>https://gallifrey.asia/posts/384a17593e9a/</id>
+    <link href="https://gallifrey.asia/posts/854aa96a9cbd/"/>
+    <id>https://gallifrey.asia/posts/854aa96a9cbd/</id>
     <published>2023-05-04T16:33:25.000Z</published>
     <updated>2023-05-04T16:33:25.000Z</updated>
     
@@ -34,30 +34,15 @@
     
     
     
-    <category term="软件架构与设计模式" scheme="https://gallifrey.asia/categories/%E8%BD%AF%E4%BB%B6%E6%9E%B6%E6%9E%84%E4%B8%8E%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    <category term="软件体系架构" scheme="https://gallifrey.asia/categories/%E8%BD%AF%E4%BB%B6%E4%BD%93%E7%B3%BB%E6%9E%B6%E6%9E%84/"/>
     
     
   </entry>
   
   <entry>
-    <title>软件体系结构与设计模式期末复习4</title>
-    <link href="https://gallifrey.asia/posts/22bcb0cf9f9f/"/>
-    <id>https://gallifrey.asia/posts/22bcb0cf9f9f/</id>
-    <published>2023-05-04T16:02:10.000Z</published>
-    <updated>2023-05-04T16:02:10.000Z</updated>
-    
-    
-    
-    
-    <category term="软件架构与设计模式" scheme="https://gallifrey.asia/categories/%E8%BD%AF%E4%BB%B6%E6%9E%B6%E6%9E%84%E4%B8%8E%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>软件体系结构与设计模式期末复习——软件体系结构风格</title>
-    <link href="https://gallifrey.asia/posts/5a38b15663fa/"/>
-    <id>https://gallifrey.asia/posts/5a38b15663fa/</id>
+    <title>软件体系结构期末复习——软件体系结构风格</title>
+    <link href="https://gallifrey.asia/posts/60aed6505b2c/"/>
+    <id>https://gallifrey.asia/posts/60aed6505b2c/</id>
     <published>2023-05-04T16:02:03.000Z</published>
     <updated>2023-05-04T16:02:03.000Z</updated>
     
@@ -72,15 +57,15 @@
     
     
     
-    <category term="软件架构与设计模式" scheme="https://gallifrey.asia/categories/%E8%BD%AF%E4%BB%B6%E6%9E%B6%E6%9E%84%E4%B8%8E%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    <category term="软件体系架构" scheme="https://gallifrey.asia/categories/%E8%BD%AF%E4%BB%B6%E4%BD%93%E7%B3%BB%E6%9E%B6%E6%9E%84/"/>
     
     
   </entry>
   
   <entry>
-    <title>软件体系结构与设计模式期末复习——概论</title>
-    <link href="https://gallifrey.asia/posts/515618a48afe/"/>
-    <id>https://gallifrey.asia/posts/515618a48afe/</id>
+    <title>软件体系结构期末复习——概论</title>
+    <link href="https://gallifrey.asia/posts/49cbeab1350d/"/>
+    <id>https://gallifrey.asia/posts/49cbeab1350d/</id>
     <published>2023-05-04T16:01:54.000Z</published>
     <updated>2023-05-04T16:01:54.000Z</updated>
     
@@ -95,7 +80,7 @@
     
     
     
-    <category term="软件架构与设计模式" scheme="https://gallifrey.asia/categories/%E8%BD%AF%E4%BB%B6%E6%9E%B6%E6%9E%84%E4%B8%8E%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    <category term="软件体系架构" scheme="https://gallifrey.asia/categories/%E8%BD%AF%E4%BB%B6%E4%BD%93%E7%B3%BB%E6%9E%B6%E6%9E%84/"/>
     
     
   </entry>
@@ -499,6 +484,35 @@
     
     <category term="版本控制" scheme="https://gallifrey.asia/categories/%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6/"/>
     
+    
+  </entry>
+  
+  <entry>
+    <title>Logback日志框架简要说明</title>
+    <link href="https://gallifrey.asia/posts/faad83ea63b7/"/>
+    <id>https://gallifrey.asia/posts/faad83ea63b7/</id>
+    <published>2023-02-26T15:05:12.000Z</published>
+    <updated>2023-02-26T15:05:12.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;什么是logback&quot;&gt;&lt;a href=&quot;#什么是logback&quot; class=&quot;headerlink&quot; title=&quot;什么是logback&quot;&gt;&lt;/a&gt;什么是logback&lt;/h2&gt;&lt;p&gt;Logback 是一个开源的 Java 日志框架，是 log4j</summary>
+        
+      
+    
+    
+    
+    <category term="Java框架" scheme="https://gallifrey.asia/categories/Java%E6%A1%86%E6%9E%B6/"/>
+    
+    
+    <category term="Spring" scheme="https://gallifrey.asia/tags/Spring/"/>
+    
+    <category term="SpringBoot" scheme="https://gallifrey.asia/tags/SpringBoot/"/>
+    
+    <category term="Java框架" scheme="https://gallifrey.asia/tags/Java%E6%A1%86%E6%9E%B6/"/>
     
   </entry>
   
