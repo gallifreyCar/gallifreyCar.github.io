@@ -1399,8 +1399,6 @@ input::placeholder {
   background: #F47466;
   background-attachment: local;
   background-position: center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -3202,14 +3200,10 @@ li.categoryBar-list-item {
   -webkit-box-shadow: rgba(3,0,197,0.2) 50px 50px 50px 50px inset;
   box-shadow: rgba(3,0,197,0.2) 50px 50px 50px 50px inset;
   overflow: hidden;
-  -webkit-background-size: 100% !important;
-  -moz-background-size: 100% !important;
   background-size: 100% !important;
   background-position: center !important;
 }
 li.categoryBar-list-item:hover {
-  -webkit-background-size: 110% !important;
-  -moz-background-size: 110% !important;
   background-size: 110% !important;
   -webkit-box-shadow: inset 500px 50px 50px 50px rgba(66,3,212,0.3);
   box-shadow: inset 500px 50px 50px 50px rgba(66,3,212,0.3);
@@ -3402,8 +3396,6 @@ li.categoryBar-list-item {
   background: #49b1f5;
   background-attachment: scroll;
   background-position: bottom;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
   background-size: cover;
 }
 #footer-wrap {
@@ -3432,8 +3424,6 @@ li.categoryBar-list-item {
   width: 100%;
   background-color: #49b1f5;
   background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
   background-size: cover;
   background-repeat: no-repeat;
   -webkit-transition: all 0.5s;
