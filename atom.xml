@@ -6,7 +6,7 @@
   <link href="https://gallifrey.asia/atom.xml" rel="self"/>
   
   <link href="https://gallifrey.asia/"/>
-  <updated>2023-06-20T06:40:36.107Z</updated>
+  <updated>2023-06-20T03:09:00.000Z</updated>
   <id>https://gallifrey.asia/</id>
   
   <author>
@@ -17,23 +17,29 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
-    <link href="https://gallifrey.asia/posts/6f63d0fcbd0f/"/>
-    <id>https://gallifrey.asia/posts/6f63d0fcbd0f/</id>
-    <published>2023-06-20T06:40:36.107Z</published>
-    <updated>2023-06-20T06:40:36.107Z</updated>
+    <title>MySQL数据库索引</title>
+    <link href="https://gallifrey.asia/posts/ef5615eb06ee/"/>
+    <id>https://gallifrey.asia/posts/ef5615eb06ee/</id>
+    <published>2023-06-19T03:09:00.000Z</published>
+    <updated>2023-06-20T03:09:00.000Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;MySQL数据库索引&quot;&gt;&lt;a href=&quot;#MySQL数据库索引&quot; class=&quot;headerlink&quot; title=&quot;MySQL数据库索引&quot;&gt;&lt;/a&gt;MySQL数据库索引&lt;/h2&gt;&lt;h3 id=&quot;索引定义&quot;&gt;&lt;a href=&quot;#索引定义&quot;</summary>
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;这是一篇关于&lt;strong&gt;MySQL数据库索引&lt;/strong&gt;的文章。该文章是&lt;a</summary>
         
       
     
     
     
+    <category term="数据库" scheme="https://gallifrey.asia/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+    <category term="MySQL" scheme="https://gallifrey.asia/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/MySQL/"/>
+    
+    
+    <category term="MySQL" scheme="https://gallifrey.asia/tags/MySQL/"/>
     
   </entry>
   
@@ -83,6 +89,8 @@
     
     <category term="Prometheus" scheme="https://gallifrey.asia/categories/Prometheus/"/>
     
+    
+    <category term="Prometheus" scheme="https://gallifrey.asia/tags/Prometheus/"/>
     
   </entry>
   
