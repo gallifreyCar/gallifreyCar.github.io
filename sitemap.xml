@@ -65,6 +65,15 @@
   </url>
   
   <url>
+    <loc>https://gallifrey.asia/categories/index.html</loc>
+    
+    <lastmod>2023-06-21</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://gallifrey.asia/census/index.html</loc>
     
     <lastmod>2023-06-21</lastmod>
@@ -75,15 +84,6 @@
   
   <url>
     <loc>https://gallifrey.asia/charts/index.html</loc>
-    
-    <lastmod>2023-06-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gallifrey.asia/categories/index.html</loc>
     
     <lastmod>2023-06-21</lastmod>
     
@@ -275,6 +275,15 @@
     <loc>https://gallifrey.asia/posts/c05cf762d185/</loc>
     
     <lastmod>2023-04-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://gallifrey.asia/posts/d06dad8df113/</loc>
+    
+    <lastmod>2023-03-29</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -822,6 +831,13 @@
   </url>
   
   <url>
+    <loc>https://gallifrey.asia/tags/issue/</loc>
+    <lastmod>2023-06-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://gallifrey.asia/tags/butterfly%E9%AD%94%E6%94%B9/</loc>
     <lastmod>2023-06-21</lastmod>
     <changefreq>weekly</changefreq>
@@ -843,14 +859,14 @@
   </url>
   
   <url>
-    <loc>https://gallifrey.asia/tags/SpringBoot/</loc>
+    <loc>https://gallifrey.asia/tags/Spring/</loc>
     <lastmod>2023-06-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://gallifrey.asia/tags/Spring/</loc>
+    <loc>https://gallifrey.asia/tags/SpringBoot/</loc>
     <lastmod>2023-06-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -878,6 +894,13 @@
   </url>
   
   <url>
+    <loc>https://gallifrey.asia/tags/Maven/</loc>
+    <lastmod>2023-06-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://gallifrey.asia/tags/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%BC%80%E5%8F%91/</loc>
     <lastmod>2023-06-21</lastmod>
     <changefreq>weekly</changefreq>
@@ -886,13 +909,6 @@
   
   <url>
     <loc>https://gallifrey.asia/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2023-06-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://gallifrey.asia/tags/Maven/</loc>
     <lastmod>2023-06-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1125,14 +1141,14 @@
   </url>
   
   <url>
-    <loc>https://gallifrey.asia/categories/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%BC%80%E5%8F%91/</loc>
+    <loc>https://gallifrey.asia/categories/%E4%BE%9D%E8%B5%96%E7%AE%A1%E7%90%86/</loc>
     <lastmod>2023-06-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://gallifrey.asia/categories/%E4%BE%9D%E8%B5%96%E7%AE%A1%E7%90%86/</loc>
+    <loc>https://gallifrey.asia/categories/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%BC%80%E5%8F%91/</loc>
     <lastmod>2023-06-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

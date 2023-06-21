@@ -468,6 +468,33 @@
   </entry>
   
   <entry>
+    <title>Go中循环变量问题</title>
+    <link href="https://gallifrey.asia/posts/d06dad8df113/"/>
+    <id>https://gallifrey.asia/posts/d06dad8df113/</id>
+    <published>2023-03-29T05:13:52.000Z</published>
+    <updated>2023-03-29T05:13:52.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;ISSUE&quot;&gt;&lt;a href=&quot;#ISSUE&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Go" scheme="https://gallifrey.asia/categories/Go/"/>
+    
+    
+    <category term="Go" scheme="https://gallifrey.asia/tags/Go/"/>
+    
+    <category term="issue" scheme="https://gallifrey.asia/tags/issue/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Go语言之旅练习题目与答案</title>
     <link href="https://gallifrey.asia/posts/dc4deb4a4208/"/>
     <id>https://gallifrey.asia/posts/dc4deb4a4208/</id>
@@ -489,31 +516,6 @@
     
     
     <category term="Go" scheme="https://gallifrey.asia/tags/Go/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Conventional Commits</title>
-    <link href="https://gallifrey.asia/posts/e761137f2c37/"/>
-    <id>https://gallifrey.asia/posts/e761137f2c37/</id>
-    <published>2023-03-28T01:28:57.000Z</published>
-    <updated>2023-03-28T01:28:57.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h3 id=&quot;定义&quot;&gt;&lt;a href=&quot;#定义&quot; class=&quot;headerlink&quot; title=&quot;定义&quot;&gt;&lt;/a&gt;定义&lt;/h3&gt;&lt;p&gt;当多人参与开发时，对于提交的代码需要有一个标准的格式和规范，这就是&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="版本控制" scheme="https://gallifrey.asia/categories/%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6/"/>
-    
-    
-    <category term="git" scheme="https://gallifrey.asia/tags/git/"/>
     
   </entry>
   
