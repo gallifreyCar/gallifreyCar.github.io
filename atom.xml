@@ -44,6 +44,60 @@
   </entry>
   
   <entry>
+    <title>Go中循环变量问题</title>
+    <link href="https://gallifrey.asia/posts/59da2f86f9da/"/>
+    <id>https://gallifrey.asia/posts/59da2f86f9da/</id>
+    <published>2023-06-21T05:13:52.000Z</published>
+    <updated>2023-06-21T05:13:52.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;ISSUE&quot;&gt;&lt;a href=&quot;#ISSUE&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Go" scheme="https://gallifrey.asia/categories/Go/"/>
+    
+    
+    <category term="Go" scheme="https://gallifrey.asia/tags/Go/"/>
+    
+    <category term="issue" scheme="https://gallifrey.asia/tags/issue/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>MySQL数据库SQL优化</title>
+    <link href="https://gallifrey.asia/posts/38d921ee2863/"/>
+    <id>https://gallifrey.asia/posts/38d921ee2863/</id>
+    <published>2023-06-21T03:09:00.000Z</published>
+    <updated>2023-06-21T03:09:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;这是一篇关于&lt;strong&gt;MySQL数据库索引&lt;/strong&gt;的文章。该文章是&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="数据库" scheme="https://gallifrey.asia/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+    <category term="MySQL" scheme="https://gallifrey.asia/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/MySQL/"/>
+    
+    
+    <category term="MySQL" scheme="https://gallifrey.asia/tags/MySQL/"/>
+    
+  </entry>
+  
+  <entry>
     <title>MySQL数据库事务</title>
     <link href="https://gallifrey.asia/posts/8260683aecdc/"/>
     <id>https://gallifrey.asia/posts/8260683aecdc/</id>
@@ -464,58 +518,6 @@
     
     <category term="日常表" scheme="https://gallifrey.asia/categories/%E6%97%A5%E5%B8%B8%E8%A1%A8/"/>
     
-    
-  </entry>
-  
-  <entry>
-    <title>Go中循环变量问题</title>
-    <link href="https://gallifrey.asia/posts/d06dad8df113/"/>
-    <id>https://gallifrey.asia/posts/d06dad8df113/</id>
-    <published>2023-03-29T05:13:52.000Z</published>
-    <updated>2023-03-29T05:13:52.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;ISSUE&quot;&gt;&lt;a href=&quot;#ISSUE&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="Go" scheme="https://gallifrey.asia/categories/Go/"/>
-    
-    
-    <category term="Go" scheme="https://gallifrey.asia/tags/Go/"/>
-    
-    <category term="issue" scheme="https://gallifrey.asia/tags/issue/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Go语言之旅练习题目与答案</title>
-    <link href="https://gallifrey.asia/posts/dc4deb4a4208/"/>
-    <id>https://gallifrey.asia/posts/dc4deb4a4208/</id>
-    <published>2023-03-29T05:13:52.000Z</published>
-    <updated>2023-03-29T05:13:52.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;练习：等价二叉查找树&quot;&gt;&lt;a href=&quot;#练习：等价二叉查找树&quot; class=&quot;headerlink&quot; title=&quot;练习：等价二叉查找树&quot;&gt;&lt;/a&gt;练习：等价二叉查找树&lt;/h2&gt;&lt;p&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="Go" scheme="https://gallifrey.asia/categories/Go/"/>
-    
-    
-    <category term="Go" scheme="https://gallifrey.asia/tags/Go/"/>
     
   </entry>
   
