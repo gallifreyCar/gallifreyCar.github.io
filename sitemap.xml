@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://gallifrey.asia/toyhouse/nightcar01/index.html</loc>
+    
+    <lastmod>2023-06-21</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://gallifrey.asia/link/index.html</loc>
     
     <lastmod>2023-06-21</lastmod>
@@ -39,15 +48,6 @@
   
   <url>
     <loc>https://gallifrey.asia/toyhouse/decade/index.html</loc>
-    
-    <lastmod>2023-06-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gallifrey.asia/toyhouse/nightcar01/index.html</loc>
     
     <lastmod>2023-06-21</lastmod>
     
@@ -111,6 +111,15 @@
   
   <url>
     <loc>https://gallifrey.asia/posts/74ce8e482edc/</loc>
+    
+    <lastmod>2023-06-21</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://gallifrey.asia/posts/42f98028168f/</loc>
     
     <lastmod>2023-06-21</lastmod>
     
