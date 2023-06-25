@@ -44,6 +44,33 @@
   </entry>
   
   <entry>
+    <title>MySQL数据库InnoDB引擎</title>
+    <link href="https://gallifrey.asia/posts/8390ec5aba95/"/>
+    <id>https://gallifrey.asia/posts/8390ec5aba95/</id>
+    <published>2023-06-21T07:09:00.000Z</published>
+    <updated>2023-06-21T07:09:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;这是一篇关于&lt;strong&gt;MySQL数据库索引&lt;/strong&gt;的文章。该文章是&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="数据库" scheme="https://gallifrey.asia/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+    <category term="MySQL" scheme="https://gallifrey.asia/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/MySQL/"/>
+    
+    
+    <category term="MySQL" scheme="https://gallifrey.asia/tags/MySQL/"/>
+    
+  </entry>
+  
+  <entry>
     <title>MySQL数据库引擎</title>
     <link href="https://gallifrey.asia/posts/42f98028168f/"/>
     <id>https://gallifrey.asia/posts/42f98028168f/</id>
@@ -497,31 +524,6 @@
     
     <category term="计算机常识" scheme="https://gallifrey.asia/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%B8%B8%E8%AF%86/"/>
     
-    
-  </entry>
-  
-  <entry>
-    <title>Kafka3 入门指南</title>
-    <link href="https://gallifrey.asia/posts/c05cf762d185/"/>
-    <id>https://gallifrey.asia/posts/c05cf762d185/</id>
-    <published>2023-04-10T02:43:09.000Z</published>
-    <updated>2023-04-10T02:43:09.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;Kafka简介&quot;&gt;&lt;a href=&quot;#Kafka简介&quot; class=&quot;headerlink&quot; title=&quot;Kafka简介&quot;&gt;&lt;/a&gt;Kafka简介&lt;/h2&gt;&lt;h3 id=&quot;定义&quot;&gt;&lt;a href=&quot;#定义&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="Kafka" scheme="https://gallifrey.asia/categories/Kafka/"/>
-    
-    
-    <category term="Kafka" scheme="https://gallifrey.asia/tags/Kafka/"/>
     
   </entry>
   
