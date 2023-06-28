@@ -2,24 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://gallifrey.asia/toyhouse/index.html</loc>
-    
-    <lastmod>2023-06-28</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gallifrey.asia/toyhouse/nightcar01/index.html</loc>
-    
-    <lastmod>2023-06-28</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://gallifrey.asia/link/index.html</loc>
     
     <lastmod>2023-06-28</lastmod>
@@ -47,7 +29,25 @@
   </url>
   
   <url>
+    <loc>https://gallifrey.asia/toyhouse/index.html</loc>
+    
+    <lastmod>2023-06-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://gallifrey.asia/toyhouse/decade/index.html</loc>
+    
+    <lastmod>2023-06-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://gallifrey.asia/toyhouse/nightcar01/index.html</loc>
     
     <lastmod>2023-06-28</lastmod>
     
@@ -101,7 +101,7 @@
   </url>
   
   <url>
-    <loc>https://gallifrey.asia/posts/71def8d4ef23/</loc>
+    <loc>https://gallifrey.asia/posts/74ce8e482edc/</loc>
     
     <lastmod>2023-06-28</lastmod>
     
@@ -110,7 +110,7 @@
   </url>
   
   <url>
-    <loc>https://gallifrey.asia/posts/74ce8e482edc/</loc>
+    <loc>https://gallifrey.asia/posts/71def8d4ef23/</loc>
     
     <lastmod>2023-06-28</lastmod>
     
@@ -1279,13 +1279,6 @@
   </url>
   
   <url>
-    <loc>https://gallifrey.asia/categories/%E7%AE%97%E6%B3%95/</loc>
-    <lastmod>2023-06-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://gallifrey.asia/categories/Android%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Intent%E4%B8%8EBroadcastReceive/</loc>
     <lastmod>2023-06-28</lastmod>
     <changefreq>weekly</changefreq>
@@ -1300,6 +1293,13 @@
   </url>
   
   <url>
+    <loc>https://gallifrey.asia/categories/%E7%AE%97%E6%B3%95/</loc>
+    <lastmod>2023-06-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://gallifrey.asia/categories/Android%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/UI%E8%BF%9B%E9%98%B6/</loc>
     <lastmod>2023-06-28</lastmod>
     <changefreq>weekly</changefreq>
@@ -1308,6 +1308,13 @@
   
   <url>
     <loc>https://gallifrey.asia/categories/Android%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E5%AE%9E%E6%88%98%E7%BB%83%E4%B9%A0/</loc>
+    <lastmod>2023-06-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gallifrey.asia/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2023-06-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1343,13 +1350,6 @@
   
   <url>
     <loc>https://gallifrey.asia/categories/%E7%AE%97%E6%B3%95/%E9%A2%98%E8%A7%A3/</loc>
-    <lastmod>2023-06-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://gallifrey.asia/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2023-06-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
