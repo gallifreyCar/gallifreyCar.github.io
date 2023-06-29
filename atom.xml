@@ -6,7 +6,7 @@
   <link href="https://gallifrey.asia/atom.xml" rel="self"/>
   
   <link href="https://gallifrey.asia/"/>
-  <updated>2023-06-27T13:09:00.000Z</updated>
+  <updated>2023-06-29T13:09:00.000Z</updated>
   <id>https://gallifrey.asia/</id>
   
   <author>
@@ -17,11 +17,38 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>基于均方根（RMS）和过零率的语音/音乐判别器</title>
+    <link href="https://gallifrey.asia/posts/4405464e4405/"/>
+    <id>https://gallifrey.asia/posts/4405464e4405/</id>
+    <published>2023-06-29T01:09:00.000Z</published>
+    <updated>2023-06-29T13:09:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;原文链接&quot;&gt;&lt;a href=&quot;#原文链接&quot; class=&quot;headerlink&quot; title=&quot;原文链接&quot;&gt;&lt;/a&gt;原文链接&lt;/h2&gt;&lt;p&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="论文翻译" scheme="https://gallifrey.asia/categories/%E8%AE%BA%E6%96%87%E7%BF%BB%E8%AF%91/"/>
+    
+    
+    <category term="回铃音分析" scheme="https://gallifrey.asia/tags/%E5%9B%9E%E9%93%83%E9%9F%B3%E5%88%86%E6%9E%90/"/>
+    
+    <category term="FreeSwitch" scheme="https://gallifrey.asia/tags/FreeSwitch/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Linux常用命令</title>
     <link href="https://gallifrey.asia/posts/fb2c02db1a9f/"/>
     <id>https://gallifrey.asia/posts/fb2c02db1a9f/</id>
     <published>2023-06-27T01:09:00.000Z</published>
-    <updated>2023-06-27T13:09:00.000Z</updated>
+    <updated>2023-06-29T13:09:00.000Z</updated>
     
     
       
@@ -499,31 +526,6 @@
     
     
     <category term="Prometheus" scheme="https://gallifrey.asia/tags/Prometheus/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>MIME类型</title>
-    <link href="https://gallifrey.asia/posts/df31c174552a/"/>
-    <id>https://gallifrey.asia/posts/df31c174552a/</id>
-    <published>2023-04-16T02:19:23.000Z</published>
-    <updated>2023-04-16T02:19:23.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;📖前言&quot;&gt;&lt;a href=&quot;#📖前言&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="计算机常识" scheme="https://gallifrey.asia/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%B8%B8%E8%AF%86/"/>
-    
-    
-    <category term="http" scheme="https://gallifrey.asia/tags/http/"/>
     
   </entry>
   
