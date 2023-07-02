@@ -884,6 +884,13 @@
 
   
   <url>
+    <loc>https://gallifrey.asia/tags/Docker/</loc>
+    <lastmod>2023-07-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://gallifrey.asia/tags/flutter/</loc>
     <lastmod>2023-07-02</lastmod>
     <changefreq>weekly</changefreq>
@@ -927,13 +934,6 @@
   
   <url>
     <loc>https://gallifrey.asia/tags/%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/</loc>
-    <lastmod>2023-07-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://gallifrey.asia/tags/Docker/</loc>
     <lastmod>2023-07-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1045,14 +1045,21 @@
   </url>
   
   <url>
-    <loc>https://gallifrey.asia/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/</loc>
+    <loc>https://gallifrey.asia/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/</loc>
     <lastmod>2023-07-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://gallifrey.asia/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/</loc>
+    <loc>https://gallifrey.asia/tags/%E7%BD%91%E7%BB%9C%E5%8D%8F%E8%AE%AE/</loc>
+    <lastmod>2023-07-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gallifrey.asia/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/</loc>
     <lastmod>2023-07-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1067,13 +1074,6 @@
   
   <url>
     <loc>https://gallifrey.asia/tags/FreeSwitch/</loc>
-    <lastmod>2023-07-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://gallifrey.asia/tags/%E7%BD%91%E7%BB%9C%E5%8D%8F%E8%AE%AE/</loc>
     <lastmod>2023-07-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1180,6 +1180,13 @@
 
   
   <url>
+    <loc>https://gallifrey.asia/categories/Docker/</loc>
+    <lastmod>2023-07-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://gallifrey.asia/categories/Flutter/</loc>
     <lastmod>2023-07-02</lastmod>
     <changefreq>weekly</changefreq>
@@ -1202,13 +1209,6 @@
   
   <url>
     <loc>https://gallifrey.asia/categories/Java/</loc>
-    <lastmod>2023-07-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://gallifrey.asia/categories/Docker/</loc>
     <lastmod>2023-07-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
