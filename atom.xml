@@ -6,7 +6,7 @@
   <link href="https://gallifrey.asia/atom.xml" rel="self"/>
   
   <link href="https://gallifrey.asia/"/>
-  <updated>2023-07-03T03:09:00.000Z</updated>
+  <updated>2023-07-12T12:21:40.392Z</updated>
   <id>https://gallifrey.asia/</id>
   
   <author>
@@ -15,6 +15,112 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="https://gallifrey.asia/posts/08452335368c/"/>
+    <id>https://gallifrey.asia/posts/08452335368c/</id>
+    <published>2023-07-12T12:20:40.062Z</published>
+    <updated>2023-07-12T12:21:40.392Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;lt-lt-lt-lt-lt-lt-lt-HEAD&quot;&gt;&lt;a href=&quot;#lt-lt-lt-lt-lt-lt-lt-HEAD&quot; class=&quot;headerlink&quot; title=&quot;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;</summary>
+        
+      
+    
+    
+    
+    <category term="数据库" scheme="https://gallifrey.asia/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+    <category term="MySQL" scheme="https://gallifrey.asia/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/MySQL/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>GMP模型的应用场景</title>
+    <link href="https://gallifrey.asia/posts/ace017f08635/"/>
+    <id>https://gallifrey.asia/posts/ace017f08635/</id>
+    <published>2023-07-12T05:13:52.000Z</published>
+    <updated>2023-07-12T05:13:52.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;场景1：G1创建G3&quot;&gt;&lt;a href=&quot;#场景1：G1创建G3&quot; class=&quot;headerlink&quot; title=&quot;场景1：G1创建G3&quot;&gt;&lt;/a&gt;场景1：G1创建G3&lt;/h2&gt;&lt;p&gt;P拥有G1，M1获取P后开始运行G1，G1使用&lt;code&gt;go</summary>
+        
+      
+    
+    
+    
+    <category term="Go" scheme="https://gallifrey.asia/categories/Go/"/>
+    
+    
+    <category term="Go" scheme="https://gallifrey.asia/tags/Go/"/>
+    
+    <category term="GMP模型" scheme="https://gallifrey.asia/tags/GMP%E6%A8%A1%E5%9E%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>GMP模型的设计思想</title>
+    <link href="https://gallifrey.asia/posts/13cc0fc07467/"/>
+    <id>https://gallifrey.asia/posts/13cc0fc07467/</id>
+    <published>2023-07-09T05:13:52.000Z</published>
+    <updated>2023-07-11T05:13:52.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Go" scheme="https://gallifrey.asia/categories/Go/"/>
+    
+    
+    <category term="Go" scheme="https://gallifrey.asia/tags/Go/"/>
+    
+    <category term="GMP模型" scheme="https://gallifrey.asia/tags/GMP%E6%A8%A1%E5%9E%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>调度器的由来和分析</title>
+    <link href="https://gallifrey.asia/posts/6726caa63796/"/>
+    <id>https://gallifrey.asia/posts/6726caa63796/</id>
+    <published>2023-07-05T05:13:52.000Z</published>
+    <updated>2023-07-09T05:13:52.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;我在看刘丹冰老师的视频教程&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Go" scheme="https://gallifrey.asia/categories/Go/"/>
+    
+    
+    <category term="Go" scheme="https://gallifrey.asia/tags/Go/"/>
+    
+    <category term="GMP模型" scheme="https://gallifrey.asia/tags/GMP%E6%A8%A1%E5%9E%8B/"/>
+    
+  </entry>
   
   <entry>
     <title>Linux任务调度工具</title>
@@ -165,33 +271,6 @@
     
     
     <category term="Linux" scheme="https://gallifrey.asia/tags/Linux/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>MySQL数据库InnoDB引擎</title>
-    <link href="https://gallifrey.asia/posts/2fcd22fbfade/"/>
-    <id>https://gallifrey.asia/posts/2fcd22fbfade/</id>
-    <published>2023-06-23T07:09:00.000Z</published>
-    <updated>2023-06-25T07:09:00.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;这是一篇关于&lt;strong&gt;MySQL数据库索引&lt;/strong&gt;的文章。该文章是&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="数据库" scheme="https://gallifrey.asia/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
-    
-    <category term="MySQL" scheme="https://gallifrey.asia/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/MySQL/"/>
-    
-    
-    <category term="MySQL" scheme="https://gallifrey.asia/tags/MySQL/"/>
     
   </entry>
   
@@ -455,77 +534,6 @@
     
     <category term="软件体系架构" scheme="https://gallifrey.asia/categories/%E8%BD%AF%E4%BB%B6%E4%BD%93%E7%B3%BB%E6%9E%B6%E6%9E%84/"/>
     
-    
-  </entry>
-  
-  <entry>
-    <title>软件体系结构期末复习——软件体系结构风格</title>
-    <link href="https://gallifrey.asia/posts/60aed6505b2c/"/>
-    <id>https://gallifrey.asia/posts/60aed6505b2c/</id>
-    <published>2023-05-04T16:02:03.000Z</published>
-    <updated>2023-05-04T16:02:03.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;📙食用说明&quot;&gt;&lt;a href=&quot;#📙食用说明&quot; class=&quot;headerlink&quot; title=&quot;📙食用说明&quot;&gt;&lt;/a&gt;📙食用说明&lt;/h2&gt;&lt;div</summary>
-        
-      
-    
-    
-    
-    <category term="软件体系架构" scheme="https://gallifrey.asia/categories/%E8%BD%AF%E4%BB%B6%E4%BD%93%E7%B3%BB%E6%9E%B6%E6%9E%84/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>软件体系结构期末复习——概论</title>
-    <link href="https://gallifrey.asia/posts/49cbeab1350d/"/>
-    <id>https://gallifrey.asia/posts/49cbeab1350d/</id>
-    <published>2023-05-04T16:01:54.000Z</published>
-    <updated>2023-05-04T16:01:54.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;📙食用说明&quot;&gt;&lt;a href=&quot;#📙食用说明&quot; class=&quot;headerlink&quot; title=&quot;📙食用说明&quot;&gt;&lt;/a&gt;📙食用说明&lt;/h2&gt;&lt;div</summary>
-        
-      
-    
-    
-    
-    <category term="软件体系架构" scheme="https://gallifrey.asia/categories/%E8%BD%AF%E4%BB%B6%E4%BD%93%E7%B3%BB%E6%9E%B6%E6%9E%84/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Alertmanager指南</title>
-    <link href="https://gallifrey.asia/posts/a69a82247d59/"/>
-    <id>https://gallifrey.asia/posts/a69a82247d59/</id>
-    <published>2023-04-28T08:10:01.000Z</published>
-    <updated>2023-05-11T08:24:01.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;告警概述&quot;&gt;&lt;a href=&quot;#告警概述&quot; class=&quot;headerlink&quot; title=&quot;告警概述&quot;&gt;&lt;/a&gt;告警概述&lt;/h2&gt;&lt;p&gt;Prometheus的告警分为两部分。Prometheus服务器中的告警规则会将告警发送给一个&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="Prometheus" scheme="https://gallifrey.asia/categories/Prometheus/"/>
-    
-    
-    <category term="Prometheus" scheme="https://gallifrey.asia/tags/Prometheus/"/>
     
   </entry>
   
