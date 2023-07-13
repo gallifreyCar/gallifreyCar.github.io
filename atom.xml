@@ -6,7 +6,7 @@
   <link href="https://gallifrey.asia/atom.xml" rel="self"/>
   
   <link href="https://gallifrey.asia/"/>
-  <updated>2023-07-12T12:21:40.392Z</updated>
+  <updated>2023-07-12T05:13:52.000Z</updated>
   <id>https://gallifrey.asia/</id>
   
   <author>
@@ -15,31 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title></title>
-    <link href="https://gallifrey.asia/posts/08452335368c/"/>
-    <id>https://gallifrey.asia/posts/08452335368c/</id>
-    <published>2023-07-12T12:20:40.062Z</published>
-    <updated>2023-07-12T12:21:40.392Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;lt-lt-lt-lt-lt-lt-lt-HEAD&quot;&gt;&lt;a href=&quot;#lt-lt-lt-lt-lt-lt-lt-HEAD&quot; class=&quot;headerlink&quot; title=&quot;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;</summary>
-        
-      
-    
-    
-    
-    <category term="数据库" scheme="https://gallifrey.asia/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
-    
-    <category term="MySQL" scheme="https://gallifrey.asia/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/MySQL/"/>
-    
-    
-  </entry>
   
   <entry>
     <title>GMP模型的应用场景</title>
@@ -280,6 +255,33 @@
     <id>https://gallifrey.asia/posts/f5a2fb2a11e3/</id>
     <published>2023-06-22T03:09:00.000Z</published>
     <updated>2023-06-22T03:09:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;这是一篇关于&lt;strong&gt;MySQL数据库索引&lt;/strong&gt;的文章。该文章是&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="数据库" scheme="https://gallifrey.asia/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+    <category term="MySQL" scheme="https://gallifrey.asia/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/MySQL/"/>
+    
+    
+    <category term="MySQL" scheme="https://gallifrey.asia/tags/MySQL/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>MySQL数据库InnoDB引擎</title>
+    <link href="https://gallifrey.asia/posts/8390ec5aba95/"/>
+    <id>https://gallifrey.asia/posts/8390ec5aba95/</id>
+    <published>2023-06-21T07:09:00.000Z</published>
+    <updated>2023-06-21T07:09:00.000Z</updated>
     
     
       
