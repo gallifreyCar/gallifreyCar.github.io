@@ -6,7 +6,7 @@
   <link href="https://gallifrey.asia/atom.xml" rel="self"/>
   
   <link href="https://gallifrey.asia/"/>
-  <updated>2023-07-12T05:13:52.000Z</updated>
+  <updated>2023-07-24T07:40:08.334Z</updated>
   <id>https://gallifrey.asia/</id>
   
   <author>
@@ -15,6 +15,57 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="https://gallifrey.asia/posts/0bb694604b5f/"/>
+    <id>https://gallifrey.asia/posts/0bb694604b5f/</id>
+    <published>2023-07-24T07:39:07.681Z</published>
+    <updated>2023-07-24T07:40:08.334Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;title: 英语单词表&lt;br&gt;tags:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;null&lt;br&gt;categories:&lt;/li&gt;
+&lt;li&gt;日常表&lt;br&gt;date: 2023-04-03 18:06:32&lt;br&gt;updated: 2023-06-09</summary>
+        
+      
+    
+    
+    
+    <category term="日常表" scheme="https://gallifrey.asia/categories/%E6%97%A5%E5%B8%B8%E8%A1%A8/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Kubeadm安装K8s集群指南</title>
+    <link href="https://gallifrey.asia/posts/54f1b642a04b/"/>
+    <id>https://gallifrey.asia/posts/54f1b642a04b/</id>
+    <published>2023-07-24T02:43:09.000Z</published>
+    <updated>2023-07-24T02:43:09.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;需求&quot;&gt;&lt;a href=&quot;#需求&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Kubernetes" scheme="https://gallifrey.asia/categories/Kubernetes/"/>
+    
+    
+    <category term="Kubernetes" scheme="https://gallifrey.asia/tags/Kubernetes/"/>
+    
+  </entry>
   
   <entry>
     <title>GMP模型的应用场景</title>
@@ -486,56 +537,6 @@
     
     
     <category term="Prometheus" scheme="https://gallifrey.asia/tags/Prometheus/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>SIP协议入门</title>
-    <link href="https://gallifrey.asia/posts/f9c868530a77/"/>
-    <id>https://gallifrey.asia/posts/f9c868530a77/</id>
-    <published>2023-05-12T06:40:27.000Z</published>
-    <updated>2023-05-15T07:51:27.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;SIP协议概述&quot;&gt;&lt;a href=&quot;#SIP协议概述&quot; class=&quot;headerlink&quot; title=&quot;SIP协议概述&quot;&gt;&lt;/a&gt;SIP协议概述&lt;/h2&gt;&lt;p&gt;SIP（Session Initiation</summary>
-        
-      
-    
-    
-    
-    <category term="计算机网络" scheme="https://gallifrey.asia/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
-    
-    
-    <category term="计算机网络" scheme="https://gallifrey.asia/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
-    
-    <category term="网络协议" scheme="https://gallifrey.asia/tags/%E7%BD%91%E7%BB%9C%E5%8D%8F%E8%AE%AE/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>淘宝千万级别的十四次演进</title>
-    <link href="https://gallifrey.asia/posts/854aa96a9cbd/"/>
-    <id>https://gallifrey.asia/posts/854aa96a9cbd/</id>
-    <published>2023-05-04T16:33:25.000Z</published>
-    <updated>2023-05-04T16:33:25.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;基本概念&quot;&gt;&lt;a href=&quot;#基本概念&quot; class=&quot;headerlink&quot; title=&quot;基本概念&quot;&gt;&lt;/a&gt;基本概念&lt;/h2&gt;&lt;h3 id=&quot;分布式系统&quot;&gt;&lt;a href=&quot;#分布式系统&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="软件体系架构" scheme="https://gallifrey.asia/categories/%E8%BD%AF%E4%BB%B6%E4%BD%93%E7%B3%BB%E6%9E%B6%E6%9E%84/"/>
-    
     
   </entry>
   
