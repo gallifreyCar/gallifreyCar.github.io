@@ -2,15 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://gallifrey.asia/posts/2babb7c3ea0e/</loc>
-    
-    <lastmod>2023-07-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://gallifrey.asia/link/index.html</loc>
     
     <lastmod>2023-07-24</lastmod>
@@ -284,6 +275,15 @@
     <loc>https://gallifrey.asia/posts/bda1c312d0a3/</loc>
     
     <lastmod>2023-06-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://gallifrey.asia/posts/6334f87bfdb1/</loc>
+    
+    <lastmod>2023-06-09</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
