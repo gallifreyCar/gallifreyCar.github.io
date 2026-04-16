@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Gallifrey的计算机学习日记</title>
+  <icon>https://gallifrey.asia/icon.png</icon>
+  <subtitle>个人文章归档</subtitle>
+  <link href="https://gallifrey.asia/atom.xml" rel="self"/>
+  
+  <link href="https://gallifrey.asia/"/>
+  <updated>2026-04-16T04:52:26.591Z</updated>
+  <id>https://gallifrey.asia/</id>
+  
+  <author>
+    <name>Gallifrey</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Claude Code vs OpenClaw 记忆设计对比</title>
+    <link href="https://gallifrey.asia/posts/40ff2ee148c5/"/>
+    <id>https://gallifrey.asia/posts/40ff2ee148c5/</id>
+    <published>2026-04-16T04:00:00.000Z</published>
+    <updated>2026-04-16T04:52:26.591Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;两款优秀的 AI 助手，两种不同的记忆设计哲学。本文从架构、实现、适用场景三个维度进行对比分析。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;一、设计哲学对比&quot;&gt;&lt;a href=&quot;#一、设计哲学对比&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="AI架构" scheme="https://gallifrey.asia/categories/AI%E6%9E%B6%E6%9E%84/"/>
+    
+    
+    <category term="AI" scheme="https://gallifrey.asia/tags/AI/"/>
+    
+    <category term="Claude Code" scheme="https://gallifrey.asia/tags/Claude-Code/"/>
+    
+    <category term="OpenClaw" scheme="https://gallifrey.asia/tags/OpenClaw/"/>
+    
+    <category term="记忆系统" scheme="https://gallifrey.asia/tags/%E8%AE%B0%E5%BF%86%E7%B3%BB%E7%BB%9F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Claude Code 记忆设计解析</title>
+    <link href="https://gallifrey.asia/posts/c155e0709f92/"/>
+    <id>https://gallifrey.asia/posts/c155e0709f92/</id>
+    <published>2026-04-16T04:00:00.000Z</published>
+    <updated>2026-04-16T04:52:26.591Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;Claude Code 是 Anthropic 官方的 AI 编程助手 CLI。本文解析其记忆系统的设计理念和实现方式。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;一、设计理念：分层记忆模型&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="AI架构" scheme="https://gallifrey.asia/categories/AI%E6%9E%B6%E6%9E%84/"/>
+    
+    
+    <category term="AI" scheme="https://gallifrey.asia/tags/AI/"/>
+    
+    <category term="Claude Code" scheme="https://gallifrey.asia/tags/Claude-Code/"/>
+    
+    <category term="记忆系统" scheme="https://gallifrey.asia/tags/%E8%AE%B0%E5%BF%86%E7%B3%BB%E7%BB%9F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>OpenClaw 记忆功能实现解析</title>
+    <link href="https://gallifrey.asia/posts/ebd48e02f253/"/>
+    <id>https://gallifrey.asia/posts/ebd48e02f253/</id>
+    <published>2026-04-16T04:00:00.000Z</published>
+    <updated>2026-04-16T04:52:26.591Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;OpenClaw 是一个开源的个人 AI 助手框架，支持多通道（WhatsApp/Telegram/Slack/Discord 等）。本文解析其记忆（Memory）功能的实现原理。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2</summary>
+        
+      
+    
+    
+    
+    <category term="AI架构" scheme="https://gallifrey.asia/categories/AI%E6%9E%B6%E6%9E%84/"/>
+    
+    
+    <category term="AI" scheme="https://gallifrey.asia/tags/AI/"/>
+    
+    <category term="OpenClaw" scheme="https://gallifrey.asia/tags/OpenClaw/"/>
+    
+    <category term="记忆系统" scheme="https://gallifrey.asia/tags/%E8%AE%B0%E5%BF%86%E7%B3%BB%E7%BB%9F/"/>
+    
+    <category term="向量检索" scheme="https://gallifrey.asia/tags/%E5%90%91%E9%87%8F%E6%A3%80%E7%B4%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Eino框架与xeclaw-ai-agent-service架构对比分析</title>
+    <link href="https://gallifrey.asia/posts/a59cb548a3c7/"/>
+    <id>https://gallifrey.asia/posts/a59cb548a3c7/</id>
+    <published>2026-04-15T03:00:00.000Z</published>
+    <updated>2026-04-16T04:52:26.743Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;本文对比分析字节开源Eino框架与自研Agent系统xeclaw-ai-agent-service的架构设计。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;一、项目概述&quot;&gt;&lt;a href=&quot;#一、项目概述&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="架构设计" scheme="https://gallifrey.asia/categories/%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1/"/>
+    
+    
+    <category term="Agent" scheme="https://gallifrey.asia/tags/Agent/"/>
+    
+    <category term="架构设计" scheme="https://gallifrey.asia/tags/%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1/"/>
+    
+    <category term="Go" scheme="https://gallifrey.asia/tags/Go/"/>
+    
+    <category term="eino" scheme="https://gallifrey.asia/tags/eino/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Go基本数据类型底层实现</title>
+    <link href="https://gallifrey.asia/posts/9acfff8831fd/"/>
+    <id>https://gallifrey.asia/posts/9acfff8831fd/</id>
+    <published>2026-04-13T02:00:00.000Z</published>
+    <updated>2026-04-16T04:52:26.637Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;基于 Go 1.18 版本，分析基本数据类型的底层实现。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;一、整型与浮点型&quot;&gt;&lt;a href=&quot;#一、整型与浮点型&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Go" scheme="https://gallifrey.asia/categories/Go/"/>
+    
+    
+    <category term="Go" scheme="https://gallifrey.asia/tags/Go/"/>
+    
+    <category term="底层原理" scheme="https://gallifrey.asia/tags/%E5%BA%95%E5%B1%82%E5%8E%9F%E7%90%86/"/>
+    
+    <category term="数据结构" scheme="https://gallifrey.asia/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Go实现高并发本地缓存</title>
+    <link href="https://gallifrey.asia/posts/36cef3ebec74/"/>
+    <id>https://gallifrey.asia/posts/36cef3ebec74/</id>
+    <published>2026-04-09T07:00:00.000Z</published>
+    <updated>2026-04-16T04:52:26.637Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;一、需求场景&quot;&gt;&lt;a href=&quot;#一、需求场景&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Go" scheme="https://gallifrey.asia/categories/Go/"/>
+    
+    
+    <category term="Go" scheme="https://gallifrey.asia/tags/Go/"/>
+    
+    <category term="缓存" scheme="https://gallifrey.asia/tags/%E7%BC%93%E5%AD%98/"/>
+    
+    <category term="并发" scheme="https://gallifrey.asia/tags/%E5%B9%B6%E5%8F%91/"/>
+    
+    <category term="sync.Map" scheme="https://gallifrey.asia/tags/sync-Map/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Go语言Channel深度解析</title>
+    <link href="https://gallifrey.asia/posts/dd0bba8ec131/"/>
+    <id>https://gallifrey.asia/posts/dd0bba8ec131/</id>
+    <published>2026-04-09T07:00:00.000Z</published>
+    <updated>2026-04-16T04:52:26.637Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;一、Channel的本质&quot;&gt;&lt;a href=&quot;#一、Channel的本质&quot; class=&quot;headerlink&quot; title=&quot;一、Channel的本质&quot;&gt;&lt;/a&gt;一、Channel的本质&lt;/h2&gt;&lt;p&gt;Go语言的channel是基于</summary>
+        
+      
+    
+    
+    
+    <category term="Go" scheme="https://gallifrey.asia/categories/Go/"/>
+    
+    
+    <category term="Go" scheme="https://gallifrey.asia/tags/Go/"/>
+    
+    <category term="并发" scheme="https://gallifrey.asia/tags/%E5%B9%B6%E5%8F%91/"/>
+    
+    <category term="Channel" scheme="https://gallifrey.asia/tags/Channel/"/>
+    
+    <category term="CSP" scheme="https://gallifrey.asia/tags/CSP/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Agent 学习扫盲与资料索引</title>
+    <link href="https://gallifrey.asia/posts/3eae52136f80/"/>
+    <id>https://gallifrey.asia/posts/3eae52136f80/</id>
+    <published>2026-04-09T06:20:00.000Z</published>
+    <updated>2026-04-16T04:52:26.591Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;这份文档不是系统教程，目标只有两个：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;先把几个高频名词对齐&lt;/li&gt;
+&lt;li&gt;给大家一组值得看的资料&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&quot;一、先统一几个词&quot;&gt;&lt;a href=&quot;#一、先统一几个词&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Agent开发" scheme="https://gallifrey.asia/categories/Agent%E5%BC%80%E5%8F%91/"/>
+    
+    
+    <category term="Agent" scheme="https://gallifrey.asia/tags/Agent/"/>
+    
+    <category term="LLM" scheme="https://gallifrey.asia/tags/LLM/"/>
+    
+    <category term="学习资料" scheme="https://gallifrey.asia/tags/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Claude Code 架构深度解析</title>
+    <link href="https://gallifrey.asia/posts/61c3fadf192e/"/>
+    <id>https://gallifrey.asia/posts/61c3fadf192e/</id>
+    <published>2026-04-09T06:20:00.000Z</published>
+    <updated>2026-04-16T04:52:26.591Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;基于 2026年3月31日泄漏的 v2.1.88 源码（1,884 个 TypeScript 文件，~512K 行代码）&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;一、整体架构概览&quot;&gt;&lt;a href=&quot;#一、整体架构概览&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Agent开发" scheme="https://gallifrey.asia/categories/Agent%E5%BC%80%E5%8F%91/"/>
+    
+    
+    <category term="Claude-Code" scheme="https://gallifrey.asia/tags/Claude-Code/"/>
+    
+    <category term="架构设计" scheme="https://gallifrey.asia/tags/%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1/"/>
+    
+    <category term="AI编程" scheme="https://gallifrey.asia/tags/AI%E7%BC%96%E7%A8%8B/"/>
+    
+    <category term="源码分析" scheme="https://gallifrey.asia/tags/%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Claude Code 源码泄漏事件：Clone与重写版本完整整理</title>
+    <link href="https://gallifrey.asia/posts/a1ef56a45866/"/>
+    <id>https://gallifrey.asia/posts/a1ef56a45866/</id>
+    <published>2026-04-09T06:20:00.000Z</published>
+    <updated>2026-04-16T04:52:26.591Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;事件时间：2026年3月31日&lt;/strong&gt; Anthropic 在 npm 发布时意外将 source map 一同打包上传，导致 51万行源码被公开还原。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2</summary>
+        
+      
+    
+    
+    
+    <category term="Agent开发" scheme="https://gallifrey.asia/categories/Agent%E5%BC%80%E5%8F%91/"/>
+    
+    
+    <category term="Claude-Code" scheme="https://gallifrey.asia/tags/Claude-Code/"/>
+    
+    <category term="源码泄漏" scheme="https://gallifrey.asia/tags/%E6%BA%90%E7%A0%81%E6%B3%84%E6%BC%8F/"/>
+    
+    <category term="开源项目" scheme="https://gallifrey.asia/tags/%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Gallifrey Code 设计文档</title>
+    <link href="https://gallifrey.asia/posts/430be61b8c6f/"/>
+    <id>https://gallifrey.asia/posts/430be61b8c6f/</id>
+    <published>2026-04-09T06:20:00.000Z</published>
+    <updated>2026-04-16T04:52:26.591Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;Go 语言实现的 AI 编程助手&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;一、项目背景&quot;&gt;&lt;a href=&quot;#一、项目背景&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Agent开发" scheme="https://gallifrey.asia/categories/Agent%E5%BC%80%E5%8F%91/"/>
+    
+    
+    <category term="架构设计" scheme="https://gallifrey.asia/tags/%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1/"/>
+    
+    <category term="AI编程" scheme="https://gallifrey.asia/tags/AI%E7%BC%96%E7%A8%8B/"/>
+    
+    <category term="Go" scheme="https://gallifrey.asia/tags/Go/"/>
+    
+    <category term="CLI工具" scheme="https://gallifrey.asia/tags/CLI%E5%B7%A5%E5%85%B7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Go-Claw-Code 设计说明</title>
+    <link href="https://gallifrey.asia/posts/86c91d6a0d02/"/>
+    <id>https://gallifrey.asia/posts/86c91d6a0d02/</id>
+    <published>2026-04-09T06:20:00.000Z</published>
+    <updated>2026-04-16T04:52:26.591Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;Go 语言实现 Claude Code 风格 AI 编程助手&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;GitHub 仓库&lt;/strong&gt;：&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Agent开发" scheme="https://gallifrey.asia/categories/Agent%E5%BC%80%E5%8F%91/"/>
+    
+    
+    <category term="Claude-Code" scheme="https://gallifrey.asia/tags/Claude-Code/"/>
+    
+    <category term="架构设计" scheme="https://gallifrey.asia/tags/%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1/"/>
+    
+    <category term="AI编程" scheme="https://gallifrey.asia/tags/AI%E7%BC%96%E7%A8%8B/"/>
+    
+    <category term="Go" scheme="https://gallifrey.asia/tags/Go/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>TDD开发模式：AI友好的工程实践</title>
+    <link href="https://gallifrey.asia/posts/4ac7bb062317/"/>
+    <id>https://gallifrey.asia/posts/4ac7bb062317/</id>
+    <published>2026-04-09T06:20:00.000Z</published>
+    <updated>2026-04-16T04:52:26.591Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;核心观点&lt;/strong&gt;: TDD（测试驱动开发）是目前最适配AI编程的开发模式。先写测试、再写实现，让AI的每次输出都有明确的验证标准。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;一、为什么TDD对AI友好&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Agent开发" scheme="https://gallifrey.asia/categories/Agent%E5%BC%80%E5%8F%91/"/>
+    
+    
+    <category term="AI编程" scheme="https://gallifrey.asia/tags/AI%E7%BC%96%E7%A8%8B/"/>
+    
+    <category term="Go" scheme="https://gallifrey.asia/tags/Go/"/>
+    
+    <category term="TDD" scheme="https://gallifrey.asia/tags/TDD/"/>
+    
+    <category term="测试驱动开发" scheme="https://gallifrey.asia/tags/%E6%B5%8B%E8%AF%95%E9%A9%B1%E5%8A%A8%E5%BC%80%E5%8F%91/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>从 Figma 到前端部署上线的闭环尝试</title>
+    <link href="https://gallifrey.asia/posts/778f395e132a/"/>
+    <id>https://gallifrey.asia/posts/778f395e132a/</id>
+    <published>2026-04-09T06:20:00.000Z</published>
+    <updated>2026-04-16T04:52:26.591Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;这不是一个”完美的 Figma 转代码工具”，而是一次尽量跑通真实业务闭环的尝试。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;先说结果：我们做出了什么&quot;&gt;&lt;a href=&quot;#先说结果：我们做出了什么&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Agent开发" scheme="https://gallifrey.asia/categories/Agent%E5%BC%80%E5%8F%91/"/>
+    
+    
+    <category term="AI编程" scheme="https://gallifrey.asia/tags/AI%E7%BC%96%E7%A8%8B/"/>
+    
+    <category term="Figma" scheme="https://gallifrey.asia/tags/Figma/"/>
+    
+    <category term="Flutter" scheme="https://gallifrey.asia/tags/Flutter/"/>
+    
+    <category term="自动化" scheme="https://gallifrey.asia/tags/%E8%87%AA%E5%8A%A8%E5%8C%96/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>后端工程师转Agent开发工程师转型指南</title>
+    <link href="https://gallifrey.asia/posts/34652ec6240e/"/>
+    <id>https://gallifrey.asia/posts/34652ec6240e/</id>
+    <published>2026-04-09T06:20:00.000Z</published>
+    <updated>2026-04-16T04:52:26.591Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;写给团队里的后端程序员：怎么从写 API 转成写 Agent，系统怎么设计，学什么，怎么上手。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;一、为什么后端程序员适合做-Agent-开发&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Agent开发" scheme="https://gallifrey.asia/categories/Agent%E5%BC%80%E5%8F%91/"/>
+    
+    
+    <category term="Agent" scheme="https://gallifrey.asia/tags/Agent/"/>
+    
+    <category term="Go" scheme="https://gallifrey.asia/tags/Go/"/>
+    
+    <category term="后端" scheme="https://gallifrey.asia/tags/%E5%90%8E%E7%AB%AF/"/>
+    
+    <category term="转型" scheme="https://gallifrey.asia/tags/%E8%BD%AC%E5%9E%8B/"/>
+    
+    <category term="Eino" scheme="https://gallifrey.asia/tags/Eino/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>后端工程师 → Agent 开发工程师转型指南</title>
+    <link href="https://gallifrey.asia/posts/f1beb293110f/"/>
+    <id>https://gallifrey.asia/posts/f1beb293110f/</id>
+    <published>2026-04-09T04:00:00.000Z</published>
+    <updated>2026-04-16T04:52:26.591Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;写给团队里的后端程序员：怎么从写 API 转成写 Agent，系统怎么设计，学什么，怎么上手。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;一、为什么后端程序员适合做-Agent-开发&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Agent开发" scheme="https://gallifrey.asia/categories/Agent%E5%BC%80%E5%8F%91/"/>
+    
+    
+    <category term="Agent" scheme="https://gallifrey.asia/tags/Agent/"/>
+    
+    <category term="Go" scheme="https://gallifrey.asia/tags/Go/"/>
+    
+    <category term="后端" scheme="https://gallifrey.asia/tags/%E5%90%8E%E7%AB%AF/"/>
+    
+    <category term="转型" scheme="https://gallifrey.asia/tags/%E8%BD%AC%E5%9E%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>开发工具实用技巧速查</title>
+    <link href="https://gallifrey.asia/posts/3e57200babf7/"/>
+    <id>https://gallifrey.asia/posts/3e57200babf7/</id>
+    <published>2026-04-08T03:00:00.000Z</published>
+    <updated>2026-04-08T03:00:00.000Z</updated>
+    
+    
+    <summary type="html">临时代理设置、VS Code 扩展管理、Git 技巧等开发常用命令速查</summary>
+    
+    
+    
+    <category term="开发工具" scheme="https://gallifrey.asia/categories/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/"/>
+    
+    
+    <category term="命令行" scheme="https://gallifrey.asia/tags/%E5%91%BD%E4%BB%A4%E8%A1%8C/"/>
+    
+    <category term="VS Code" scheme="https://gallifrey.asia/tags/VS-Code/"/>
+    
+    <category term="效率" scheme="https://gallifrey.asia/tags/%E6%95%88%E7%8E%87/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux磁盘分区</title>
+    <link href="https://gallifrey.asia/posts/26760c4a6dca/"/>
+    <id>https://gallifrey.asia/posts/26760c4a6dca/</id>
+    <published>2023-08-03T03:09:00.000Z</published>
+    <updated>2023-08-03T03:09:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;本文是视频教程&lt;a href=&quot;https://www.bilibili.com/video/BV1Sv411r7vd&quot;&gt;韩顺平</summary>
+        
+      
+    
+    
+    
+    <category term="Linux" scheme="https://gallifrey.asia/categories/Linux/"/>
+    
+    
+    <category term="Linux" scheme="https://gallifrey.asia/tags/Linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Kubeadm安装K8s集群指南</title>
+    <link href="https://gallifrey.asia/posts/54f1b642a04b/"/>
+    <id>https://gallifrey.asia/posts/54f1b642a04b/</id>
+    <published>2023-07-24T02:43:09.000Z</published>
+    <updated>2023-07-24T02:43:09.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;需求&quot;&gt;&lt;a href=&quot;#需求&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Kubernetes" scheme="https://gallifrey.asia/categories/Kubernetes/"/>
+    
+    
+    <category term="Kubernetes" scheme="https://gallifrey.asia/tags/Kubernetes/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>GMP模型的应用场景</title>
+    <link href="https://gallifrey.asia/posts/ace017f08635/"/>
+    <id>https://gallifrey.asia/posts/ace017f08635/</id>
+    <published>2023-07-12T05:13:52.000Z</published>
+    <updated>2023-07-12T05:13:52.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;场景1：G1创建G3&quot;&gt;&lt;a href=&quot;#场景1：G1创建G3&quot; class=&quot;headerlink&quot; title=&quot;场景1：G1创建G3&quot;&gt;&lt;/a&gt;场景1：G1创建G3&lt;/h2&gt;&lt;p&gt;P拥有G1，M1获取P后开始运行G1，G1使用&lt;code&gt;go</summary>
+        
+      
+    
+    
+    
+    <category term="Go" scheme="https://gallifrey.asia/categories/Go/"/>
+    
+    
+    <category term="Go" scheme="https://gallifrey.asia/tags/Go/"/>
+    
+    <category term="GMP模型" scheme="https://gallifrey.asia/tags/GMP%E6%A8%A1%E5%9E%8B/"/>
+    
+  </entry>
+  
+</feed>
